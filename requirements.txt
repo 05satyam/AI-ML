@@ -12,4 +12,5 @@ chromadb
 uvicorn
 torch
 pypdf
+wget
 bs4
