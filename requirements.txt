@@ -4,6 +4,7 @@ langchain_openai
 pinecone-client
 langchain_core
 python-dotenv
+accelerate
 ipykernel
 langserve
 streamlit
