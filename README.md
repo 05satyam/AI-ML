@@ -15,6 +15,7 @@
 5. [Graph Based RAG System Using Networkx,LangChain](https://github.com/05satyam/AI-ML/blob/main/Graph_Based_Retrieval_Augmented_Generation_(RAG)_System_Using_Networkx%2CLangChain.ipynb)
 6. [Lanchain Openai Prompt-chains](https://github.com/05satyam/AI-ML/blob/main/langchain/lanchain-openai-prompt-chains.ipynb)
 7. [RAG Hybrid Search](https://github.com/05satyam/AI-ML/blob/main/rag/HybridSearch.ipynb)
+8. [AI Agent and Agent With LangGraph](https://github.com/05satyam/AI-ML/blob/main/AI_Agents_and_Agent_LangGraph.ipynb)
 
 ## LLM
 1. [LORA Implementation](https://github.com/05satyam/AI-ML/blob/main/Simple_LoRA.ipynb)
