@@ -19,6 +19,7 @@
 
 ## LLM
 1. [LORA Implementation](https://github.com/05satyam/AI-ML/blob/main/Simple_LoRA.ipynb)
+2. [Contextual Embeddings and GPT Embeddings](https://github.com/05satyam/AI-ML/blob/main/Contexual%20And%20GPT%20Embeddings.md)
 
 ## ML
 1. [ML WordEmbeddings](https://github.com/05satyam/AI-ML/blob/main/ML_WordEmbeddings.ipynb)
