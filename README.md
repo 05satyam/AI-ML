@@ -16,6 +16,7 @@
 6. [Lanchain Openai Prompt-chains](https://github.com/05satyam/AI-ML/blob/main/langchain/lanchain-openai-prompt-chains.ipynb)
 7. [RAG Hybrid Search](https://github.com/05satyam/AI-ML/blob/main/rag/HybridSearch.ipynb)
 8. [AI Agent and Agent With LangGraph](https://github.com/05satyam/AI-ML/blob/main/AI_Agents_and_Agent_LangGraph.ipynb)
+9. [Text-To-SQL - LlamaIndex](https://github.com/05satyam/AI-ML/blob/main/Text_To_SQL_LlamaIndex.ipynb)
 
 ## LLM
 1. [LORA Implementation](https://github.com/05satyam/AI-ML/blob/main/Simple_LoRA.ipynb)
