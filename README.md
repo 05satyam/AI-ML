@@ -1,13 +1,13 @@
-# AI, ML, Deeplearning & LLMs == Content & Cookbooks
+### 🧩 AI, ML, Deeplearning & LLMs == Content & Cookbooks
 
  - This space is dedicated to my practice cookbooks to explore various aspects of AI-ML and Large Language Models (LLMs), including quantization, fine-tuning, RAG, Agents, etc... 
-
-<br />
-
 ---
-# Index
+### 🧩 Also checkout: [MarshellingAI - A central repository for collection of AI-ML resources](https://github.com/05satyam/MarshallingAI/wiki)
 ---
-## Lanchain, Llamaindex, RAG(Agents, Graph), Vectorstores
+
+### 📊 Index
+
+### Lanchain, Llamaindex, RAG(Agents, Graph), Vectorstores
 1. [Agent based RAG Webcrawler Application](https://github.com/05satyam/AI-ML/blob/main/webcrawler_agentic_system.ipynb)
 2. [Simple RAG Openai Embedding and Pinecone](https://github.com/05satyam/AI-ML/blob/main/rag/rag_openai_embedding_and_pinecone.ipynb)
 3. [Simple Rag with Langchain](rag_with_langchain)
@@ -18,11 +18,11 @@
 8. [AI Agent and Agent With LangGraph](https://github.com/05satyam/AI-ML/blob/main/AI_Agents_and_Agent_LangGraph.ipynb)
 9. [Text-To-SQL - LlamaIndex](https://github.com/05satyam/AI-ML/blob/main/Text_To_SQL_LlamaIndex.ipynb)
 
-## LLM
+### LLM
 1. [LORA Implementation](https://github.com/05satyam/AI-ML/blob/main/Simple_LoRA.ipynb)
 2. [Contextual Embeddings and GPT Embeddings](https://github.com/05satyam/AI-ML/blob/main/Contexual%20And%20GPT%20Embeddings.md)
 
-## ML
+### ML
 1. [ML WordEmbeddings](https://github.com/05satyam/AI-ML/blob/main/ML_WordEmbeddings.ipynb)
 
 ## Others
