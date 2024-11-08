@@ -23,6 +23,8 @@
 2. [Contextual Embeddings and GPT Embeddings](https://github.com/05satyam/AI-ML/blob/main/Contexual%20And%20GPT%20Embeddings.md)
 3. [What are Tokens_in_AI(GenAI)](https://github.com/05satyam/AI-ML/blob/main/Tokens_in_AI(GenAI).ipynb)
 
+### Observability
+1. [LlamaTrace (Hosted Arize Phoenix)](https://github.com/05satyam/AI-ML/blob/main/LlamaTrace_(Hosted_Arize_Phoenix).ipynb)
 ### ML
 1. [ML WordEmbeddings](https://github.com/05satyam/AI-ML/blob/main/ML_WordEmbeddings.ipynb)
 
