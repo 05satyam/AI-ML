@@ -1,35 +1,88 @@
-### 🧩 AI, ML, Deeplearning & LLMs == Content & Cookbooks
+# 🧩 AI, ML, Deeplearning & LLMs == Content & Cookbooks
 
- - This space is dedicated to my practice cookbooks to explore various aspects of AI-ML and Large Language Models (LLMs), including quantization, fine-tuning, RAG, Agents, etc... 
----
-### 🧩 Also checkout: [MarshellingAI - A central repository for collection of AI-ML resources](https://github.com/05satyam/MarshallingAI/wiki)
----
+ - This space is dedicated to my practice cookbooks to explore various aspects of AI-ML and Large Language Models (LLMs), including quantization, fine-tuning, RAG, Agents, etc...
+ - 
 
-### 📊 Index
+
+## 📊 Index
 
 ### Lanchain, Llamaindex, RAG(Agents, Graph), Vectorstores
-1. [Agent based RAG Webcrawler Application](https://github.com/05satyam/AI-ML/blob/main/webcrawler_agentic_system.ipynb)
-2. [Simple RAG Openai Embedding and Pinecone](https://github.com/05satyam/AI-ML/blob/main/rag/rag_openai_embedding_and_pinecone.ipynb)
-3. [Simple Rag with Langchain](rag_with_langchain)
-4. [Pinecode based Sementic Search ](https://github.com/05satyam/AI-ML/blob/main/semantic_search_vec_pinecone.ipynb)
-5. [Graph Based RAG System Using Networkx,LangChain](https://github.com/05satyam/AI-ML/blob/main/Graph_Based_Retrieval_Augmented_Generation_(RAG)_System_Using_Networkx%2CLangChain.ipynb)
-6. [Lanchain Openai Prompt-chains](https://github.com/05satyam/AI-ML/blob/main/langchain/lanchain-openai-prompt-chains.ipynb)
-7. [RAG Hybrid Search](https://github.com/05satyam/AI-ML/blob/main/rag/HybridSearch.ipynb)
-8. [AI Agent and Agent With LangGraph](https://github.com/05satyam/AI-ML/blob/main/AI_Agents_and_Agent_LangGraph.ipynb)
-9. [Text-To-SQL - LlamaIndex](https://github.com/05satyam/AI-ML/blob/main/Text_To_SQL_LlamaIndex.ipynb)
+1. [Agent based RAG Webcrawler Application - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/webcrawler_agentic_system.ipynb)
+2. [Simple RAG Openai Embedding and Pinecone - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/rag/rag_openai_embedding_and_pinecone.ipynb)
+3. [Simple Rag with Langchain - Jupyter Notebook](rag_with_langchain)
+4. [Pinecode based Sementic Search - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/semantic_search_vec_pinecone.ipynb)
+5. [Graph Based RAG System Using Networkx,LangChain - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Graph_Based_Retrieval_Augmented_Generation_(RAG)_System_Using_Networkx%2CLangChain.ipynb)
+6. [Lanchain Openai Prompt-chains - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/langchain/lanchain-openai-prompt-chains.ipynb)
+7. [RAG Hybrid Search - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/rag/HybridSearch.ipynb)
+8. [AI Agent and Agent With LangGraph - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/AI_Agents_and_Agent_LangGraph.ipynb)
+9. [Text-To-SQL - LlamaIndex - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Text_To_SQL_LlamaIndex.ipynb)
 
 ### LLM
-1. [LORA Implementation](https://github.com/05satyam/AI-ML/blob/main/Simple_LoRA.ipynb)
-2. [Contextual Embeddings and GPT Embeddings](https://github.com/05satyam/AI-ML/blob/main/Contexual%20And%20GPT%20Embeddings.md)
-3. [What are Tokens_in_AI(GenAI)](https://github.com/05satyam/AI-ML/blob/main/Tokens_in_AI(GenAI).ipynb)
+1. [LORA Implementation - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Simple_LoRA.ipynb)
+2. [Contextual Embeddings and GPT Embeddings - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Contexual%20And%20GPT%20Embeddings.md)
+3. [What are Tokens_in_AI(GenAI) - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Tokens_in_AI(GenAI).ipynb)
 
 ### Observability
-1. [LlamaTrace (Hosted Arize Phoenix)](https://github.com/05satyam/AI-ML/blob/main/LlamaTrace_(Hosted_Arize_Phoenix).ipynb)
+1. [LlamaTrace (Hosted Arize Phoenix) - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/LlamaTrace_(Hosted_Arize_Phoenix).ipynb)
 ### ML
-1. [ML WordEmbeddings](https://github.com/05satyam/AI-ML/blob/main/ML_WordEmbeddings.ipynb)
+1. [ML WordEmbeddings - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/ML_WordEmbeddings.ipynb)
 
-## Others
-1. [Steps to create env file](https://github.com/05satyam/AI-ML/blob/main/Steps2CreateEnvFile.MD)
+### Others
+1. [Steps to create env file - MD file](https://github.com/05satyam/AI-ML/blob/main/Steps2CreateEnvFile.MD)
+
+<br />
+---
+## 🧩 External Resources: 
+
+
+- ### Organizations
+1. [Neural Networks - Amazon - Github](https://mlu-explain.github.io/neural-networks/)
+2. [Open Source and In-House: How Uber Optimizes LLM Training - Github](https://www.uber.com/en-GB/blog/open-source-and-in-house-how-uber-optimizes-llm-training/?uclick_id=4b3d9a90-f03f-4073-bf10-78a99689e50c)
+3. [Recommending for Long-Term Member Satisfaction at Netflix](https://netflixtechblog.com/recommending-for-long-term-member-satisfaction-at-netflix-ac15cada49ef)
+
+
+   #### Organizations-Cookbooks
+
+  
+ 4.[Anthropic - Jupyter Notebook](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/prompt_caching.ipynb)
+ 5.[NVIDIA- GenerativeAI - Examples](https://github.com/nvidia/GenerativeAIExamples)
+
+--- 
+- ### Blogs/Cookbooks from Tech leaders
+1. [QLoRA and 4-bit Quantization - Blog](https://mccormickml.com/2024/09/14/qlora-and-4bit-quantization/)
+2. [The Illustrated Transformer - Blog](https://jalammar.github.io/illustrated-transformer/)
+   
+   #### Cookbooks
+   
+4. [Exploring the art of artificial intelligence one concept at a time - Aman Chadha - Github](https://aman.ai/)
+5. [Awesome Generative-AI Guide - aishwaryanr - Github](https://github.com/aishwaryanr/awesome-generative-ai-guide?tab=readme-ov-file#agents)
+6. [Build a Large Language Model (From Scratch) - Sebastian Raschka - Github](https://github.com/rasbt/LLMs-from-scratch)
+7. [conversational-agent-langchain - Marc Fabian Mezger - Github](https://github.com/mfmezger/conversational-agent-langchain)
+8. [Prompt Engineering Techniques:NirDiaman - Github](https://github.com/NirDiamant/Prompt_Engineering)
+
+---
+- ### Youtube:
+ 1. [Discover AI](https://www.youtube.com/@code4AI)
+ 2. [TheAIGRID](https://www.youtube.com/@TheAiGrid)
+ 3. [Krish Naik](https://www.youtube.com/@krishnaik06)
+
+---
+- ### Newsletters:
+ 1. [AI by Hand - Dr.Tom Yeh](https://aibyhand.substack.com/)
+ 2. [LLM Watch - Pascal Biese](https://www.llmwatch.com/)
+ 3. [Llamaindex Newletters](https://www.llamaindex.ai/blog)
+ 4. [Langchain Newletters](https://blog.langchain.dev/)
+ 5. [Cohere Newletters](https://www.linkedin.com/newsletters/enterprise-ai-by-cohere-6991088458601525248/)
+ 6. [Learn AI Together - Alex Wang](https://www.linkedin.com/newsletters/learn-ai-together-7091757327418093568/)
+ 7. [The Deep Dive - Amazon Science](https://www.linkedin.com/newsletters/the-deep-dive-7185109507369226240/)
+ 8. [GenAI and Machine Learning - Vincent Granville](https://www.linkedin.com/newsletters/genai-and-machine-learning-6797568930018861057/)
+ 9. [Artificial Intelligence - Ajit Jaokar](https://www.linkedin.com/newsletters/artificial-intelligence-6793973274368856064/)
+ 10. [MLOps Architect Mindset - Ashish Patel](https://www.linkedin.com/newsletters/mlops-architect-mindset-7015185399367012352/)
+ 11. [ByteByteGo Newsletter - Alex Xu](https://www.linkedin.com/newsletters/bytebytego-newsletter-7144012310280359936/)
+ 12. [Silly Valley News](https://www.linkedin.com/newsletters/silly-valley-news-7211044838354362368/)
+ 13. [Rami's Data Newsletter](https://www.linkedin.com/newsletters/rami-s-data-newsletter-7230119265956216833/)
+ 14. [The Data-Driven Dispatch](https://www.linkedin.com/newsletters/the-data-driven-dispatch-7081679689424977920/)
+  
 
 
 
