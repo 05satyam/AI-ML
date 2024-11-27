@@ -16,10 +16,11 @@
 8. [AI Agent and Agent With LangGraph - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/AI_Agents_and_Agent_LangGraph.ipynb)
 9. [Text-To-SQL - LlamaIndex - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Text_To_SQL_LlamaIndex.ipynb)
 
-### LLM
+### LLM Usecases
 1. [LORA Implementation - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Simple_LoRA.ipynb)
 2. [Contextual Embeddings and GPT Embeddings - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Contexual%20And%20GPT%20Embeddings.md)
 3. [What are Tokens_in_AI(GenAI) - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Tokens_in_AI(GenAI).ipynb)
+4. [Generating Interactive Human-Readable Graphs from PDF Dcouments Using LLM](https://github.com/05satyam/AI-ML/blob/main/generating_interactive_human_readable_graphs_from_pdf_dcouments_using_llm.ipynb)
 
 ### Observability
 1. [LlamaTrace (Hosted Arize Phoenix) - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/LlamaTrace_(Hosted_Arize_Phoenix).ipynb)
