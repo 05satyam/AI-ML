@@ -5,28 +5,37 @@
 
 ## 📊 Index
 
-### Lanchain, Llamaindex, RAG(Agents, Graph), Vectorstores
-1. [Agent based RAG Webcrawler Application - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/webcrawler_agentic_system.ipynb)
-2. [Simple RAG Openai Embedding and Pinecone - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/rag/rag_openai_embedding_and_pinecone.ipynb)
-3. [Simple Rag with Langchain - Jupyter Notebook](rag_with_langchain)
-4. [Pinecode based Sementic Search - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/semantic_search_vec_pinecone.ipynb)
-5. [Graph Based RAG System Using Networkx,LangChain - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Graph_Based_Retrieval_Augmented_Generation_(RAG)_System_Using_Networkx%2CLangChain.ipynb)
-6. [Lanchain Openai Prompt-chains - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/langchain/lanchain-openai-prompt-chains.ipynb)
-7. [RAG Hybrid Search - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/rag/HybridSearch.ipynb)
-8. [AI Agent and Agent With LangGraph - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/AI_Agents_and_Agent_LangGraph.ipynb)
-9. [Text-To-SQL - LlamaIndex - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Text_To_SQL_LlamaIndex.ipynb)
+### AI-ML-GenAI Study-Guide and Examples
+1. [Contextual Embeddings and GPT Embeddings - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Contexual%20And%20GPT%20Embeddings.md)
+2. [What are Tokens_in_AI(GenAI) - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Tokens_in_AI(GenAI).ipynb)
+3. [ML WordEmbeddings - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/ML_WordEmbeddings.ipynb)
 
-### LLM Usecases
+### Finetuning
 1. [LORA Implementation - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Simple_LoRA.ipynb)
-2. [Contextual Embeddings and GPT Embeddings - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Contexual%20And%20GPT%20Embeddings.md)
-3. [What are Tokens_in_AI(GenAI) - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Tokens_in_AI(GenAI).ipynb)
-4. [Generating Interactive Human-Readable Graphs from PDF Dcouments Using LLM](https://github.com/05satyam/AI-ML/blob/main/generating_interactive_human_readable_graphs_from_pdf_dcouments_using_llm.ipynb)
-5. [Interactive Location Graph with Google Maps API and GPT-4](https://github.com/05satyam/AI-ML/blob/main/Interactive%20Location%20Graph%20with%20Google%20Maps%20API%20and%20GPT-4.ipynb)
 
-### Observability
+### Agentic Frameworks and applications examples
+1. [AI Agent and Agent With LangGraph - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/AI_Agents_and_Agent_LangGraph.ipynb)
+2. [Agent based RAG Webcrawler Application - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/webcrawler_agentic_system.ipynb)
+
+### LLMs based applications
+1. [Generating Interactive Human-Readable Graphs from PDF Dcouments Using LLM](https://github.com/05satyam/AI-ML/blob/main/generating_interactive_human_readable_graphs_from_pdf_dcouments_using_llm.ipynb)
+2. [Interactive Location Graph with Google Maps API and GPT-4](https://github.com/05satyam/AI-ML/blob/main/Interactive%20Location%20Graph%20with%20Google%20Maps%20API%20and%20GPT-4.ipynb)
+
+### LLM application observability
 1. [LlamaTrace (Hosted Arize Phoenix) - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/LlamaTrace_(Hosted_Arize_Phoenix).ipynb)
-### ML
-1. [ML WordEmbeddings - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/ML_WordEmbeddings.ipynb)
+
+### Simple Rag and Graph-Rag
+1. [RAG Hybrid Search - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/rag/HybridSearch.ipynb)
+2. [Graph Based RAG System Using Networkx,LangChain - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Graph_Based_Retrieval_Augmented_Generation_(RAG)_System_Using_Networkx%2CLangChain.ipynb)
+3. [Pinecode based Sementic Search - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/semantic_search_vec_pinecone.ipynb)
+4. [Simple RAG Openai Embedding and Pinecone - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/rag/rag_openai_embedding_and_pinecone.ipynb)
+
+### Text-to-SQL
+1. [Text-To-SQL - LlamaIndex - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Text_To_SQL_LlamaIndex.ipynb)
+
+### Langchain
+1. [Lanchain Openai Prompt-chains - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/langchain/lanchain-openai-prompt-chains.ipynb)
+
 
 ### Others
 1. [Steps to create env file - MD file](https://github.com/05satyam/AI-ML/blob/main/Steps2CreateEnvFile.MD)
