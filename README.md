@@ -17,6 +17,7 @@
 ### Agentic Frameworks and applications examples
 1. [AI Agent and Agent With LangGraph - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/AI_Agents_and_Agent_LangGraph.ipynb)
 2. [Agent based RAG Webcrawler Application - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/webcrawler_agentic_system.ipynb)
+3. [PydanticAI-Hands-on](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/PydanticAI-Agentic-Framework.ipynb)
 
 ### LLMs based applications
 1. [Generating Interactive Human-Readable Graphs from PDF Dcouments Using LLM](https://github.com/05satyam/AI-ML/blob/main/llms-based-application/generating_interactive_human_readable_graphs_from_pdf_dcouments_using_llm.ipynb)
