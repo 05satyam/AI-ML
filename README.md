@@ -12,7 +12,7 @@
 4. [ML WordEmbeddings - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/ML_WordEmbeddings.ipynb)
 
 ### Finetuning
-1. [LORA Implementation - Jupyter Notebook]([https://github.com/05satyam/AI-ML/blob/main/Simple_LoRA.ipynb](https://github.com/05satyam/AI-ML/blob/main/finetuning/Simple_LoRA.ipynb))
+1. [LORA Implementation - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/Simple_LoRA.ipynb](https://github.com/05satyam/AI-ML/blob/main/finetuning/Simple_LoRA.ipynb)
 
 ### Agentic Frameworks and applications examples
 1. [AI Agent and Agent With LangGraph - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/AI_Agents_and_Agent_LangGraph.ipynb)
