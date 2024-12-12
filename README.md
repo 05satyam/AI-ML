@@ -67,8 +67,9 @@
 
 --- 
 - ### Blogs/Cookbooks from Tech leaders
-1. [QLoRA and 4-bit Quantization - Blog](https://mccormickml.com/2024/09/14/qlora-and-4bit-quantization/)
-2. [The Illustrated Transformer - Blog](https://jalammar.github.io/illustrated-transformer/)
+1. [Deepliearning.AI Blogs](https://www.deeplearning.ai/the-batch/)
+2. [QLoRA and 4-bit Quantization - Blog](https://mccormickml.com/2024/09/14/qlora-and-4bit-quantization/)
+3. [The Illustrated Transformer - Blog](https://jalammar.github.io/illustrated-transformer/)
    
    #### Cookbooks
    
