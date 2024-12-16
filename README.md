@@ -11,6 +11,9 @@
 3. [What are Tokens_in_AI(GenAI) - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/Tokens_in_AI(GenAI).ipynb)
 4. [ML WordEmbeddings - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/ML_WordEmbeddings.ipynb)
 
+### NLP
+ 1. [NLP-Pipeline-Basics](https://github.com/05satyam/AI-ML/blob/main/nlp/NLP_Pipeline_Basics.ipynb)
+
 ### Finetuning
 1. [LORA Implementation - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/finetuning/Simple_LoRA.ipynb)
 
