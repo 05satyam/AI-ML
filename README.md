@@ -12,7 +12,7 @@
 4. [ML WordEmbeddings - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/ML_WordEmbeddings.ipynb)
 
 ### Talks and Hands-on
-1. [RAG and Agentic RAG Talk at Analytics Vidhya](https://github.com/05satyam/AI-ML/blob/)
+1. [RAG and Agentic RAG Talk at Analytics Vidhya](https://github.com/05satyam/AI-ML/blob/main/talks_handson-ai_ml_genai-notebooks/Talk_On_Naive_RAG_and_Agentic_RAG_and_LLM_Observability.ipynb)
 
 ### NLP
  1. [NLP-Pipeline-Basics](https://github.com/05satyam/AI-ML/blob/main/nlp/NLP_Pipeline_Basics.ipynb)
