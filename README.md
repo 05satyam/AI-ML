@@ -53,7 +53,9 @@
 
 ---
 ## 🧩 External Resources: 
-
+ - ### Visualization is the key to understand anything....
+   [LLM Visualization](https://bbycroft.net/llm) **IMPORTANT**
+   
  - ### Check out Leadersboard 
 1. [🏆 Chatbot Arena LLM](https://lmarena.ai/)
 
@@ -66,7 +68,6 @@
 
 
    #### Organizations-Cookbooks
-
   
  4.[Anthropic - Jupyter Notebook](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/prompt_caching.ipynb)
  5.[NVIDIA- GenerativeAI - Examples](https://github.com/nvidia/GenerativeAIExamples)
