@@ -92,9 +92,10 @@
 ---
 ### ⚡ Youtube:
  1. [Deep Dive into LLMs like ChatGPT - Andrej Karpathy ](https://youtu.be/7xTGNNLPyMI?t=1052)  - **MUST WATCH**
- 2. [Discover AI](https://www.youtube.com/@code4AI)
- 3. [TheAIGRID](https://www.youtube.com/@TheAiGrid)
- 4. [Krish Naik](https://www.youtube.com/@krishnaik06)
+ 2. [What is AgenticAI](https://youtu.be/kJLiOGle3Lw) - **MUST WATCH**
+ 3. [Discover AI](https://www.youtube.com/@code4AI)
+ 4. [TheAIGRID](https://www.youtube.com/@TheAiGrid)
+ 5. [Krish Naik](https://www.youtube.com/@krishnaik06)
 
 ---
 ### ⚡ Newsletters:
