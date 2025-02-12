@@ -20,7 +20,11 @@
 ### Finetuning
 1. [LORA Implementation - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/finetuning/Simple_LoRA.ipynb)
 
-### Agentic Frameworks and applications examples
+### Agentic Frameworks
+ #### Agentic-AI Design Patterns-hanson
+ 1.[Plan and Execute](https://github.com/05satyam/AI-ML/blob/main/langchain/agenticAI_design_patterns/plan_and_execute.ipynb)
+
+ #### AgenticAI Applications-examples
 1. [AI Agent and Agent With LangGraph - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/AI_Agents_and_Agent_LangGraph.ipynb)
 2. [Agent based RAG Webcrawler Application - Jupyter Notebook](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/webcrawler_agentic_system.ipynb)
 3. [PydanticAI-Hands-on](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/PydanticAI-Agentic-Framework.ipynb)
