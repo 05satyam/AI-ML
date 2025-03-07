@@ -13,6 +13,7 @@
 
 ### ⚡ Talks and Hands-on
 1. [RAG and Agentic RAG Talk at Analytics Vidhya](https://github.com/05satyam/AI-ML/blob/main/talks_handson-ai_ml_genai-notebooks/Talk_On_Naive_RAG_and_Agentic_RAG_and_LLM_Observability.ipynb)
+2. [Agentic Rag, Rag, Handson - WeCloudData](https://github.com/05satyam/AI-ML/blob/main/talks_handson-ai_ml_genai-notebooks/GenAI%20Webinar%20-%20Satyam%20Mittal%20(1).pdf)
 
 ### ⚡ NLP
  1. [NLP-Pipeline-Basics](https://github.com/05satyam/AI-ML/blob/main/nlp/NLP_Pipeline_Basics.ipynb)
