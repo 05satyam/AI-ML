@@ -15,6 +15,26 @@
 
 ---
 
+<h1 align="center">AI, ML, Deep Learning & LLMs — Content & Cookbooks</h1>
+
+<p align="center">
+   <em>A curated collection of hands-on notebooks, tutorials, and resources covering AI, ML, RAG, Agents, Fine-tuning, and more.</em>
+</p>
+
+## 🔥 Latest AI/GenAI Releases (Last 24 Hours)
+<!-- GENAI-RELEASES-START -->
+(Fetching latest updates...)
+<!-- GENAI-RELEASES-END -->
+
+---
+
+## 📌 Index
+### **AI-ML-GenAI Study Guides & Notebooks**
+- [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/AI-ML-QnA.md)
+- [Contextual & GPT Embeddings](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/Contexual%20And%20GPT%20Embeddings.md)
+
+---
+
 ## 📌 Index
 ### **AI-ML-GenAI Study Guides & Notebooks**
 - [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/AI-ML-QnA.md)
@@ -87,36 +107,4 @@
 <p align="center">
   <b>⭐ If you find these resources helpful, consider giving a star to the repository!</b>
 </p>
-
-
-## 🔥 Latest AI/GenAI Releases (Last 24 Hours)
-
-## 🔥 Latest AI/GenAI Releases (Last 24 Hours)
-<!-- GENAI-RELEASES-START -->
-
-### 📰 AI/GenAI News
-- 🌐 [](https://news.google.com/read/CBMixwFBVV95cUxPeGNqUVZDT1ZlZ0ozdENvdk9UYzJ4M2t6aHlKdkRiN01SMGhzT044MVVRVUNGYTVtc25XbHRqQUVuZnByNXZ2MV9QRXZtaE9MWExUYWxPdzl4ZWJzbGRLTkV2S2YySTF0SUI3TFYxVjFXd0xVTVc2M3h1bjVGMlh0MTQwTFlHbVNFaDBtM01VVThSbDdnZ0pwRUhoOUpfZVREbm9CLUZsX2h4NWszczNWYWN3cHppZVB2UUc2d1RJdHZDQ09xVWtj0gHUAUFVX3lxTFBpaXY3VkNYME5XNTJNSFlxaUxQLXZRMGtxVTFCSFc4cm8xU1hzUFptcHFSUU9mQVJNUmFEWC1SempqUUdSbmxDNS1vVWhzU2s3XzY2UldZaG1Ib1FyQXpXc0RYNFp2c0RVN0ppNHNoRmVYbUx2QTIyQ252a1RRb1hzakhuYzlmZlJiNDlOSTlYNThTRGptSElnaDhhSFo1OFR0S1Jya0xENmNSajJDMGZnY1RGR0dyQjd3SXBPR3dyRmEzUE5VQzhTakxrVjJOMUpOYjB6?hl=en-US&gl=US&ceid=US%3Aen)
-- 🌐 [](https://news.google.com/read/CBMihgFBVV95cUxNdTJDdW1ka0dUREdPamdoM184RjFCN3VwWFJLSzhxRGNVdTVKa3FLZEhOMUt1TkNBVHZzR2M5TVJxSXdtZzRieHhHWHB5SDdfcDBvaGxFVnl0aXNZMGJYN2JiaVVsa1pGeW8wMUZHZ0NpbnQ5S3htSDIyX1BQNmNmczdPTFhiQQ?hl=en-US&gl=US&ceid=US%3Aen)
-- 🌐 [](https://news.google.com/read/CBMimgFBVV95cUxQcm1qUUFMUlgyd2xnWlpVcDRhNFFXTDM0NWwtek5RRkY1cUFMYmFVTmg5YjRiVWItN0EwT29WY2xZVmxlZ0xjY1EybER6WVkyZkhjeXJadWhHYlpVc21EaXdpQk9XZDBoSm1lWFhQUGNZVXRnZXkwdUQzRkZWMFRveDF4ZzRuZk1Vb0I3bXB1c05felM1eFA0X1pn?hl=en-US&gl=US&ceid=US%3Aen)
-- 🌐 [](https://news.google.com/read/CBMiuAFBVV95cUxQOXV6ZmhaLVg2aU9QbkpaWFhKVklVTmRHd3ZVNVFscGRXX1R6Q1lXUkpZc29aZmozX0p1OE5OcTdFVTVkQWl1VzYzX3V4amt1X0tGRGdEY0ZUOXhGUFl6VmdtLXBSYUNKY2dCN1J4aVlqVk1PVGZ2UFBrRWFPZjBubVVuOF9PTHhWSXZMYmVubUN5bk1yVmc3NW1fbFFTaFl2RmRrM0l4NjNfZG1SWkptMEZTTXpQY3dl?hl=en-US&gl=US&ceid=US%3Aen)
-- 🌐 [](https://news.google.com/read/CBMizwFBVV95cUxNV0RYMVg5VHJtUkI4S3NaOTliUDZ0emR0dXQyQk1Qd1E4T3FPdE5TSTBMUFcyM1JpcDZyOFNIWDFvakx3YWVTbHpqY05WT2xLbHhWZHJsTkRlZ21VdnE1dlBwSS1Tb3pnb0NvVXBvaW80Ymp2WDVRdTljZTUtYm5tbzZZS0Z1LVhMN0o2ZVlvVGo5UjFqeWNFRmlUQnpNYXludjhsel9NWjNud0EybXRDaGk5MFNQSnBaM0x6Uk5uMnJJSjhmRktoNGZ3SXV6aDDSAc8BQVVfeXFMTWZ4cmd3ZzNRZ1VWYWM5VlBfWF96enQ4Qks2RFNQUUI4RFVnNHlSN1o4ZFpKZkZpbU1PVEN3V1kwN0szdHJSZXZYSXpXOHQyWWUwUERmWGRlUUpodHJYdmhTa3hLbTBFT1I2Z0djSjZ5bk5fcW1VTVpZM2xDMElyRWpkWlBFUE9mUTV0Y1J1bXlJWHMtdUZtZ0ZVSTNVVUlIZDU1YUZONTh1Um5qSTl2S2xtenB4Q3NjNDREVzZhc3ZITXE4ZExYWHVxaU1obzdV?hl=en-US&gl=US&ceid=US%3Aen)
-
-### 🚀 Trending AI/ML GitHub Repositories
-- 📌 [browser-use /
-
-      browser-use](https://github.com/browser-use/browser-use)
-- 📌 [public-apis /
-
-      public-apis](https://github.com/public-apis/public-apis)
-- 📌 [thalissonvs /
-
-      pydoll](https://github.com/thalissonvs/pydoll)
-- 📌 [yuruotong1 /
-
-      autoMate](https://github.com/yuruotong1/autoMate)
-- 📌 [camel-ai /
-
-      camel](https://github.com/camel-ai/camel)
-
-<!-- GENAI-RELEASES-END -->
 
