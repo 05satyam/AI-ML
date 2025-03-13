@@ -15,6 +15,26 @@
 
 ---
 
+<h1 align="center">AI, ML, Deep Learning & LLMs — Content & Cookbooks</h1>
+
+<p align="center">
+   <em>A curated collection of hands-on notebooks, tutorials, and resources covering AI, ML, RAG, Agents, Fine-tuning, and more.</em>
+</p>
+
+## 🔥 Latest AI/GenAI Releases (Last 24 Hours)
+<!-- GENAI-RELEASES-START -->
+(Fetching latest updates...)
+<!-- GENAI-RELEASES-END -->
+
+---
+
+## 📌 Index
+### **AI-ML-GenAI Study Guides & Notebooks**
+- [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/AI-ML-QnA.md)
+- [Contextual & GPT Embeddings](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/Contexual%20And%20GPT%20Embeddings.md)
+
+---
+
 ## 📌 Index
 ### **AI-ML-GenAI Study Guides & Notebooks**
 - [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/AI-ML-QnA.md)
@@ -89,7 +109,3 @@
 </p>
 
 
-## 🔥 Latest AI/GenAI Releases (Last 24 Hours)
-<!-- GENAI-RELEASES-START -->
-_(Fetching latest updates...)_
-<!-- GENAI-RELEASES-END -->
