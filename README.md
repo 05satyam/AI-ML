@@ -16,7 +16,6 @@
 ---
 
 
-
 ## 📌 Index
 ### **AI-ML-GenAI Study Guides & Notebooks**
 - [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/AI-ML-QnA.md)
