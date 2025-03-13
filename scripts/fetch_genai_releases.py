@@ -53,7 +53,7 @@ def format_releases(news, repos):
     return f"""
 <!-- GENAI-RELEASES-START -->
 
-### 📰 AI/GenAI News
+###  AI/GenAI News
 {formatted_news}
 
 ### 🚀 Trending AI/ML GitHub Repositories
