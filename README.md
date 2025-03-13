@@ -16,12 +16,6 @@
 ---
 
 
-## 🔥 Latest AI/GenAI Releases (Last 24 Hours)
-<!-- GENAI-RELEASES-START -->
-(Fetching latest updates...)
-<!-- GENAI-RELEASES-END -->
-
----
 
 ## 📌 Index
 ### **AI-ML-GenAI Study Guides & Notebooks**
