@@ -43,15 +43,14 @@ def format_releases(news, repos):
     """Formats AI news and trending GitHub repos for the README."""
     
     formatted_news = "\n".join(
-        [f"- 🌐 [{title}]({link})" for title, link in news]
-    ) if news else "- No AI news found today."
+        [f"- 🌐 [{title.strip()}]({link})" for title, link in news if title.strip()]
+    ) if any(title.strip() for title, link in news) else "- No AI news found today."
 
     formatted_repos = "\n".join(
-        [f"- 📌 [{title}]({link})" for title, link in repos]
+        [f"- 📌 [{' '.join(title.split())}]({link})" for title, link in repos]
     ) if repos else "- No trending AI/ML repositories today."
 
     return f"""
-## 🔥 Latest AI/GenAI Releases (Last 24 Hours)
 <!-- GENAI-RELEASES-START -->
 
 ### 📰 AI/GenAI News
@@ -62,6 +61,7 @@ def format_releases(news, repos):
 
 <!-- GENAI-RELEASES-END -->
 """
+
 
 def update_readme(news, repos):
     """Updates the README file with formatted AI/GenAI news and trending GitHub repos."""
