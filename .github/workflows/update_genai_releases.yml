@@ -38,15 +38,22 @@ jobs:
           git add README.md
           git commit -m "Auto-update: Latest AI/GenAI releases"
 
-      - name: Pull Remote Changes Before Pushing
+      - name: Force Sync Remote Branch Before Pushing
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           export BRANCH_NAME="update-genai-releases-$(date +%Y%m%d)"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+
+          # Fetch latest changes, ignore errors if branch doesn't exist
           git fetch origin $BRANCH_NAME || echo "Branch does not exist remotely, proceeding..."
-          git pull --rebase origin $BRANCH_NAME || echo "Nothing to rebase, proceeding..."
-          git push origin $BRANCH_NAME
+
+          # Reset branch to remote state (avoiding conflicts)
+          git reset --hard origin/main || echo "No need to reset."
+
+          # Push changes forcefully (overwrite remote branch)
+          git push --force origin $BRANCH_NAME
+
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
