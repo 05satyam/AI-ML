@@ -5,12 +5,17 @@ on:
     - cron: "0 12 * * *"  # Runs daily at 12:00 UTC
   workflow_dispatch:  # Allows manual trigger
 
+permissions: 
+  contents: write  # ✅ This gives GitHub Actions permission to push changes
+
 jobs:
   update-genai-releases:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # ✅ Ensure token is used
 
       - name: Set up Python
         uses: actions/setup-python@v4
