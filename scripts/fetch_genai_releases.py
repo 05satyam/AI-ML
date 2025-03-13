@@ -12,15 +12,20 @@ def fetch_google_news():
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, "html.parser")
         articles = []
-        for link in soup.select("a.VDXfz", limit=5):  # Limit to 5 articles
-            title = link.text.strip()
-            news_url = "https://news.google.com" + link["href"][1:]
-            articles.append((title, news_url))
+        
+        for article in soup.select("article", limit=5):  # Targeting <article> tags
+            link = article.find("a", href=True)
+            if link:
+                title = link.text.strip()
+                news_url = "https://news.google.com" + link["href"][1:]
+                articles.append((title, news_url))
         
         print(f"✅ Fetched {len(articles)} AI news articles:", articles)
         return articles
+
     print("⚠️ No AI news found!")
     return []
+
 
 def fetch_github_trending():
     """Fetches trending AI/ML repositories from GitHub Trending."""
