@@ -39,18 +39,40 @@ def fetch_github_trending():
     print("⚠️ No trending AI repos found!")
     return []
 
+def format_releases(news, repos):
+    """Formats AI news and trending GitHub repos for the README."""
+    
+    formatted_news = "\n".join(
+        [f"- 🌐 [{title}]({link})" for title, link in news]
+    ) if news else "- No AI news found today."
+
+    formatted_repos = "\n".join(
+        [f"- 📌 [{title}]({link})" for title, link in repos]
+    ) if repos else "- No trending AI/ML repositories today."
+
+    return f"""
+## 🔥 Latest AI/GenAI Releases (Last 24 Hours)
+<!-- GENAI-RELEASES-START -->
+
+### 📰 AI/GenAI News
+{formatted_news}
+
+### 🚀 Trending AI/ML GitHub Repositories
+{formatted_repos}
+
+<!-- GENAI-RELEASES-END -->
+"""
+
 def update_readme(news, repos):
-    """Updates the README file with AI/GenAI news and trending GitHub repos."""
+    """Updates the README file with formatted AI/GenAI news and trending GitHub repos."""
     with open(README_FILE, "r", encoding="utf-8") as f:
         content = f.read()
 
-    new_section = "\n".join(
-        [f"- [{title}]({link})" for title, link in news + repos]
-    )
+    updated_section = format_releases(news, repos)
 
     updated_content = re.sub(
         r"<!-- GENAI-RELEASES-START -->.*?<!-- GENAI-RELEASES-END -->",
-        f"<!-- GENAI-RELEASES-START -->\n{new_section}\n<!-- GENAI-RELEASES-END -->",
+        updated_section,
         content,
         flags=re.DOTALL,
     )
@@ -59,6 +81,7 @@ def update_readme(news, repos):
         f.write(updated_content)
 
     print("✅ README updated successfully!")
+
 
 if __name__ == "__main__":
     news_articles = fetch_google_news()
