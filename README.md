@@ -18,9 +18,10 @@
 
 ## 🔥 Latest AI/GenAI Releases (Last 24 Hours)
 
+
 <!-- GENAI-RELEASES-START -->
 
-### 📰 AI/GenAI News
+###  AI/GenAI News
 - No AI news found today.
 
 ### 🚀 Trending AI/ML GitHub Repositories
@@ -31,6 +32,7 @@
 - 📌 [camel-ai / camel](https://github.com/camel-ai/camel)
 
 <!-- GENAI-RELEASES-END -->
+
 
 
 ---
