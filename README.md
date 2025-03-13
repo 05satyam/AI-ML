@@ -16,27 +16,6 @@
 ---
 
 
-## 🔥 Latest AI/GenAI Releases (Last 24 Hours)
-
-
-<!-- GENAI-RELEASES-START -->
-
-###  AI/GenAI News
-- No AI news found today.
-
-### 🚀 Trending AI/ML GitHub Repositories
-- 📌 [browser-use / browser-use](https://github.com/browser-use/browser-use)
-- 📌 [public-apis / public-apis](https://github.com/public-apis/public-apis)
-- 📌 [thalissonvs / pydoll](https://github.com/thalissonvs/pydoll)
-- 📌 [yuruotong1 / autoMate](https://github.com/yuruotong1/autoMate)
-- 📌 [camel-ai / camel](https://github.com/camel-ai/camel)
-
-<!-- GENAI-RELEASES-END -->
-
-
-
----
-
 ## 📌 Index
 ### **AI-ML-GenAI Study Guides & Notebooks**
 - [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/AI-ML-QnA.md)
