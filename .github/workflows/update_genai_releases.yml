@@ -31,9 +31,10 @@ jobs:
 
       - name: Create a New Branch
         run: |
+          export BRANCH_NAME="update-genai-releases-$(date +%Y%m%d)"
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-          git checkout -b update-genai-releases-$(date +%Y%m%d)
+          git checkout -b $BRANCH_NAME
           git add README.md
           git commit -m "Auto-update: Latest AI/GenAI releases"
 
@@ -41,14 +42,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          export BRANCH_NAME="update-genai-releases-$(date +%Y%m%d)"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
-          git push origin update-genai-releases-$(date +%Y%m%d)
+          git push origin $BRANCH_NAME
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: update-genai-releases-$(date +%Y%m%d)
+          branch: update-genai-releases-${{ github.run_id }}  # 🔹 GitHub Run ID as fallback if needed
           title: "🔄 Auto-update: Latest AI/GenAI releases"
           body: "This pull request updates the AI/GenAI releases section with the latest news and trends."
           labels: "automated update"
