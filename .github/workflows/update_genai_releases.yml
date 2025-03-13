@@ -6,7 +6,8 @@ on:
   workflow_dispatch:  # Allows manual trigger
 
 permissions: 
-  contents: write  # ✅ This gives GitHub Actions permission to push changes
+  contents: write
+  pull-requests: write  # ✅ Allows creating PRs automatically
 
 jobs:
   update-genai-releases:
@@ -15,7 +16,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # ✅ Ensure token is used
+          persist-credentials: false  # Important for creating PRs
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -28,10 +29,26 @@ jobs:
       - name: Fetch Latest AI/GenAI Releases
         run: python scripts/fetch_genai_releases.py
 
-      - name: Commit and Push Changes
+      - name: Create a New Branch
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
+          git checkout -b update-genai-releases-$(date +%Y%m%d)
           git add README.md
-          git commit -m "Auto-update: Latest AI/GenAI releases" || echo "No changes to commit"
-          git push
+          git commit -m "Auto-update: Latest AI/GenAI releases"
+
+      - name: Push to GitHub
+        uses: ad-m/github-push-action@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: update-genai-releases-$(date +%Y%m%d)
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: update-genai-releases-$(date +%Y%m%d)
+          title: "🔄 Auto-update: Latest AI/GenAI releases"
+          body: "This pull request updates the AI/GenAI releases section with the latest news and trends."
+          labels: "automated update"
+          assignees: "05satyam"
