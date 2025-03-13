@@ -38,7 +38,10 @@ jobs:
           git commit -m "Auto-update: Latest AI/GenAI releases"
 
       - name: Push Changes to GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
           git push origin update-genai-releases-$(date +%Y%m%d)
 
       - name: Create Pull Request
