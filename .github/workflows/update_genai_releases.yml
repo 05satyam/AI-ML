@@ -37,11 +37,9 @@ jobs:
           git add README.md
           git commit -m "Auto-update: Latest AI/GenAI releases"
 
-      - name: Push to GitHub
-        uses: ad-m/github-push-action@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: update-genai-releases-$(date +%Y%m%d)
+      - name: Push Changes to GitHub
+        run: |
+          git push origin update-genai-releases-$(date +%Y%m%d)
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
