@@ -87,3 +87,9 @@
 <p align="center">
   <b>⭐ If you find these resources helpful, consider giving a star to the repository!</b>
 </p>
+
+
+## 🔥 Latest AI/GenAI Releases (Last 24 Hours)
+<!-- GENAI-RELEASES-START -->
+_(Fetching latest updates...)_
+<!-- GENAI-RELEASES-END -->
