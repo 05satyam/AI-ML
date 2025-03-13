@@ -15,14 +15,6 @@
 
 ---
 
-
-## 📌 Index
-### **AI-ML-GenAI Study Guides & Notebooks**
-- [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/AI-ML-QnA.md)
-- [Contextual & GPT Embeddings](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/Contexual%20And%20GPT%20Embeddings.md)
-
----
-
 ## 📌 Index
 ### **AI-ML-GenAI Study Guides & Notebooks**
 - [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/AI-ML-QnA.md)
