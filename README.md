@@ -15,11 +15,6 @@
 
 ---
 
-<h1 align="center">AI, ML, Deep Learning & LLMs — Content & Cookbooks</h1>
-
-<p align="center">
-   <em>A curated collection of hands-on notebooks, tutorials, and resources covering AI, ML, RAG, Agents, Fine-tuning, and more.</em>
-</p>
 
 ## 🔥 Latest AI/GenAI Releases (Last 24 Hours)
 
