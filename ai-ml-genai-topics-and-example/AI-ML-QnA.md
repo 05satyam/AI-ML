@@ -13,7 +13,7 @@
     The retriever plays a crucial role in fetching relevant documents fast. To reduce latency: 
         ✅ Vector Index Optimization – Use efficient indexing methods like FAISS HNSW (Hierarchical Navigable Small World) or ScaNN instead of brute-force search. These approximate nearest neighbor (ANN) methods can speed up retrieval significantly. 
         ✅ Hybrid Retrieval – Combine BM25 (keyword-based retrieval) with dense embeddings to get better results in fewer retrieval iterations. 
-        ✅ Query Expansion & Preprocessing – Precompute expanded queries or leverage embeddings from a smaller LLM to refine search before hitting the vector store.
+        ✅ Query Expansion & Preprocessing –  Query Expansion & Preprocessing – Use a small LLM to rephrase/expand the query at the text level, then embed it using the same model as the vector DB before retrieval.
     Reducing Unnecessary Calls: Each call to the retriever or LLM adds delay. So, I mentioned: 
         ✅ Caching – Cache frequent queries and responses at the retrieval layer or even at the API level.
     Once retrieval is fast, the next bottleneck is LLM inference:
