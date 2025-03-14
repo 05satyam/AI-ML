@@ -34,6 +34,7 @@
 - [Plan & Execute - Design Pattern](https://github.com/05satyam/AI-ML/blob/main/langchain/agenticAI_design_patterns/plan_and_execute.ipynb)
 - [AI Agent & LangGraph Hands-on](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/AI_Agents_and_Agent_LangGraph.ipynb)
 - [Agent-Based RAG Webcrawler](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/webcrawler_agentic_system.ipynb)
+- [PydantiAI-Agents-Tools-OpenAI](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/PydanticAI_Agents_Tools_OpenAI.ipynb)
 
 ### **LLMs & Applications**
 - [Generating Graphs from PDFs using LLM](https://github.com/05satyam/AI-ML/blob/main/llms-based-application/generating_interactive_human_readable_graphs_from_pdf_dcouments_using_llm.ipynb)
