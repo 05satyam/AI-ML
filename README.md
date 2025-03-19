@@ -17,17 +17,17 @@
 
 ## 📌 Index
 ### **AI-ML-GenAI Study Guides & Notebooks**
-- [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/AI-ML-QnA.md)
-- [Contextual & GPT Embeddings](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/Contexual%20And%20GPT%20Embeddings.md)
-- [Understanding Tokens in AI](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/Tokens_in_AI(GenAI).ipynb)
-- [Word Embeddings in ML](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-topics-and-example/ML_WordEmbeddings.ipynb)
+- [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/interview-expereince/AI-ML-QnA.md)
+- [Contextual & GPT Embeddings](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/Contexual%20And%20GPT%20Embeddings.md)
+- [Understanding Tokens in AI](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-common-scripts/Tokens_in_AI(GenAI).ipynb)
+- [Word Embeddings in ML](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-common-scripts/ML_WordEmbeddings.ipynb)
 
 ### **Talks & Hands-on Workshops**
 - [RAG & Agentic RAG Talk - Analytics Vidhya](https://github.com/05satyam/AI-ML/blob/main/talks_handson-ai_ml_genai-notebooks/Talk_On_Naive_RAG_and_Agentic_RAG_and_LLM_Observability.ipynb)
 - [Agentic RAG Workshop - WeCloudData](https://github.com/05satyam/AI-ML/blob/main/talks_handson-ai_ml_genai-notebooks/GenAI%20Webinar%20-%20Satyam%20Mittal%20(1).pdf)
 
 ### **NLP & Fine-Tuning**
-- [NLP Pipeline Basics](https://github.com/05satyam/AI-ML/blob/main/nlp/NLP_Pipeline_Basics.ipynb)
+- [NLP Pipeline Basics](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-common-scripts/NLP_Pipeline_Basics.ipynb)
 - [LoRA Implementation](https://github.com/05satyam/AI-ML/blob/main/finetuning/Simple_LoRA.ipynb)
 
 ### **Agentic AI**
