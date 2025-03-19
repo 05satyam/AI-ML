@@ -24,6 +24,24 @@
         ✅ Multi-Stage RAG – First, use a fast retriever (BM25) and only use expensive reranking when necessary. 
 
 
+    Q3: Q: Can you explain the different variations of Transformer-based LLM architectures and their ideal use cases?
+
+    Ans: The Transformer architecture has three primary variations, each designed for specific NLP tasks: **Autoencoders, Autoregressors, and Sequence-to-Sequence Models**. These variations leverage different Transformer components to optimize performance for distinct applications.
+
+    ## LLM Architecture Variations
+
+    | Model Type            | Architecture     | Example Models | Training Method | Best Use Cases |
+    |----------------------|-----------------|---------------|----------------|---------------|
+    | **Autoencoders** (Encoder-Only) | Uses only the encoder, discarding the decoder | BERT, RoBERTa | Masked Language Modeling (MLM) | Text classification, sentiment analysis, named entity recognition (NER) |
+    | **Autoregressors** (Decoder-Only) | Uses only the decoder, discarding the encoder | GPT series (GPT-3, GPT-4), BLOOM | Causal Language Modeling (CLM) | Text generation, chatbots, code completion |
+    | **Sequence-to-Sequence Models** (Encoder-Decoder) | Uses both encoder and decoder | T5, BART | Span corruption & reconstruction | Machine translation, text summarization, data-to-text generation |
+
+    ### Key Takeaways
+    - **Autoencoders**: Best for understanding text and extracting meaningful representations.
+    - **Autoregressors**: Best for generating coherent and context-dependent text.
+    - **Sequence-to-Sequence Models**: Best for transforming input sequences into structured outputs.
+
+    Each of these architectures serves a distinct purpose in LLM applications, and selecting the right one depends on the specific task requirements.
 ---
 
 **Q.** What happens if you remove hidden layers from a neural network - which logical operator cannot be used? <br />
