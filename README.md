@@ -18,7 +18,8 @@
 ## 📌 Table of Contents  
 
 1. **[AI, ML & LLM Fundamentals](#ai-ml--llm-fundamentals)**
-   - Core Concepts  
+   - Core Concepts
+        - Interview Q&A
    - NLP & Fine-Tuning  
 2. **[Large Language Models (LLMs) & Applications](#large-language-models-llms--applications)**
    - Hands-On Implementations  
