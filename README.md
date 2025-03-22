@@ -20,6 +20,7 @@
 1. **[AI, ML & LLM Fundamentals](#ai-ml--llm-fundamentals)**
    - Core Concepts
         - Interview Q&A
+        - Comparison of LLMs architecture
    - NLP & Fine-Tuning  
 2. **[Large Language Models (LLMs) & Applications](#large-language-models-llms--applications)**
    - Hands-On Implementations  
@@ -44,6 +45,11 @@
 ---
 
 ## 1️⃣ AI, ML & LLM Fundamentals  
+### 📊 Comparison of Major LLM Architectures (2017–2025)
+
+[![LLM Comparison](https://github.com/05satyam/AI-ML/assets/YOUR_IMAGE_ID)](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/comparison_of_major_llms_architectures(2017-2025).md)
+
+🔗 [View the Full Comparison →](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/comparison_of_major_llms_architectures(2017-2025).md)
 
 ### Core Concepts  
 - [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/interview-expereince/AI-ML-QnA.md)  
