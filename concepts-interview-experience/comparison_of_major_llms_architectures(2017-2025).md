@@ -10,7 +10,7 @@
     <br>
     <br>
   <tr align="center">
-    <td align="center"><img src="/Users/satyammittal/AI-ML/concepts-interview-experience/image.png" width="130"/>
+    <td align="center"><img src="./image.png" width="130"/>
     </td>
     <td align="center"><img src="/Users/satyammittal/AI-ML/concepts-interview-experience/image copy.png" width="110"/>
     </td>
