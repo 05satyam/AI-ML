@@ -12,26 +12,26 @@
   <tr align="center">
     <td align="center"><img src="./image.png" width="130"/>
     </td>
-    <td align="center"><img src="/Users/satyammittal/AI-ML/concepts-interview-experience/image copy.png" width="110"/>
+    <td align="center"><img src="./image copy.png" width="110"/>
     </td>
-    <td align="center"><img src="/Users/satyammittal/AI-ML/concepts-interview-experience/image copy 2.png" width="120"/>
+    <td align="center"><img src="./image copy 2.png" width="120"/>
     </td>
   </tr>
     <br>
   <tr align="center">
-    <td align="center"><img src="/Users/satyammittal/AI-ML/concepts-interview-experience/image copy 3.png" width="120"/>
+    <td align="center"><img src="./image copy 3.png" width="120"/>
     </td>
-    <td align="center"><img src="/Users/satyammittal/AI-ML/concepts-interview-experience/image copy 4.png" width="120"/>
+    <td align="center"><img src="./image copy 4.png" width="120"/>
     </td>
-    <td align="center"><img src="/Users/satyammittal/AI-ML/concepts-interview-experience/image copy 5.png" width="110"/>
+    <td align="center"><img src="./image copy 5.png" width="110"/>
     </td>
   </tr>
   <tr align="center">
-    <td align="center"><img src="/Users/satyammittal/AI-ML/concepts-interview-experience/image copy 6.png" width="120"/>
+    <td align="center"><img src="./image copy 6.png" width="120"/>
     </td>
-    <td align="center"><img src="/Users/satyammittal/AI-ML/concepts-interview-experience/image copy 7.png" width="120"/>
+    <td align="center"><img src="./image copy 7.png" width="120"/>
     </td>
-    <td align="center"><img src="/Users/satyammittal/AI-ML/concepts-interview-experience/image copy 8.png" width="110"/>
+    <td align="center"><img src="./image copy 8.png" width="110"/>
     </td>
   </tr>
 </table>
