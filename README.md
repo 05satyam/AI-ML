@@ -46,9 +46,7 @@
 
 ## 1️⃣ AI, ML & LLM Fundamentals  
 ### 📊 Comparison of Major LLM Architectures (2017–2025)
-
-[![LLM Comparison](https://github.com/05satyam/AI-ML/assets/YOUR_IMAGE_ID)](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/comparison_of_major_llms_architectures(2017-2025).md)
-
+  [![LLM Comparison](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/comparative_thumbnail.png)](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/comparison_of_major_llms_architectures(2017-2025).md)
 🔗 [View the Full Comparison →](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/comparison_of_major_llms_architectures(2017-2025).md)
 
 ### Core Concepts  
