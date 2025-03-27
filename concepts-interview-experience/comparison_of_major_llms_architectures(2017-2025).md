@@ -49,7 +49,7 @@
 <br>
 ---
 
-**Satyam Mittal**  [LinkedIn](https://www.linkedin.com/in/satyamittal/)
+**Satyam Mittal**  [LinkedIn](https://www.linkedin.com/in/satyam-sm)
 A concise, personal comparison of key LLM architectures developed over the past few years.  
 This document reflects my individual understanding and curiosity-driven research. This is by no means an exhaustive list, and many other excellent models exist in the field.
 
