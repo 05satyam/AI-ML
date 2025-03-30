@@ -21,6 +21,7 @@
    - Core Concepts
         - Interview Q&A
         - Comparison of LLMs architecture
+        - Standford Cheatsheet on Transformer, LLMs, Agent, RAG
    - NLP & Fine-Tuning  
 2. **[Large Language Models (LLMs) & Applications](#large-language-models-llms--applications)**
    - Hands-On Implementations  
@@ -50,10 +51,11 @@
 🔗 [View the Full Comparison →](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/comparison_of_major_llms_architectures(2017-2025).md)
 
 ### Core Concepts  
-- [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/interview-expereince/AI-ML-QnA.md)  
+- [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/interview-expereince/AI-ML-QnA.md)  ⭐
 - [Understanding Tokens in AI](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-common-scripts/Tokens_in_AI(GenAI).ipynb)  
 - [Word Embeddings in ML](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-common-scripts/ML_WordEmbeddings.ipynb)  
-- [Contextual & GPT Embeddings](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/Contexual%20And%20GPT%20Embeddings.md)  
+- [Contextual & GPT Embeddings](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/Contexual%20And%20GPT%20Embeddings.md)
+- [Standford Cheatsheet on Transformer, LLMs, Agent, RAG](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/standford_transformer_llm_cheatsheet.pdf)  ⭐
 
 ### NLP & Fine-Tuning  
 - [NLP Pipeline Basics](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-common-scripts/NLP_Pipeline_Basics.ipynb)  
@@ -108,8 +110,8 @@
 ## 6️⃣ AI Knowledge Sharing & Workshops  
 
 ### Talks & Presentations  
-- [RAG & Agentic RAG Talk - Analytics Vidhya](https://github.com/05satyam/AI-ML/blob/main/talks_handson-ai_ml_genai-notebooks/Talk_On_Naive_RAG_and_Agentic_RAG_and_LLM_Observability.ipynb)  
-- [Agentic RAG Workshop - WeCloudData](https://github.com/05satyam/AI-ML/blob/main/talks_handson-ai_ml_genai-notebooks/GenAI%20Webinar%20-%20Satyam%20Mittal%20(1).pdf)  
+- [RAG & Agentic RAG Talk - Analytics Vidhya](https://github.com/05satyam/AI-ML/blob/main/talks_handson-ai_ml_genai-notebooks/Talk_On_Naive_RAG_and_Agentic_RAG_and_LLM_Observability.ipynb)  ⭐
+- [Agentic RAG Workshop - WeCloudData](https://github.com/05satyam/AI-ML/blob/main/talks_handson-ai_ml_genai-notebooks/GenAI%20Webinar%20-%20Satyam%20Mittal%20(1).pdf)  ⭐
 
 ---
 
