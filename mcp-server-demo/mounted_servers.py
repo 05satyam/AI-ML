@@ -13,6 +13,14 @@ import httpx
 from mcp.server.fastmcp import FastMCP
 from mcp.server.fastmcp.prompts import base
 
+'''
+Stateless servers don’t hold user or session-specific data in memory.
+You can run multiple instances behind a load balancer.
+Any instance can handle any request without needing shared memory
+
+Return streamed responses using Server-Sent Events (SSE) or chunked transfer encoding (depending on the tool implementation)
+
+'''
 # Echo server
 echo_mcp = FastMCP("EchoServer", stateless_http=True)
 
