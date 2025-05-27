@@ -2,3 +2,8 @@
 .env.local
 *.tmp
 *.swp
+__pycache__/
+*.pyc
+*.json
+credentials.json
+token.json
