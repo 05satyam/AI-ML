@@ -5,6 +5,12 @@
 ### 📧 Gmail MCP Setup Guide
 To enable the `send_email` tool in this app, you need to set up Gmail API:
 
+## Note:
+ - The A2A implementation is not based on hosting agent-card json. To make it as per A2A standard we need to host agent-json and then re-utilize that hosted part to access and decide json. 
+ - This code is more about how two mcp servers can be used in a multi agent call and how a agent card looks like while processing in a llm request.
+ - for proper implementation we can connect.
+ 
+
 #### 1. Create Google Cloud Project
 - Visit: https://console.cloud.google.com/
 - Create a new project
@@ -38,3 +44,11 @@ Use a test Gmail account and keep your credentials private.
   - Wrapping them in MCP @mcp.tool() decorators.
   - Using HTTP clients (like httpx) to call remote APIs.
   - Streaming output back via MCP.
+
+
+## JSON-RPC 2.0 is a lightweight remote procedure call (RPC) protocol that uses JSON to encode requests and responses between clients and servers.
+ - In Simple Terms: JSON-RPC 2.0 lets a client call a function (or method) on a remote server as if it were local, using JSON messages over a transport like HTTP, WebSocket, or even stdin/stdout.
+
+
+
+
