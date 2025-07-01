@@ -76,9 +76,10 @@
 
 ## 3️⃣ AI Agents & Agentic AI  
 
-### Design Patterns  
+### Common Concetps
 - [Plan & Execute - Design Pattern](https://github.com/05satyam/AI-ML/blob/main/langchain/agenticAI_design_patterns/plan_and_execute.ipynb)  
-
+- [AI Agents Memeory Types] (https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/ai_agents_memory_types.md)
+- 
 ### Practical Implementations  
 - [AI Agent & LangGraph Hands-on](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/AI_Agents_and_Agent_LangGraph.ipynb)  
 - [Agent-Based RAG Webcrawler](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/webcrawler_agentic_system.ipynb)  
