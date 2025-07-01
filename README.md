@@ -78,7 +78,7 @@
 
 ### Common Concetps
 - [Plan & Execute - Design Pattern](https://github.com/05satyam/AI-ML/blob/main/langchain/agenticAI_design_patterns/plan_and_execute.ipynb)  
-- [AI Agents Memeory Types] (https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/ai_agents_memory_types.md)
+- [AI Agents Memeory Types](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/ai_agents_memory_types.md)
 - 
 ### Practical Implementations  
 - [AI Agent & LangGraph Hands-on](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/AI_Agents_and_Agent_LangGraph.ipynb)  
@@ -110,9 +110,10 @@
 
 ## 6️⃣ AI Knowledge Sharing & Workshops  
 
-### Talks & Presentations  
-- [RAG & Agentic RAG Talk - Analytics Vidhya](https://github.com/05satyam/AI-ML/blob/main/talks_handson-ai_ml_genai-notebooks/Talk_On_Naive_RAG_and_Agentic_RAG_and_LLM_Observability.ipynb)  ⭐
-- [Agentic RAG Workshop - WeCloudData](https://github.com/05satyam/AI-ML/blob/main/talks_handson-ai_ml_genai-notebooks/GenAI%20Webinar%20-%20Satyam%20Mittal%20(1).pdf)  ⭐
+### Talks & Presentations by me 
+- [RAG & Agentic RAG Talk - Analytics Vidhya](https://github.com/05satyam/AI-ML/blob/main/talks_handson-ai_ml_genai-notebooks/Talk_On_Naive_RAG_and_Agentic_RAG_and_LLM_Observability.ipynb)  
+- [Agentic RAG Workshop - WeCloudData](https://github.com/05satyam/AI-ML/blob/main/talks_handson-ai_ml_genai-notebooks/GenAI%20Webinar%20-%20Satyam%20Mittal%20(1).pdf)
+- [Fundamentals of MCP and A2A for Agentic AI Systems](https://community.analyticsvidhya.com/c/datahour/fundamentals-of-mcp-and-a2a-for-agentic-ai-systems)
 
 ---
 
@@ -120,7 +121,7 @@
 
 ### AI & ML Tools  
 - [LLM Visualization](https://bbycroft.net/llm)  
-- [Chatbot Arena LLM Leaderboard](https://lmarena.ai/)  
+- [Chatbot Arena LLM Leaderboard](https://lmarena.ai/)  ⭐
 
 ### Research & Blogs  
 - [DeepLearning.AI](https://www.deeplearning.ai/the-batch/)  
@@ -129,8 +130,10 @@
 
 
 ### Recommended AI & ML Talks
-- [Deep Dive into LLMs - Andrej Karpathy](https://youtu.be/7xTGNNLPyMI?t=1052)   **MUST WATCH**
-- [Deep Dive into LLMs like ChatGPT](https://youtu.be/7xTGNNLPyMI?t=797)         **MUST WATCH**
+- [Deep Dive into LLMs - Andrej Karpathy](https://youtu.be/7xTGNNLPyMI?t=1052)   ⭐
+- [Deep Dive into LLMs like ChatGPT](https://youtu.be/7xTGNNLPyMI?t=797)         ⭐
+- [Andrej Karpathy: Software Is Changing (Again)](https://youtu.be/LCEmiRjPEtQ)  ⭐
+- [Making AI accessible with Andrej Karpathy and Stephanie Zhan](https://youtu.be/c3b-JASoPi0?t=1950)
 - [What is Agentic AI?](https://youtu.be/kJLiOGle3Lw)  
 - [Discover AI - Code4AI](https://www.youtube.com/@code4AI)  
 - [The AI GRID](https://www.youtube.com/@TheAiGrid)  
@@ -138,9 +141,10 @@
 
 
 ### AI Newsletters Worth Following
-- [AI by Hand - Dr. Tom Yeh](https://aibyhand.substack.com/)  
+- [AI by Hand - Dr. Tom Yeh](https://aibyhand.substack.com/)  ⭐
 - [LLM Watch - Pascal Biese](https://www.llmwatch.com/)  
-- [LangChain Blog](https://blog.langchain.dev/)  
+- [LangChain Blogs](https://blog.langchain.dev/)
+- [Llamaindex Blogs](https://www.llamaindex.ai/blog?gad_source=1&gad_campaignid=21116317807&gbraid=0AAAAA9du_J3HOTOt0BamgikhpdzmbKhNe&gclid=Cj0KCQjw64jDBhDXARIsABkk8J6UbcJ3Nm-IgC9dGLBNqmp39kaVU65QxyJjOUZxuNHnw8Y3wVnd0U4aAjqNEALw_wcB)
 - [MLOps Architect Mindset - Ashish Patel](https://www.linkedin.com/newsletters/mlops-architect-mindset-7015185399367012352/)  
 - [ByteByteGo Newsletter - Alex Xu](https://www.linkedin.com/newsletters/bytebytego-newsletter-7144012310280359936/)  
 
@@ -149,4 +153,7 @@
 <p align="center">
   <b>⭐ If you find these resources helpful, consider giving a star to the repository!</b>
 </p>
+
+#### 📌 Note
+These are my personal learnings and projects based on hands-on experience. I’ve also shared a few tech talks and workshops. Please excuse any small errors—they’re part of the learning journey.
 
