@@ -12,6 +12,9 @@
     <img src="https://img.shields.io/badge/Connect_on_LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
   </a>
 </p>
+<p align="center">
+  <img src="cover_img.png" alt="AI Banner" width="100%">
+</p>
 
 ---
 
