@@ -1,7 +1,4 @@
 
----
-
-### `SECURITY.md`
 
 # Security Policy
 
