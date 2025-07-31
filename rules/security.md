@@ -3,7 +3,6 @@
 
 ### `SECURITY.md`
 
-```markdown
 # Security Policy
 
 We take security seriously and want to ensure that our repository and
