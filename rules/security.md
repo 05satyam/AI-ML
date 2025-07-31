@@ -24,22 +24,6 @@ and work with you to understand and resolve the issue as quickly as
 possible. When the vulnerability is fixed, we will credit you (with
 permission) in the release notes.
 
-## Security best practices we follow
-
-GitHub offers several built‑in security features to help maintain a
-safe project. We use and recommend the following tools:
-
-* **Dependency monitoring (Dependabot).** We enable Dependabot to
-  automatically scan for outdated or vulnerable dependencies and
-  suggest updates. Keeping dependencies up to date reduces exposure
-  to known vulnerabilities.
-* **Secret scanning and push protection.** Secret scanning detects
-  API keys and tokens checked into the repository and alerts
-  maintainers so they can be removed. Push protection can block
-  accidental commits containing secrets before they are merged.
-* **Code scanning.** We use GitHub’s CodeQL code scanning to
-  identify potential security issues in our code. Alerts are
-  triaged and addressed before releases.
 
 ## Keeping your contributions secure
 
