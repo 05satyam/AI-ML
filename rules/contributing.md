@@ -54,20 +54,19 @@ There are many ways you can help, both technical and non‑technical.
 3. Create a virtual environment and install dependencies. A
 requirements.txt file may be provided. If not, install the
 necessary packages manually. For example:
-```
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
 
-```
+    ```sh
+    python -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+
 4. Run the notebooks. Use Jupyter Lab or Jupyter Notebook to
 execute and test any notebooks you plan to modify or contribute.
 
 5. Branch off main. Create a descriptive branch name for your
 work:
-```
-git checkout -b feature/add-transformer-demo
-```
+    ```sh
+    git checkout -b feature/add-transformer-demo
 
 6. Make your changes. Ensure code is clearly commented and
 notebooks contain explanatory text. Follow existing coding style
@@ -83,9 +82,8 @@ summarizing the intent of each change. Avoid lumping multiple
 unrelated changes into a single commit.
 
 9. Push to your fork and submit a pull request.
-```
-git push origin feature/add-transformer-demo
-```
+    ```sh
+    git push origin feature/add-transformer-demo
 
 On GitHub, click “Compare & pull request” and complete the
 template. Describe the motivation and include any relevant issue
