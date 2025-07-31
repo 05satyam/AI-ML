@@ -12,6 +12,7 @@
     <img src="https://img.shields.io/badge/Connect_on_LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
   </a>
 </p>
+
 <p align="center">
   <img src="cover_img.png" alt="AI Banner" width="100%">
 </p>
@@ -21,44 +22,27 @@
 ## 📌 Table of Contents  
 
 1. **[AI, ML & LLM Fundamentals](#ai-ml--llm-fundamentals)**
-   - Core Concepts
-        - Interview Q&A
-        - Comparison of LLMs architecture
-        - Standford Cheatsheet on Transformer, LLMs, Agent, RAG
-   - NLP & Fine-Tuning  
 2. **[Large Language Models (LLMs) & Applications](#large-language-models-llms--applications)**
-   - Hands-On Implementations  
-   - Observability & Monitoring  
 3. **[AI Agents & Agentic AI](#ai-agents--agentic-ai)**
-   - Design Patterns  
-   - Practical Implementations  
 4. **[Retrieval-Augmented Generation (RAG) & Graph RAG](#retrieval-augmented-generation-rag--graph-rag)**
-   - RAG Fundamentals  
-   - Graph-Based Retrieval  
 5. **[LangChain, Text-to-SQL & Prompt Engineering](#langchain-text-to-sql--prompt-engineering)**
-   - LangChain & Prompting  
-   - Text-to-SQL  
 6. **[AI Knowledge Sharing & Workshops](#ai-knowledge-sharing--workshops)**
-   - Talks & Presentations  
 7. **[External Resources](#external-resources)**
-   - AI & ML Tools  
-   - Research & Blogs  
-   -  Recommended AI & ML Talks
-   -  AI Newsletters Worth Following
 
 ---
 
 ## 1️⃣ AI, ML & LLM Fundamentals  
+
 ### 📊 Comparison of Major LLM Architectures (2017–2025)
-  [![LLM Comparison](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/comparative_thumbnail.png)](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/comparison_of_major_llms_architectures(2017-2025).md)
+[![LLM Comparison](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/comparative_thumbnail.png)](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/comparison_of_major_llms_architectures(2017-2025).md)  
 🔗 [View the Full Comparison →](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/comparison_of_major_llms_architectures(2017-2025).md)
 
 ### Core Concepts  
-- [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/interview-expereince/AI-ML-QnA.md)  ⭐
+- [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/interview-expereince/AI-ML-QnA.md) ⭐  
 - [Understanding Tokens in AI](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-common-scripts/Tokens_in_AI(GenAI).ipynb)  
 - [Word Embeddings in ML](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-common-scripts/ML_WordEmbeddings.ipynb)  
-- [Contextual & GPT Embeddings](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/Contexual%20And%20GPT%20Embeddings.md)
-- [Standford Cheatsheet on Transformer, LLMs, Agent, RAG](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/standford_transformer_llm_cheatsheet.pdf)  ⭐
+- [Contextual & GPT Embeddings](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/Contexual%20And%20GPT%20Embeddings.md)  
+- [Standford Cheatsheet on Transformer, LLMs, Agent, RAG](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/standford_transformer_llm_cheatsheet.pdf) ⭐
 
 ### NLP & Fine-Tuning  
 - [NLP Pipeline Basics](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-common-scripts/NLP_Pipeline_Basics.ipynb)  
@@ -79,14 +63,15 @@
 
 ## 3️⃣ AI Agents & Agentic AI  
 
-### Common Concetps
+### Common Concepts  
 - [Plan & Execute - Design Pattern](https://github.com/05satyam/AI-ML/blob/main/langchain/agenticAI_design_patterns/plan_and_execute.ipynb)  
-- [AI Agents Memeory Types](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/ai_agents_memory_types.md)
-- 
+- [AI Agents Memory Types](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/ai_agents_memory_types.md)
+
 ### Practical Implementations  
 - [AI Agent & LangGraph Hands-on](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/AI_Agents_and_Agent_LangGraph.ipynb)  
 - [Agent-Based RAG Webcrawler](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/webcrawler_agentic_system.ipynb)  
 - [PydantiAI-Agents-Tools-OpenAI](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/PydanticAI_Agents_Tools_OpenAI.ipynb)  
+- 📁 [LLM Query Router Demo (LangChain, LlamaIndex, DSPy)](https://github.com/05satyam/AI-ML/tree/main/query_router) ⭐️  
 
 ---
 
@@ -113,41 +98,39 @@
 
 ## 6️⃣ AI Knowledge Sharing & Workshops  
 
-### Talks & Presentations by me 
+### Talks & Presentations by me  
 - [RAG & Agentic RAG Talk - Analytics Vidhya](https://github.com/05satyam/AI-ML/blob/main/talks_handson-ai_ml_genai-notebooks/Talk_On_Naive_RAG_and_Agentic_RAG_and_LLM_Observability.ipynb)  
-- [Agentic RAG Workshop - WeCloudData](https://github.com/05satyam/AI-ML/blob/main/talks_handson-ai_ml_genai-notebooks/GenAI%20Webinar%20-%20Satyam%20Mittal%20(1).pdf)
+- [Agentic RAG Workshop - WeCloudData](https://github.com/05satyam/AI-ML/blob/main/talks_handson-ai_ml_genai-notebooks/GenAI%20Webinar%20-%20Satyam%20Mittal%20(1).pdf)  
 - [Fundamentals of MCP and A2A for Agentic AI Systems](https://community.analyticsvidhya.com/c/datahour/fundamentals-of-mcp-and-a2a-for-agentic-ai-systems)
 
 ---
 
-## 🔗 External Resources 
+## 🔗 External Resources  
 
 ### AI & ML Tools  
 - [LLM Visualization](https://bbycroft.net/llm)  
-- [Chatbot Arena LLM Leaderboard](https://lmarena.ai/)  ⭐
+- [Chatbot Arena LLM Leaderboard](https://lmarena.ai/) ⭐
 
 ### Research & Blogs  
 - [DeepLearning.AI](https://www.deeplearning.ai/the-batch/)  
 - [Uber AI - LLM Training](https://www.uber.com/en-GB/blog/open-source-and-in-house-how-uber-optimizes-llm-training/)  
 - [Netflix ML Recommendations](https://netflixtechblog.com/)  
 
-
-### Recommended AI & ML Talks
-- [Deep Dive into LLMs - Andrej Karpathy](https://youtu.be/7xTGNNLPyMI?t=1052)   ⭐
-- [Deep Dive into LLMs like ChatGPT](https://youtu.be/7xTGNNLPyMI?t=797)         ⭐
-- [Andrej Karpathy: Software Is Changing (Again)](https://youtu.be/LCEmiRjPEtQ)  ⭐
-- [Making AI accessible with Andrej Karpathy and Stephanie Zhan](https://youtu.be/c3b-JASoPi0?t=1950)
+### Recommended AI & ML Talks  
+- [Deep Dive into LLMs - Andrej Karpathy](https://youtu.be/7xTGNNLPyMI?t=1052) ⭐  
+- [Deep Dive into LLMs like ChatGPT](https://youtu.be/7xTGNNLPyMI?t=797) ⭐  
+- [Andrej Karpathy: Software Is Changing (Again)](https://youtu.be/LCEmiRjPEtQ) ⭐  
+- [Making AI accessible with Andrej Karpathy and Stephanie Zhan](https://youtu.be/c3b-JASoPi0?t=1950)  
 - [What is Agentic AI?](https://youtu.be/kJLiOGle3Lw)  
 - [Discover AI - Code4AI](https://www.youtube.com/@code4AI)  
 - [The AI GRID](https://www.youtube.com/@TheAiGrid)  
 - [Krish Naik](https://www.youtube.com/@krishnaik06)  
 
-
-### AI Newsletters Worth Following
-- [AI by Hand - Dr. Tom Yeh](https://aibyhand.substack.com/)  ⭐
+### AI Newsletters Worth Following  
+- [AI by Hand - Dr. Tom Yeh](https://aibyhand.substack.com/) ⭐  
 - [LLM Watch - Pascal Biese](https://www.llmwatch.com/)  
-- [LangChain Blogs](https://blog.langchain.dev/)
-- [Llamaindex Blogs](https://www.llamaindex.ai/blog?gad_source=1&gad_campaignid=21116317807&gbraid=0AAAAA9du_J3HOTOt0BamgikhpdzmbKhNe&gclid=Cj0KCQjw64jDBhDXARIsABkk8J6UbcJ3Nm-IgC9dGLBNqmp39kaVU65QxyJjOUZxuNHnw8Y3wVnd0U4aAjqNEALw_wcB)
+- [LangChain Blogs](https://blog.langchain.dev/)  
+- [Llamaindex Blogs](https://www.llamaindex.ai/blog?gad_source=1&gad_campaignid=21116317807&gbraid=0AAAAA9du_J3HOTOt0BamgikhpdzmbKhNe&gclid=Cj0KCQjw64jDBhDXARIsABkk8J6UbcJ3Nm-IgC9dGLBNqmp39kaVU65QxyJjOUZxuNHnw8Y3wVnd0U4aAjqNEALw_wcB)  
 - [MLOps Architect Mindset - Ashish Patel](https://www.linkedin.com/newsletters/mlops-architect-mindset-7015185399367012352/)  
 - [ByteByteGo Newsletter - Alex Xu](https://www.linkedin.com/newsletters/bytebytego-newsletter-7144012310280359936/)  
 
@@ -157,6 +140,5 @@
   <b>⭐ If you find these resources helpful, consider giving a star to the repository!</b>
 </p>
 
-#### 📌 Note
+#### 📌 Note  
 These are my personal learnings and projects based on hands-on experience. I’ve also shared a few tech talks and workshops. Please excuse any small errors—they’re part of the learning journey.
-
