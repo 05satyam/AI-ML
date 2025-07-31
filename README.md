@@ -1,7 +1,10 @@
 <h1 align="center">AI, ML, Deep Learning & LLMs — Content & Cookbooks</h1>
 
 <p align="center">
-   <em>A curated collection of hands-on notebooks, tutorials, and resources covering AI, ML, RAG, Agents, Fine-tuning, and more.</em>
+   <em>_A curated collection of hands‑on notebooks, tutorials and resources covering artificial intelligence (AI), machine learning (ML), retrieval‑augmented generation (RAG), agentic frameworks, fine‑tuning and more._
+
+This repository is designed to help learners and practitioners explore modern AI and ML techniques. It includes annotated notebooks, markdown guides and external references to help you build intuition and hands‑on experience.
+</em>
 </p>
 
 <p align="center">
@@ -28,6 +31,12 @@
 5. **[LangChain, Text-to-SQL & Prompt Engineering](#langchain-text-to-sql--prompt-engineering)**
 6. **[AI Knowledge Sharing & Workshops](#ai-knowledge-sharing--workshops)**
 7. **[External Resources](#external-resources)**
+
+---
+
+## Mission and scope
+
+This project aims to be a comprehensive, living library of resources for AI, ML and generative AI. It covers fundamental concepts, large language models, agentic AI patterns, retrieval‑augmented generation and tooling such as LangChain and LlamaIndex. The focus is on **hands‑on, reproducible notebooks and guides**—each entry is intended to help you learn by doing. The repository is structured into thematic sections for ease of navigation; feel free to explore and contribute new topics.
 
 ---
 
@@ -136,9 +145,22 @@
 
 ---
 
-<p align="center">
-  <b>⭐ If you find these resources helpful, consider giving a star to the repository!</b>
-</p>
+## Contributing and support
 
-#### 📌 Note  
-These are my personal learnings and projects based on hands-on experience. I’ve also shared a few tech talks and workshops. Please excuse any small errors—they’re part of the learning journey.
+Contributions are welcome! If you spot an error, have an idea for a new notebook or want to help improve the documentation, please see the [contributing guidelines](rules/contributing.md).  Before submitting a change, open an issue to discuss your idea.  We label easy tasks as **good first issue** to help newcomers.  All participants are expected to follow the [code of conduct](rules/code_of_conduct.md).
+
+If you discover a security vulnerability, please report it privately as described in [SECURITY.md](rules/SECURITY.md).  Do not open a public issue for security problems.
+
+---
+
+## License and citation
+
+This project is licensed under the [MIT License](rules/LICENSE).  You are free to use, modify and distribute the materials under the terms of this license.  If you build on or publish work that uses this repository, please cite it using the citation metadata in [CITATION.cff](rules/CITATION.cff).
+
+---
+
+### Note
+
+These notebooks and resources reflect the maintainer’s personal learnings and experiments.  While every effort has been made to ensure accuracy, mistakes are part of the journey.  Use these materials as starting points and feel free to adapt them to your own experiments.
+
+If you find this repository helpful, please consider ⭐ starring it on GitHub.  Your support helps others discover the project and encourages further improvements.
