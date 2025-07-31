@@ -14,7 +14,7 @@ vulnerabilities and the security practices we follow.
 If you discover a security vulnerability or find something that
 appears unsafe (for example, leaked credentials or malicious
 dependencies), **do not create a public issue or pull request**. Instead,
-please email the maintainers at **security@example.com** with a detailed
+please email the maintainers at **satyam101905@gmail.com** with a detailed
 description of the problem and steps to reproduce it. If possible,
 include the commit hash or notebook name where the issue occurs.
 
