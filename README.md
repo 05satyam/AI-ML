@@ -42,12 +42,19 @@ This repository aims to be a comprehensive, living library of resources for AI, 
 ## 1️⃣ Topic And Hands-on
 
 ### 🤖 Agentic AI & Tools
-- [LangGraph Agents](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/agentic-frameworks-and-applications/AI_Agents_and_Agent_LangGraph.ipynb)  
-- [Pydantic-Agents](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/agentic-frameworks-and-applications/PydanticAI_Agents_Tools_OpenAI.ipynb)  
-- [Plan & Execute Design Pattern](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/langchain/agenticAI_design_patterns/plan_and_execute.ipynb)
+
+#### Langchain-Langgraph
+- [LangGraph Agents](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/langchain_langgraph/AI_Agents_and_Agent_LangGraph.ipynb)  
+#### Pydantic AI
+- [PydanticAI Agents And Tools](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/pydnatic_ai/pydantic_ai_agents_and_tools.ipynb)
+[PydanticAI Agentic Lib](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/pydnatic_ai/pydantic_ai_agentic_lib.ipynb)  
+#### Crew AI Agents
+[Crew AI Agents](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/crewai/crewai_agents_basics.ipynb)  
+#### Agentic AI Design pattern
+- [Plan & Execute Design Pattern](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/agentic_ai_design_patterns/plan_and_execute.ipynb)
 
 ### ✨ Prompt Engineering & Chains
-- [LangChain Prompt Chains](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/langchain/lanchain-openai-prompt-chains.ipynb)
+- [LangChain Prompt Chains](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/langchain_langgraph/lanchain-openai-prompt-chains.ipynb)
 
 ### Tokenization & Embeddings
 - [Tokens in GenAI](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/Tokens_in_AI(GenAI).ipynb)  
@@ -76,7 +83,7 @@ This repository aims to be a comprehensive, living library of resources for AI, 
 - [GraphRag](https://github.com/05satyam/AI-ML/blob/main/demo_applications/graph_based_applications/graph_rag.ipynb)
 
 ### 🤖 Agentic Systems
-- [Agentic Webcrawler](https://github.com/05satyam/AI-ML/blob/main/demo_applications/agentic-frameworks-and-applications/webcrawler_agentic_system.ipynb)
+- [Agentic Webcrawler Chatbot](https://github.com/05satyam/AI-ML/blob/main/demo_applications/agentic_webcrawler_chatbot.ipynb)
 
 ### 🔁 Model Context Protocol (MCP)
 - [MCP Server Demo](https://github.com/05satyam/AI-ML/tree/main/demo_applications/mcp_server_demo)
