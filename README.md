@@ -43,18 +43,11 @@ This repository aims to be a comprehensive, living library of resources for AI, 
 
 ### 🤖 Agentic AI & Tools
 
-#### Langchain-Langgraph
-- [LangGraph Agents](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/langchain_langgraph/AI_Agents_and_Agent_LangGraph.ipynb)  
-#### Pydantic AI
-- [PydanticAI Agents And Tools](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/pydnatic_ai/pydantic_ai_agents_and_tools.ipynb)
-[PydanticAI Agentic Lib](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/pydnatic_ai/pydantic_ai_agentic_lib.ipynb)  
-#### Crew AI Agents
-[Crew AI Agents](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/crewai/crewai_agents_basics.ipynb)  
 #### Agentic AI Design pattern
 - [Plan & Execute Design Pattern](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/agentic_ai_design_patterns/plan_and_execute.ipynb)
 
 ### ✨ Prompt Engineering & Chains
-- [LangChain Prompt Chains](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/langchain_langgraph/lanchain-openai-prompt-chains.ipynb)
+- [LangChain Prompt Chains](https://github.com/05satyam/AI-ML/blob/main/demo_applications/langchain_langgraph/lanchain-openai-prompt-chains.ipynb)
 
 ### Tokenization & Embeddings
 - [Tokens in GenAI](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/Tokens_in_AI(GenAI).ipynb)  
@@ -66,8 +59,9 @@ This repository aims to be a comprehensive, living library of resources for AI, 
 ### 🔀 Query Routing
 - [LLM Query Router](https://github.com/05satyam/AI-ML/tree/main/topcis_and_handson/query_router)
 
-### 🔍 LLM Observability
-- [LlamaTrace - LLM Observability](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/llm-observability/LlamaTrace_(Hosted_Arize_Phoenix).ipynb)
+
+### Workshop Handson
+- [Agentic RAG Talk (AV + WeCloud)](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/Talk_On_Naive_RAG_and_Agentic_RAG_and_LLM_Observability.ipynb)
 
 ## 2️⃣ Demo Applications
 
@@ -75,19 +69,31 @@ This repository aims to be a comprehensive, living library of resources for AI, 
 - [Hybrid Search RAG](https://github.com/05satyam/AI-ML/blob/main/demo_applications/simple-rag/HybridSearch.ipynb)  
 - [Semantic Search w/ Pinecone](https://github.com/05satyam/AI-ML/blob/main/demo_applications/simple-rag/semantic_search_vec_pinecone.ipynb)  
 - [Text-to-SQL w/ LlamaIndex](https://github.com/05satyam/AI-ML/blob/main/demo_applications/text-to-sql/Text_To_SQL_LlamaIndex.ipynb)  
-- [Agentic RAG Talk (AV + WeCloud)](https://github.com/05satyam/AI-ML/blob/main/demo_applications/Talk_On_Naive_RAG_and_Agentic_RAG_and_LLM_Observability.ipynb)
 
 ### Graph-Based Applications
 - [GraphMyDoc](https://github.com/05satyam/AI-ML/blob/main/demo_applications/graph_based_applications/graph_my_doc.ipynb)  
 - [GraphNavAI](https://github.com/05satyam/AI-ML/blob/main/demo_applications/graph_based_applications/graph_nav.ipynb)  
 - [GraphRag](https://github.com/05satyam/AI-ML/blob/main/demo_applications/graph_based_applications/graph_rag.ipynb)
 
-### 🤖 Agentic Systems
+### 🤖 AI-Agents 
+#### Langchain-Langgraph
+- [LangGraph Agents](https://github.com/05satyam/AI-ML/blob/main/demo_applications/langchain_langgraph/AI_Agents_and_Agent_LangGraph.ipynb)  
+
+#### Pydantic AI
+- [PydanticAI Agents And Tools](https://github.com/05satyam/AI-ML/blob/main/demo_applications/pydnatic_ai/pydantic_ai_agents_and_tools.ipynb)
+[PydanticAI Agentic Lib](https://github.com/05satyam/AI-ML/blob/main/demo_applications/pydnatic_ai/pydantic_ai_agentic_lib.ipynb)  
+
+#### Crew AI Agents
+[Crew AI Agents](https://github.com/05satyam/AI-ML/blob/main/demo_applications/crewai/crewai_agents_basics.ipynb)  
+
+#### Webcrawler Chatbot
 - [Agentic Webcrawler Chatbot](https://github.com/05satyam/AI-ML/blob/main/demo_applications/agentic_webcrawler_chatbot.ipynb)
 
 ### 🔁 Model Context Protocol (MCP)
 - [MCP Server Demo](https://github.com/05satyam/AI-ML/tree/main/demo_applications/mcp_server_demo)
 
+### 🔍 LLM Observability
+- [LlamaTrace - LLM Observability](https://github.com/05satyam/AI-ML/blob/main/demo_applications/llm-observability/LlamaTrace_(Hosted_Arize_Phoenix).ipynb)
 
 ## 3️⃣ Interview Expereinces
 
