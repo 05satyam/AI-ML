@@ -43,6 +43,7 @@ This repository aims to be a comprehensive, living library of resources for AI, 
 
 ### Agentic AI Design pattern
 - [Plan & Execute Design Pattern](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/agentic_ai_design_patterns/plan_and_execute_langgraph.ipynb)
+- [Reflexion Design Pattern](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/agentic_ai_design_patterns/reflexion_pattern.ipynb)
 ### Prompt Engineering & Chains
 - [LangChain Prompt Chains](https://github.com/05satyam/AI-ML/blob/main/demo_applications/langchain_langgraph/lanchain-openai-prompt-chains.ipynb)
 ### Tokenization & Embeddings
