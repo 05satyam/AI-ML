@@ -48,39 +48,39 @@ This project aims to be a comprehensive, living library of resources for AI, ML 
 
 ### Core Concepts  
 - [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/interview-expereince/AI-ML-QnA.md) ⭐  
-- [Understanding Tokens in AI](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-common-scripts/Tokens_in_AI(GenAI).ipynb)  
-- [Word Embeddings in ML](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-common-scripts/ML_WordEmbeddings.ipynb)  
+- [Understanding Tokens in AI](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/Tokens_in_AI(GenAI).ipynb)  
+- [Word Embeddings in ML](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/ML_WordEmbeddings.ipynb)  
 - [Contextual & GPT Embeddings](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/Contexual%20And%20GPT%20Embeddings.md)  
 - [Standford Cheatsheet on Transformer, LLMs, Agent, RAG](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/standford_transformer_llm_cheatsheet.pdf) ⭐
 
 ### NLP & Fine-Tuning  
-- [NLP Pipeline Basics](https://github.com/05satyam/AI-ML/blob/main/ai-ml-genai-common-scripts/NLP_Pipeline_Basics.ipynb)  
-- [LoRA Implementation](https://github.com/05satyam/AI-ML/blob/main/finetuning/Simple_LoRA.ipynb)  
+- [NLP Pipeline Basics](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/NLP_Pipeline_Basics.ipynb)  
+- [LoRA Implementation](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/finetuning/Simple_LoRA.ipynb)  
 
 ---
 
 ## 2️⃣ Large Language Models (LLMs) & Applications  
 
 ### Hands-On Implementations  
-- [Generating Graphs from PDFs using LLM](https://github.com/05satyam/AI-ML/blob/main/llms-based-application/generating_interactive_human_readable_graphs_from_pdf_dcouments_using_llm.ipynb)  
-- [Interactive Location Graph (Google Maps API + GPT-4)](https://github.com/05satyam/AI-ML/blob/main/llms-based-application/Interactive%20Location%20Graph%20with%20Google%20Maps%20API%20and%20GPT-4.ipynb)  
+- [Generating Graphs from PDFs using LLM](https://github.com/05satyam/AI-ML/blob/main/demo_applications/graph_based_applications/graph_rag_llm_.ipynb)  
+- [Interactive Location Graph (Google Maps API + GPT-4)](https://github.com/05satyam/AI-ML/blob/main/demo_applications/graph_based_applications/graph_nav.ipynb)  
 
 ### Observability & Monitoring  
-- [LlamaTrace (Hosted Arize Phoenix)](https://github.com/05satyam/AI-ML/blob/main/llm-observability/LlamaTrace_(Hosted_Arize_Phoenix).ipynb)  
+- [LlamaTrace (Hosted Arize Phoenix)](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/llm-observability/LlamaTrace_(Hosted_Arize_Phoenix).ipynb)  
 
 ---
 
 ## 3️⃣ AI Agents & Agentic AI  
 
 ### Common Concepts  
-- [Plan & Execute - Design Pattern](https://github.com/05satyam/AI-ML/blob/main/langchain/agenticAI_design_patterns/plan_and_execute.ipynb)  
+- [Plan & Execute - Design Pattern](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/langchain/agenticAI_design_patterns/plan_and_execute.ipynb)  
 - [AI Agents Memory Types](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/ai_agents_memory_types.md)
 
 ### Practical Implementations  
-- [AI Agent & LangGraph Hands-on](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/AI_Agents_and_Agent_LangGraph.ipynb)  
-- [Agent-Based RAG Webcrawler](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/webcrawler_agentic_system.ipynb)  
-- [PydantiAI-Agents-Tools-OpenAI](https://github.com/05satyam/AI-ML/blob/main/agentic-frameworks-and-applications/PydanticAI_Agents_Tools_OpenAI.ipynb)  
-- 📁 [LLM Query Router Demo (LangChain, LlamaIndex, DSPy)](https://github.com/05satyam/AI-ML/tree/main/query_router) ⭐️  
+- [AI Agent & LangGraph Hands-on](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/agentic-frameworks-and-applications/AI_Agents_and_Agent_LangGraph.ipynb)  
+- [Agent-Based RAG Webcrawler](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/agentic-frameworks-and-applications/webcrawler_agentic_system.ipynb)  
+- [PydantiAI-Agents-Tools-OpenAI](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/agentic-frameworks-and-applications/PydanticAI_Agents_Tools_OpenAI.ipynb)  
+- 📁 [LLM Query Router Demo (LangChain, LlamaIndex, DSPy)](https://github.com/05satyam/AI-ML/tree/main/topcis_and_handson/query_router) ⭐️  
 
 ---
 
@@ -98,7 +98,7 @@ This project aims to be a comprehensive, living library of resources for AI, ML 
 ## 5️⃣ LangChain, Text-to-SQL & Prompt Engineering  
 
 ### LangChain & Prompting  
-- [LangChain OpenAI Prompt Chains](https://github.com/05satyam/AI-ML/blob/main/langchain/lanchain-openai-prompt-chains.ipynb)  
+- [LangChain OpenAI Prompt Chains](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/langchain/lanchain-openai-prompt-chains.ipynb)  
 
 ### Text-to-SQL  
 - [Text-To-SQL with LlamaIndex](https://github.com/05satyam/AI-ML/blob/main/text-to-sql/Text_To_SQL_LlamaIndex.ipynb)  
