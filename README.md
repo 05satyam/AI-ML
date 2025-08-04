@@ -26,10 +26,15 @@ This repository is designed to help learners and practitioners explore modern AI
 
 1. **[Topic And Hands-on](#1️⃣-topic-and-hands-on)**  
 2. **[Demo Applications](#2️⃣-demo-applications)**  
-3. **[Interview Expereinces](#3️⃣-interview-expereinces)**  
-4. **[Utils](#4️⃣-utils)**   
-5. **[External Resources](#5️⃣-external-resources)**
-6. **[Repository Rules](#6️⃣-repository-rules)** 
+3. **[Interview Experiences](#3️⃣-interview-experiences)**  
+4. **[External Resources](#4️⃣-external-resources-🔗)**
+   - **[Free Open Source Learning Resources](#-free-open-source-learning-resources)**
+   - **AI & ML Tools**
+   - **Technical Blogs**
+   - **Industry AI & ML Talks**
+   - **Technical Newsletters**
+6. **[Utils](#5️⃣-utils)** 
+7. **[Repository Rules](#6️⃣-repository-rules)**  
 
 
 ---
@@ -90,24 +95,46 @@ This repository aims to be a comprehensive, living library of resources for AI, 
 - [AI Agent Memory Types](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/ai_agents_memory_types.md)  
 - [Stanford Cheatsheet on LLMs](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/standford_transformer_llm_cheatsheet.pdf)
 
-## 4️⃣ Utils
+## 4️⃣ External Resources
 
-- [script_to_update_packages.py](https://github.com/05satyam/AI-ML/blob/main/script_to_update_packages.py)  
-- [Steps2CreateEnvFile.MD](https://github.com/05satyam/AI-ML/blob/main/Steps2CreateEnvFile.MD)  
-- [requirements.txt](https://github.com/05satyam/AI-ML/blob/main/requirements.txt)
+### Free Open Source Learning Resources
 
-## 5️⃣ External Resources  🔗
+Free industry resources from the creators of today's most powerful GenAI and LLM tooling. These are beginner-friendly, hands-on, and backed by the actual companies building the future of AI.
+
+| 🧠 Provider        | 📚 Free Learning Resource                                                                 | 🔍 Focus Area                                     |
+|-------------------|--------------------------------------------------------------------------------------------|--------------------------------------------------|
+| **LangChain**     | [LangChain for LLM App Dev](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)  | Prompting, chains, memory, evaluation            |
+|                   | [Functions, Tools & Agents](https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/)             | Tool calling, agents, LCEL                       |
+|                   | [LangGraph Intro Course](https://academy.langchain.com/courses/intro-to-langgraph)                                | Agentic execution with LangGraph                |
+|                   | [LangChain Docs & Tutorials](https://python.langchain.com/docs/tutorials/)                                       | End-to-end LLM use cases                         |
+| **LlamaIndex**    | [Advanced RAG Certification](https://learn.activeloop.ai/courses/rag)                                           | Production RAG systems                           |
+|                   | [Agentic RAG Course](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/)              | Agent-based doc query systems                    |
+|                   | [LlamaIndex Docs](https://docs.llamaindex.ai/en/stable/)                                                       | Indexes, retrievers, ingestion pipelines         |
+| **Hugging Face**  | [LLM Course](https://huggingface.co/learn/llm-course/chapter1/1)                                                 | Transformers, tokenizers, generation basics      |
+|                   | [AI Agents Course](https://huggingface.co/learn/agents-course/unit0/introduction)                               | Agent architectures, agentic tools               |
+|                   | [Diffusion Models Course](https://huggingface.co/learn/diffusion-course/unit0/1)                                 | Image generation via diffusion                   |
+|                   | [Open Source Models](https://www.deeplearning.ai/short-courses/open-source-models-hugging-face/)                | Model discovery, evaluation, deployment          |
+| **Microsoft**     | [Generative AI for Beginners](https://microsoft.github.io/generative-ai-for-beginners/)                         | 21-lesson hands-on course on GenAI foundations   |
+|                   | [AI for Beginners](https://microsoft.github.io/AI-For-Beginners/)                                               | Classical AI, neural nets, ethics                |
+|                   | [AI Agents for Beginners](https://microsoft.github.io/ai-agents-for-beginners/)                                 | Autonomy, planning, LangChain, Semantic Kernel   |
+| **AWS**           | [Intro to GenAI - Art of the Possible](https://www.aboutamazon.com/news/aws/7-free-and-low-cost-aws-courses-that-can-help-you-use-generative-ai) | Real-world GenAI intro, enterprise use cases     |
+|                   | [Prompt Engineering Essentials](https://www.aboutamazon.com/news/aws/7-free-and-low-cost-aws-courses-that-can-help-you-use-generative-ai) | Crafting effective prompts                       |
+|                   | [Responsible AI](https://www.aboutamazon.com/news/aws/7-free-and-low-cost-aws-courses-that-can-help-you-use-generative-ai) | Fairness, bias, model accountability             |
+|                   | [AWS PartyRock](https://www.aws.training/) (Search: PartyRock on AWS Educate)                                       | No-code GenAI app building                       |
+| **Meta (LLaMA)**  | [Building with Llama 4](https://www.deeplearning.ai/short-courses/building-with-llama-4/)                        | Using Meta’s Llama models, long context, agents  |
+
+---
 
 ### AI & ML Tools  
 - [LLM Visualization](https://bbycroft.net/llm)  
 - [Chatbot Arena LLM Leaderboard](https://lmarena.ai/)
 
-### Research & Blogs  
+### Tchnical Blogs  
 - [DeepLearning.AI](https://www.deeplearning.ai/the-batch/)  
 - [Uber AI - LLM Training](https://www.uber.com/en-GB/blog/open-source-and-in-house-how-uber-optimizes-llm-training/)  
 - [Netflix ML Recommendations](https://netflixtechblog.com/)  
 
-### Recommended AI & ML Talks  
+### Industry AI & ML Talks  
 - [Deep Dive into LLMs - Andrej Karpathy](https://youtu.be/7xTGNNLPyMI?t=1052)  
 - [Deep Dive into LLMs like ChatGPT](https://youtu.be/7xTGNNLPyMI?t=797)
 - [Andrej Karpathy: Software Is Changing (Again)](https://youtu.be/LCEmiRjPEtQ)  
@@ -117,7 +144,7 @@ This repository aims to be a comprehensive, living library of resources for AI, 
 - [The AI GRID](https://www.youtube.com/@TheAiGrid)  
 - [Krish Naik](https://www.youtube.com/@krishnaik06)  
 
-### AI Newsletters Worth Following  
+### Technical Newsletters  
 - [AI by Hand - Dr. Tom Yeh](https://aibyhand.substack.com/)  
 - [LLM Watch - Pascal Biese](https://www.llmwatch.com/)  
 - [LangChain Blogs](https://blog.langchain.dev/)  
@@ -126,6 +153,12 @@ This repository aims to be a comprehensive, living library of resources for AI, 
 - [ByteByteGo Newsletter - Alex Xu](https://www.linkedin.com/newsletters/bytebytego-newsletter-7144012310280359936/)  
 
 
+## 5️⃣ Utils
+
+- [script_to_update_packages.py](https://github.com/05satyam/AI-ML/blob/main/script_to_update_packages.py)  
+- [Steps2CreateEnvFile.MD](https://github.com/05satyam/AI-ML/blob/main/Steps2CreateEnvFile.MD)  
+- [requirements.txt](https://github.com/05satyam/AI-ML/blob/main/requirements.txt)
+- 
 ## 6️⃣ Repository Rules
 
 - [Contributing Guide](https://github.com/05satyam/AI-ML/blob/main/repository_rules/contributing.md)  
@@ -138,7 +171,7 @@ This repository aims to be a comprehensive, living library of resources for AI, 
 
 ## Contributing and support
 
-Contributions are welcome! If you spot an error, have an idea for a new notebook or want to help improve the documentation, please see the [contributing guidelines](repository_rules/contributing.md).  Before submitting a change, open an issue to discuss your idea.  We label easy tasks as **good first issue** to help newcomers.  All participants are expected to follow the [code of conduct](repository_rules/code_of_conduct.md).
+Contributions are welcome! If you spot an error, have an idea for a new notebook or want to help improve the documentation, please see the [contributing guidelines](repository_rules/contributing.md).
 
 If you discover a security vulnerability, please report it privately as described in [SECURITY.md](repository_rules/SECURITY.md).  Do not open a public issue for security problems.
 
