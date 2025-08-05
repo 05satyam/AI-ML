@@ -27,7 +27,7 @@ This repository is designed to help learners and practitioners explore modern AI
 1. **[Topic And Hands-on](#1️⃣-topic-and-hands-on)**  
 2. **[Demo Applications](#2️⃣-demo-applications)**  
 3. **[Interview Experiences](#3️⃣-interview-experiences)**  
-4. **[External Resources](#4️⃣-external-resources-🔗)**
+4. **[External Resources](#4️⃣-external-resources)**
    - **[Free Open Source Learning Resources](#-free-open-source-learning-resources)**
    - **AI & ML Tools**
    - **Technical Blogs**
