@@ -103,11 +103,13 @@ Free industry resources from the creators of today's most powerful GenAI and LLM
 
 | 🧠 Provider        | 📚 Free Learning Resource                                                                 | 🔍 Focus Area                                     |
 |-------------------|--------------------------------------------------------------------------------------------|--------------------------------------------------|
-| **LangChain**     | [LangChain for LLM App Dev](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)  | Prompting, chains, memory, evaluation            |
+| **LangChain**     | [Chat LangChain](https://chat.langchain.com/)                                                                       | Chat application which allows us to chat with the Langchain documentation            |
+|                   | [LangChain for LLM App Dev](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)  | Prompting, chains, memory, evaluation            |
 |                   | [Functions, Tools & Agents](https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/)             | Tool calling, agents, LCEL                       |
 |                   | [LangGraph Intro Course](https://academy.langchain.com/courses/intro-to-langgraph)                                | Agentic execution with LangGraph                |
 |                   | [LangChain Docs & Tutorials](https://python.langchain.com/docs/tutorials/)                                       | End-to-end LLM use cases                         |
-| **LlamaIndex**    | [Advanced RAG Certification](https://learn.activeloop.ai/courses/rag)                                           | Production RAG systems                           |
+| **LlamaIndex**    | [Chat LlamaIndex](https://chat.llamaindex.ai/)                                                                   | Chat application which allows us to chat with the LlamaIndex documentation                           |
+|                   | [Advanced RAG Certification](https://learn.activeloop.ai/courses/rag)                                           | Production RAG systems                           |
 |                   | [Agentic RAG Course](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/)              | Agent-based doc query systems                    |
 |                   | [LlamaIndex Docs](https://docs.llamaindex.ai/en/stable/)                                                       | Indexes, retrievers, ingestion pipelines         |
 | **Hugging Face**  | [LLM Course](https://huggingface.co/learn/llm-course/chapter1/1)                                                 | Transformers, tokenizers, generation basics      |
