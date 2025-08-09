@@ -134,7 +134,8 @@ Free industry resources from the creators of today's most powerful GenAI and LLM
 ### Tchnical Blogs  
 - [DeepLearning.AI](https://www.deeplearning.ai/the-batch/)  
 - [Uber AI - LLM Training](https://www.uber.com/en-GB/blog/open-source-and-in-house-how-uber-optimizes-llm-training/)  
-- [Netflix ML Recommendations](https://netflixtechblog.com/)  
+- [Netflix ML Recommendations](https://netflixtechblog.com/)
+- [Sebastian Raschka, PhD](https://magazine.sebastianraschka.com/)  
 
 ### Industry AI & ML Talks  
 - [Deep Dive into LLMs - Andrej Karpathy](https://youtu.be/7xTGNNLPyMI?t=1052)  
