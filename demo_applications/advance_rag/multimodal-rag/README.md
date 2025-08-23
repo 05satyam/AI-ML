@@ -90,13 +90,13 @@ This is standard in vector search systems.
 #### Option 2: Persist in ChromaDB
 - Generate CLIP embeddings for each image.  
 - Insert into **ChromaDB collection** with metadata:
-  ```json
+```json
   {
     "id": "123",
     "embedding": [0.12, 0.34, ...],
     "metadata": {"filename": "dog.png", "path": "/data/images/dog.png"}
   }
-````
+```
 
 * Query → embed new image → Chroma similarity search → return stored image paths.
 
@@ -107,8 +107,8 @@ This is standard in vector search systems.
 
 ## 🔄 Workflow
 
-```mermaid
-flowchart TD
+```
+# flowchart
 
 A[User Query] --> B{Type?}
 B -->|Text| C[Embed with OpenAI text-embedding-3-large]
@@ -187,13 +187,14 @@ J --> K[Response to User]
 
 ### Text
 
-```json
+```
 POST /rag
 query = "Who wrote 'Attention Is All You Need'?"
 ```
 
 ### Answer: 
-```{
+```
+{
   "query": "tell me about the authors of attentional all u need",
   "answer": "The authors of \"Attention Is All You Need\" are:\n\n1. Ashish Vaswani (Google Brain)\n2. Noam Shazeer (Google Brain)\n3. Niki Parmar (Google Research)\n4. Jakob Uszkoreit (Google Research)\n5. Llion Jones (Google Research)\n6. Aidan N. Gomez (University of Toronto, work performed while at Google Brain)\n7. Łukasz Kaiser (Google Brain)\n8. Illia Polosukhin (work performed while at Google Research)\n\nThe authors contributed equally to the work, and the listing order is random.",
   "docs_indexed": 15
@@ -230,10 +231,10 @@ query = "Who wrote 'Attention Is All You Need'?"
 * **Chroma** provides persistent storage.
 * This project = **simple, extensible, and workshop-ready multimodal RAG system**.
 
+---
 
-💡```
-This is a small project considering how an industry setup can look like. 
-With this, you can now build assistants that understand **both documents and images**.
-Additionally we can add docker to run container and publish containerized image to deploy anywhere.
+## Note:
+- This is a small project considering how an industry setup can look like. 
+- With this, you can now build assistants that understand **both documents and images**.
+- Additionally we can add docker to run container and publish containerized image to deploy anywhere.
 
-```
