@@ -72,7 +72,7 @@ This repository aims to be a comprehensive, living library of resources for AI, 
 - [GraphNavAI](https://github.com/05satyam/AI-ML/blob/main/demo_applications/graph_based_applications/graph_nav.ipynb)  
 - [GraphRag](https://github.com/05satyam/AI-ML/blob/main/demo_applications/graph_based_applications/graph_rag.ipynb)
 ### Multimodal-RAG
--[Multimodal-RAG: Text, Images](https://github.com/05satyam/AI-ML/blob/main/demo_applications/advance_rag/multimodal-rag/README.md)
+- [Multimodal-RAG: Text, Images](https://github.com/05satyam/AI-ML/blob/main/demo_applications/advance_rag/multimodal-rag/README.md)
 ### AI-Agents 
 #### Langchain-Langgraph
 - [LangGraph Agents](https://github.com/05satyam/AI-ML/blob/main/demo_applications/langchain_langgraph/AI_Agents_and_Agent_LangGraph.ipynb)  
