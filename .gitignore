@@ -1,9 +1,20 @@
-.env
-.env.local
-*.tmp
-*.swp
+# Python cache
 __pycache__/
 *.pyc
-*.json
-credentials.json
-token.json
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+*.env
+
+# Chroma vector store
+chroma_store/
+
+# IDE/editor configs (optional)
+.idea/
+.vscode/
