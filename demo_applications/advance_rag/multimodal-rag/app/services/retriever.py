@@ -52,7 +52,7 @@ def build_text_retriever(docs: List[Document]):
     )
     return vectorstore.as_retriever(search_kwargs={"k": TOP_K_DOCS})
 
-# --------- Build image "index" in memory ----------
+# --------- Build image "index">  Note: [in memory] ----------
 def build_image_index(image_dir: str) -> Tuple[List[str], np.ndarray]:
     paths: List[str] = []
     if os.path.isdir(image_dir):
