@@ -238,3 +238,7 @@ query = "Who wrote 'Attention Is All You Need'?"
 - With this, you can now build assistants that understand **both documents and images**.
 - Additionally we can add docker to run container and publish containerized image to deploy anywhere.
 
+---
+## Sample Output:
+![Multimodal RAG Workflow](execution_outputs/image.png)
+
