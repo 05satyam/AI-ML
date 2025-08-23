@@ -18,3 +18,9 @@ chroma_store/
 # IDE/editor configs (optional)
 .idea/
 .vscode/
+# secrets
+**/credentials.json
+**/token.json
+.env
+*.env
+
