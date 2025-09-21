@@ -105,6 +105,7 @@ Free industry resources from the creators of today's most powerful GenAI and LLM
 
 | 🧠 Provider        | 📚 Free Learning Resource                                                                 | 🔍 Focus Area                                     |
 |-------------------|--------------------------------------------------------------------------------------------|--------------------------------------------------|
+| **OpenSource Book: Agentic Design Patterns**     | [Agentic Design Patterns](https://docs.google.com/document/u/0/d/1rsaK53T3Lg5KoGwvf8ukOUvbELRtH-V0LnOIFDxBryE/mobilebasic)                                                                       | A Hands-On Guide to Building Intelligent Systems, Antonio Gulli (Google)          |
 | **LangChain**     | [Chat LangChain](https://chat.langchain.com/)                                                                       | Chat application which allows us to chat with the Langchain documentation            |
 |                   | [LangChain for LLM App Dev](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)  | Prompting, chains, memory, evaluation            |
 |                   | [Functions, Tools & Agents](https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/)             | Tool calling, agents, LCEL                       |
