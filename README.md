@@ -261,7 +261,7 @@ Security issues should be reported privately (see **SECURITY.md**).
 ---
 
 ## 📜 License
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** — see the [LICENSE](repository_rules/license) file for details.
 
 ---
 
