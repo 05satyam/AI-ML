@@ -19,7 +19,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/last-commit/05satyam/AI-ML?style=flat-square" alt="Last Commit">
-  <img src="https://img.shields.io/github/license/05satyam/AI-ML?style=flat-square" alt="License">
   <img src="https://img.shields.io/github/stars/05satyam/AI-ML?style=flat-square" alt="Stars">
   <img src="https://img.shields.io/github/repo-size/05satyam/AI-ML?style=flat-square" alt="Repo Size">
 </p>
@@ -261,10 +260,8 @@ Security issues should be reported privately (see **SECURITY.md**).
 
 ---
 
-## 📌 License & Citation
-
-This project is licensed under MIT.  
-If you build on or publish work using this repository, please cite using **CITATION.cff**.
+## 📜 License
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
