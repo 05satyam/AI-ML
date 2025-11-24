@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="cover_img.png" alt="AI Banner" width="100%">
+  <img src="ai_ml_cover.png" alt="AI Banner" width="100%">
 </p>
 
 <p align="center">
