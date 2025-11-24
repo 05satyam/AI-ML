@@ -105,8 +105,8 @@ Everything that uses **LlamaIndex** lives here.
 
 | Notebook | What it does | Level | Tags |
 |---|---|---|---|
-| [Text-to-SQL w/ LlamaIndex](https://github.com/05satyam/AI-ML/blob/main/demo_applications/text-to-sql/Text_To_SQL_LlamaIndex.ipynb) | Natural language → SQL over DB | Intermediate | #text2sql #llamaindex |
-| [LlamaExtract (LlamaIndex)](https://github.com/05satyam/AI-ML/blob/main/demo_applications/llama_index/llama_extract/llama_extract.ipynb) | Structured extraction from invoices using LlamaIndex | Intermediate | #llamaindex #extraction |
+| [Text-to-SQL w/ LlamaIndex](https://github.com/05satyam/AI-ML/blob/main/demo_applications/text-to-sql/Text_To_SQL_LlamaIndex.ipynb) | Natural language → SQL over DB | Intermediate | text2sql, llamaindex |
+| [LlamaExtract (LlamaIndex)](https://github.com/05satyam/AI-ML/blob/main/demo_applications/llama_index/llama_extract/llama_extract.ipynb) | Structured extraction from invoices using LlamaIndex | Intermediate | llamaindex, extraction |
 
 ---
 
