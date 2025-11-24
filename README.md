@@ -29,7 +29,7 @@
 
 If you're new, start with the path that matches your goal:
 
-1. **🧠 New to AI/ML (Foundations)**
+1. ** New to AI/ML (Foundations)**
    - Start with **Tokens & Embeddings → Fine-tuning basics → Small demos**
 2. **🤖 GenAI / RAG learner**
    - Go to **RAG Systems table → Multimodal/Graph RAG → Agents → Observability**
@@ -76,7 +76,7 @@ You’ll find content across:
 
 ---
 
-## 🧠 Foundations (AI/ML Core)
+## Foundations (AI/ML Core)
 
 | Notebook | What you’ll learn | Level |
 |---|---|---|
