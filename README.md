@@ -52,7 +52,7 @@ If you're new, start with the path that matches your goal:
 6. [Agents & Orchestration](#-agents--orchestration)
 7. [Graph & Multimodal](#-graph--multimodal)
 8. [MCP (Model Context Protocol)](#-mcp-model-context-protocol)
-9. [LLM Observability](#-llm-observability)
+9. [Observability](#-llm-observability)
 10. [Interview Experiences](#-interview-experiences)
 11. [External Resources](#-external-resources)
 12. [Utils](#-utils)
@@ -82,7 +82,7 @@ You’ll find content across:
 |---|---|---|
 | [Tokens in GenAI](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/Tokens_in_AI(GenAI).ipynb) | Tokenization intuition + cost/latency impact | Beginner |
 | [ML Word Embeddings](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/ML_WordEmbeddings.ipynb) | Word2Vec/GloVe/CBOW intuition | Beginner |
-| [Simple LoRA Fine-Tuning](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/finetuning/Simple_LoRA.ipynb) | PEFT/LoRA fine-tuning end-to-end | Intermediate |
+| [Simple LoRA Fine-Tuning](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/finetuning/Simple_LoRA.ipynb) | PEFT/LoRA fine-tuning end-to-end | All Levels |
 
 ---
 
@@ -92,10 +92,10 @@ Everything that uses **LangChain / LangGraph / LCEL** lives here.
 
 | Notebook | What it does | Level | Tags |
 |---|---|---|---|
-| [LangChain Prompt Chains](https://github.com/05satyam/AI-ML/blob/main/demo_applications/langchain_langgraph/lanchain-openai-prompt-chains.ipynb) | Prompt chaining + LCEL patterns | Beginner | #prompting #lcel |
-| [Plan & Execute (LangGraph)](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/agentic_ai_design_patterns/plan_and_execute_langgraph.ipynb) | Multi-step planning + execution | Intermediate | #langgraph #agents |
-| [Reflexion Pattern](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/agentic_ai_design_patterns/reflexion_pattern.ipynb) | Self-critique agent loops | Intermediate | #agents #reasoning |
-| [LangGraph Agents](https://github.com/05satyam/AI-ML/blob/main/demo_applications/langchain_langgraph/AI_Agents_and_Agent_LangGraph.ipynb) | Tool-calling agents with graphs | Intermediate | #langgraph #tools |
+| [LangChain Prompt Chains](https://github.com/05satyam/AI-ML/blob/main/demo_applications/langchain_langgraph/lanchain-openai-prompt-chains.ipynb) | Prompt chaining + LCEL patterns | All Levels | #prompting #lcel |
+| [Plan & Execute (LangGraph)](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/agentic_ai_design_patterns/plan_and_execute_langgraph.ipynb) | Multi-step planning + execution | All Levels | #langgraph #agents |
+| [Reflexion Pattern](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/agentic_ai_design_patterns/reflexion_pattern.ipynb) | Self-critique agent loops | All Levels | #agents #reasoning |
+| [LangGraph Agents](https://github.com/05satyam/AI-ML/blob/main/demo_applications/langchain_langgraph/AI_Agents_and_Agent_LangGraph.ipynb) | Tool-calling agents with graphs | All Levels | #langgraph #tools |
 
 ---
 
@@ -105,8 +105,8 @@ Everything that uses **LlamaIndex** lives here.
 
 | Notebook | What it does | Level | Tags |
 |---|---|---|---|
-| [Text-to-SQL w/ LlamaIndex](https://github.com/05satyam/AI-ML/blob/main/demo_applications/text-to-sql/Text_To_SQL_LlamaIndex.ipynb) | Natural language → SQL over DB | Intermediate | text2sql, llamaindex |
-| [LlamaExtract (LlamaIndex)](https://github.com/05satyam/AI-ML/blob/main/demo_applications/llama_index/llama_extract/llama_extract.ipynb) | Structured extraction from invoices using LlamaIndex | Intermediate | llamaindex, extraction |
+| [Text-to-SQL w/ LlamaIndex](https://github.com/05satyam/AI-ML/blob/main/demo_applications/text-to-sql/Text_To_SQL_LlamaIndex.ipynb) | Natural language → SQL over DB | All Levels | text2sql, llamaindex |
+| [LlamaExtract (LlamaIndex)](https://github.com/05satyam/AI-ML/blob/main/demo_applications/llama_index/llama_extract/llama_extract.ipynb) | Structured extraction from invoices using LlamaIndex | All Levels | llamaindex, extraction |
 
 ---
 
@@ -116,10 +116,10 @@ All Retrieval-Augmented Generation notebooks, grouped by type.
 
 | Notebook | RAG Type | What it does | Level |
 |---|---|---|---|
-| [Hybrid Search RAG](https://github.com/05satyam/AI-ML/blob/main/demo_applications/simple-rag/HybridSearch.ipynb) | Hybrid RAG | BM25 + vectors + reranking | Intermediate |
-| [Semantic Search (Pinecone)](https://github.com/05satyam/AI-ML/blob/main/demo_applications/simple-rag/semantic_search_vec_pinecone.ipynb) | Vector RAG | Simple embedding retrieval | Beginner |
+| [Hybrid Search RAG](https://github.com/05satyam/AI-ML/blob/main/demo_applications/simple-rag/HybridSearch.ipynb) | Hybrid RAG | BM25 + vectors + reranking | All Levels |
+| [Semantic Search (Pinecone)](https://github.com/05satyam/AI-ML/blob/main/demo_applications/simple-rag/semantic_search_vec_pinecone.ipynb) | Vector RAG | Simple embedding retrieval | All Levels |
 | [GraphRAG](https://github.com/05satyam/AI-ML/blob/main/demo_applications/graph_based_applications/graph_rag.ipynb) | Graph RAG | Graph retrieval + LLM answering | Advanced |
-| [Multimodal RAG: Text + Images](https://github.com/05satyam/AI-ML/blob/main/demo_applications/advance_rag/multimodal-rag/README.md) | Multimodal RAG | Retrieve across text & images | Intermediate |
+| [Multimodal RAG: Text + Images](https://github.com/05satyam/AI-ML/blob/main/demo_applications/advance_rag/multimodal-rag/README.md) | Multimodal RAG | Retrieve across text & images | All Levels |
 
 ---
 
@@ -127,11 +127,11 @@ All Retrieval-Augmented Generation notebooks, grouped by type.
 
 | Notebook / Resource | What it does | Level |
 |---|---|---|
-| [LLM Query Router](https://github.com/05satyam/AI-ML/tree/main/topcis_and_handson/query_router) | Route queries to best chain/tool | Intermediate |
-| [PydanticAI Agents And Tools](https://github.com/05satyam/AI-ML/blob/main/demo_applications/pydnatic_ai/pydantic_ai_agents_and_tools.ipynb) | Typed agents + strict tool schemas | Intermediate |
-| [PydanticAI Agentic Lib](https://github.com/05satyam/AI-ML/blob/main/demo_applications/pydnatic_ai/pydantic_ai_agentic_lib.ipynb) | Agentic patterns using PydanticAI | Intermediate |
-| [Crew AI Agents](https://github.com/05satyam/AI-ML/blob/main/demo_applications/crewai/crewai_agents_basics.ipynb) | Multi-agent teams + roles | Beginner–Intermediate |
-| [Agentic Webcrawler Chatbot](https://github.com/05satyam/AI-ML/blob/main/demo_applications/agentic_webcrawler_chatbot.ipynb) | Crawl web + answer with agents | Intermediate |
+| [LLM Query Router](https://github.com/05satyam/AI-ML/tree/main/topcis_and_handson/query_router) | Route queries to best chain/tool | All Levels |
+| [PydanticAI Agents And Tools](https://github.com/05satyam/AI-ML/blob/main/demo_applications/pydnatic_ai/pydantic_ai_agents_and_tools.ipynb) | Typed agents + strict tool schemas | All Levels |
+| [PydanticAI Agentic Lib](https://github.com/05satyam/AI-ML/blob/main/demo_applications/pydnatic_ai/pydantic_ai_agentic_lib.ipynb) | Agentic patterns using PydanticAI | All Levels |
+| [Crew AI Agents](https://github.com/05satyam/AI-ML/blob/main/demo_applications/crewai/crewai_agents_basics.ipynb) | Multi-agent teams + roles | All Levels |
+| [Agentic Webcrawler Chatbot](https://github.com/05satyam/AI-ML/blob/main/demo_applications/agentic_webcrawler_chatbot.ipynb) | Crawl web + answer with agents | All Levels |
 
 ---
 
@@ -139,8 +139,8 @@ All Retrieval-Augmented Generation notebooks, grouped by type.
 
 | Notebook | What it does | Level |
 |---|---|---|
-| [GraphMyDoc](https://github.com/05satyam/AI-ML/blob/main/demo_applications/graph_based_applications/graph_my_doc.ipynb) | Build doc knowledge graphs | Intermediate |
-| [GraphNavAI](https://github.com/05satyam/AI-ML/blob/main/demo_applications/graph_based_applications/graph_nav.ipynb) | Navigate knowledge as graph | Intermediate |
+| [GraphMyDoc](https://github.com/05satyam/AI-ML/blob/main/demo_applications/graph_based_applications/graph_my_doc.ipynb) | Build doc knowledge graphs | All Levels |
+| [GraphNavAI](https://github.com/05satyam/AI-ML/blob/main/demo_applications/graph_based_applications/graph_nav.ipynb) | Navigate knowledge as graph | All Levels |
 
 ---
 
@@ -148,15 +148,16 @@ All Retrieval-Augmented Generation notebooks, grouped by type.
 
 | Demo | What it does | Level |
 |---|---|---|
-| [MCP Server Demo](https://github.com/05satyam/AI-ML/tree/main/demo_applications/mcp_server_demo) | MCP server-client tooling end-to-end | Intermediate |
+| [MCP Server Demo](https://github.com/05satyam/AI-ML/tree/main/demo_applications/mcp_server_demo) | MCP server-client tooling end-to-end | All Levels |
 
 ---
 
-## 📈 LLM Observability
+## 📈 Observability
 
 | Notebook | What it does | Level |
 |---|---|---|
-| [LlamaTrace — LLM Observability](https://github.com/05satyam/AI-ML/blob/main/demo_applications/llm-observability/LlamaTrace_(Hosted_Arize_Phoenix).ipynb) | Tracing, evals, monitoring with Phoenix | Intermediate |
+| [LlamaTrace — Observability](https://github.com/05satyam/AI-ML/blob/main/demo_applications/llm-observability/LlamaTrace_(Hosted_Arize_Phoenix).ipynb) | Tracing, evals, monitoring with Phoenix | All Levels |
+| [ARIZE — Observability](https://github.com/05satyam/AI-ML/blob/main/demo_applications/llm-observability/ARIZE%E2%80%94Obervability%E2%80%94Hands_on.ipynb) | AI-AGENT Tracing, evals, monitoring with ARIZE | All Levels |
 
 ---
 
