@@ -243,9 +243,9 @@ All Retrieval-Augmented Generation notebooks, grouped by type.
 
 - [Contributing Guide](https://github.com/05satyam/AI-ML/blob/main/repository_rules/contributing.md)
 - [Code of Conduct](https://github.com/05satyam/AI-ML/blob/main/repository_rules/code_of_conduct.md)
-- [Security Policy](https://github.com/05satyam/AI-ML/blob/main/repository_rules/SECURITY.md)
-- [MIT License](https://github.com/05satyam/AI-ML/blob/main/repository_rules/LICENSE)
-- [Citation File](https://github.com/05satyam/AI-ML/blob/main/repository_rules/CITATION.cff)
+- [Security Policy](https://github.com/05satyam/AI-ML/blob/main/repository_rules/security.md)
+- [MIT License](https://github.com/05satyam/AI-ML/blob/main/repository_rules/license)
+- [Citation File](https://github.com/05satyam/AI-ML/blob/main/repository_rules/citation.cff)
 
 ---
 
