@@ -30,7 +30,7 @@
 If you're new, start with the path that matches your goal:
 
 1. **New to AI/ML (Foundations)**
-   - Start with **Tokens & Embeddings → Fine-tuning basics -> Best Practices → Small demos**
+   - Start with **Tokens & Embeddings → Fine-tuning basics → LLMs/AI-Agents Basics → Best Practices → Small demos**
 2. **🤖 GenAI / RAG learner**
    - Go to **RAG Systems table → Multimodal/Graph RAG → Agents → Observability**
 3. **🛠️ Want handson notebooks**
