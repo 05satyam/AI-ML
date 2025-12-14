@@ -30,7 +30,7 @@
 If you're new, start with the path that matches your goal:
 
 1. **New to AI/ML (Foundations)**
-   - Start with **Tokens & Embeddings → Fine-tuning basics → Small demos**
+   - Start with **Tokens & Embeddings → Fine-tuning basics -> Best Practices → Small demos**
 2. **🤖 GenAI / RAG learner**
    - Go to **RAG Systems table → Multimodal/Graph RAG → Agents → Observability**
 3. **🛠️ Want handson notebooks**
@@ -83,6 +83,7 @@ You’ll find content across:
 | [Tokens in GenAI](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/Tokens_in_AI(GenAI).ipynb) | Tokenization intuition + cost/latency impact | Beginner |
 | [ML Word Embeddings](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/ML_WordEmbeddings.ipynb) | Word2Vec/GloVe/CBOW intuition | Beginner |
 | [Simple LoRA Fine-Tuning](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/finetuning/Simple_LoRA.ipynb) | PEFT/LoRA fine-tuning end-to-end | All Levels |
+| [Best Practices for Building AI Agents (Framework-Agnostic)](https://github.com/05satyam/AI-ML/blob/main/topcis_and_handson/agent-best-practices-framework-agnostic.md) | Best Practices |All Levels |
 
 ---
 
