@@ -25,7 +25,7 @@
 
 ---
 
-## Featured Package — Non-Convex Optimization Library
+## PyPI Library — Non-Convex Optimization Benchmark Functions
 
 [![PyPI Downloads](https://static.pepy.tech/personalized-badge/nonconvexoptimzationfunclib?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/nonconvexoptimzationfunclib)
 [![View Dashboard](https://img.shields.io/badge/View_Live_Dashboard-000000?style=for-the-badge&logo=databricks)](
