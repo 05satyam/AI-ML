@@ -17,11 +17,11 @@
   <img src="ai_ml_repository.png" alt="AI Banner" width="100%">
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://img.shields.io/github/last-commit/05satyam/AI-ML?style=flat-square" alt="Last Commit">
   <img src="https://img.shields.io/github/stars/05satyam/AI-ML?style=flat-square" alt="Stars">
   <img src="https://img.shields.io/github/repo-size/05satyam/AI-ML?style=flat-square" alt="Repo Size">
-</p>
+</p> -->
 
 ---
 
