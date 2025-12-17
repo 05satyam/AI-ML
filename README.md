@@ -25,10 +25,15 @@
 
 ---
 
-**Non-Convex Optimization Library** [![PyPI Downloads](https://static.pepy.tech/personalized-badge/nonconvexoptimzationfunclib?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/nonconvexoptimzationfunclib)
-- The Non-Convex Optimization Library is a comprehensive Python package providing a collection of non-convex functions for testing and benchmarking optimization algorithms.
-- pip install nonconvexoptimzationfunclib
+## Featured Package — Non-Convex Optimization Library
 
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/nonconvexoptimzationfunclib?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/nonconvexoptimzationfunclib)
+
+A Python package providing **standard non-convex benchmark functions** for testing and benchmarking optimization algorithms.
+
+```bash
+pip install nonconvexoptimzationfunclib
+```
 ---
 
 ## ✨ Start Here (Pick your path)
