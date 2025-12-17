@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/05satyam/AI-ML" target="_blank">
+  <!-- <a href="https://github.com/05satyam/AI-ML" target="_blank">
     <img src="https://img.shields.io/badge/Explore_Repository-black?style=for-the-badge&logo=github" alt="AI-ML Repository"/>
-  </a>
+  </a> -->
   <a href="https://www.linkedin.com/in/satyam-sm" target="_blank">
     <img src="https://img.shields.io/badge/Connect_on_LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
   </a>
