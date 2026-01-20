@@ -1,26 +1,174 @@
-# Python cache
+############################
+# Python
+############################
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 *.pyo
 *.pyd
 
-# Virtual environment
+# Byte-compiled / optimized files
+*.opt-*
+
+############################
+# Virtual Environments
+############################
 venv/
 .venv/
+env/
+ENV/
+*.venv*
+.python-version
 
-# Environment variables
+############################
+# Package / Build artifacts
+############################
+build/
+dist/
+develop-eggs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/
+*.egg-info/
+.installed.cfg
+*.egg
+
+############################
+# Installer logs
+############################
+pip-log.txt
+pip-delete-this-directory.txt
+
+############################
+# Test / Coverage
+############################
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+############################
+# Jupyter / IPython
+############################
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+############################
+# Logs
+############################
+*.log
+logs/
+log/
+
+############################
+# Environment variables / secrets
+############################
 .env
+.env.*
 *.env
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+*.der
+*.jks
 
-# Chroma vector store
-chroma_store/
-
-# IDE/editor configs (optional)
-.idea/
-.vscode/
-# secrets
+# Common credential files
 **/credentials.json
 **/token.json
-.env
-*.env
+**/*secret*
+**/*password*
+**/*apikey*
+**/*api_key*
 
+############################
+# Databases / Local storage
+############################
+*.sqlite
+*.sqlite3
+*.db
+*.duckdb
+*.parquet
+
+# Vector stores / ML artifacts
+chroma_store/
+faiss_index/
+vectorstore/
+embeddings/
+
+############################
+# OS generated files
+############################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+############################
+# IDEs / Editors
+############################
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+############################
+# Node / Frontend (just in case)
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+############################
+# MCP / AI tooling specific
+############################
+# Claude / MCP local configs
+.mcp/
+.mcp-config.json
+
+# Model / cache artifacts
+models/
+.cache/
+hf_cache/
+transformers_cache/
+
+############################
+# Misc
+############################
+*.tmp
+*.bak
+*.old
+*.orig
