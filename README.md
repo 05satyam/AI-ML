@@ -163,7 +163,8 @@ All Retrieval-Augmented Generation notebooks, grouped by type.
 
 | Demo | What it does | Level |
 |---|---|---|
-| [MCP Server Demo](https://github.com/05satyam/AI-ML/tree/main/demo_applications/mcp_server_demo) | MCP server-client tooling end-to-end | All Levels |
+| [MCP Server Demo](https://github.com/05satyam/AI-ML/tree/main/demo_applications/mcp_handson/mcp_server_demo) | MCP server-client tooling end-to-end | All Levels |
+| [Hello World — MCP](https://github.com/05satyam/AI-ML/blob/main/demo_applications/mcp_handson/hello_world_of_mcp/MCP_README.md) | Hello World — MCP | All Levels |
 
 ---
 
