@@ -81,6 +81,7 @@ colab link.
 summarizing the intent of each change. Avoid lumping multiple
 unrelated changes into a single commit.
 
+
 9. Push to your fork and submit a pull request.
     ```sh
     git push origin feature/add-transformer-demo
@@ -93,6 +94,14 @@ numbers. Mark your PR as a “Draft” if it is still in progress.
 may review your pull request and suggest changes. Please be
 responsive and polite in your interactions; remember that we all
 share the same goal of improving the project.
+
+## Pull Request template (auto-filled)
+When you open a Pull Request, GitHub will automatically pre-fill the PR description using our template:
+`.github/pull_request_template.md`
+
+Please fill it out completely (summary, paths, testing steps, and checklist).
+For proposals/bugs, you can also open an Issue first using the Issue templates in `.github/ISSUE_TEMPLATE/`.
+
 
 ## Communication channels
 For general questions and discussions, please use the GitHub
