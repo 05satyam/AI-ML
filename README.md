@@ -37,9 +37,39 @@ A Python package providing **standard non-convex benchmark functions** for testi
 ```bash
 pip install nonconvexoptimzationfunclib
 ```
+
 ---
 
-## ✨ Start Here (Pick your path)
+## 📌 Table of Contents
+
+1. [Mission & Scope](#-mission--scope)
+2. [Pick your path](#-pick-your-path)
+3. [Foundations (AI/ML Core)](#-foundations-aiml-core)
+4. [LangChain (All Notebooks)](#-langchain-all-notebooks)
+5. [LlamaIndex (All Notebooks)](#-llamaindex-all-notebooks)
+6. [RAG Systems (All Variants)](#-rag-systems-all-variants)
+7. [Agents & Orchestration](#-agents--orchestration)
+8. [Graph & Multimodal](#-graph--multimodal)
+9. [MCP (Model Context Protocol)](#-mcp-model-context-protocol)
+10. [Observability](#-llm-observability)
+11. [Interview Experiences](#-interview-experiences)
+12. [External Resources](#-external-resources)
+13. [Utils](#-utils)
+14. [Repository Rules](#-repository-rules)
+15. [Contributing & Support](#-contributing--support)
+16. [License & Citation](#-license--citation)
+
+---
+
+## 🎯 Mission & Scope
+
+This repository is a **living library** of practical AI/ML and Generative AI knowledge.  
+The focus is on **learning by doing** — notebooks and guides are reproducible, intuitive, and easy to extend.
+
+---
+
+
+## ✨ Pick your path
 
 If you're new, start with the path that matches your goal:
 
@@ -54,40 +84,47 @@ If you're new, start with the path that matches your goal:
 5. **📚 Need tools / courses / blogs**
    - Go to **External Resources**
 
----
+```mermaid
+flowchart TD
+  %% ========== Styles ==========
+  classDef start fill:#E8F5E9,stroke:#2E7D32,stroke-width:1px,color:#1B5E20;
+  classDef step  fill:#E3F2FD,stroke:#1565C0,stroke-width:1px,color:#0D47A1;
+  classDef choice fill:#FFF8E1,stroke:#F57F17,stroke-width:1px,color:#E65100;
+  classDef path  fill:#F3E5F5,stroke:#6A1B9A,stroke-width:1px,color:#4A148C;
+  classDef build fill:#FFEBEE,stroke:#C62828,stroke-width:1px,color:#B71C1C;
 
-## 📌 Table of Contents
+  %% ========== Flow ==========
+  A["🚀 Start Here<br/>Clone repo + setup venv"]:::start
+  B["📦 Install dependencies<br/>pip install -r requirements.txt"]:::step
+  C{"🧭 Pick your learning path"}:::choice
 
-1. [Mission & Scope](#-mission--scope)
-2. [Foundations (AI/ML Core)](#-foundations-aiml-core)
-3. [LangChain (All Notebooks)](#-langchain-all-notebooks)
-4. [LlamaIndex (All Notebooks)](#-llamaindex-all-notebooks)
-5. [RAG Systems (All Variants)](#-rag-systems-all-variants)
-6. [Agents & Orchestration](#-agents--orchestration)
-7. [Graph & Multimodal](#-graph--multimodal)
-8. [MCP (Model Context Protocol)](#-mcp-model-context-protocol)
-9. [Observability](#-llm-observability)
-10. [Interview Experiences](#-interview-experiences)
-11. [External Resources](#-external-resources)
-12. [Utils](#-utils)
-13. [Repository Rules](#-repository-rules)
-14. [Contributing & Support](#-contributing--support)
-15. [License & Citation](#-license--citation)
+  subgraph P["✨ Learning Paths"]
+    direction TB
+    F["🧠 Foundations<br/>Tokens • Embeddings • Transformers"]:::path
+    H["🛠️ Hands-on Notebooks<br/>Run examples first"]:::path
+    R["🔎 RAG Systems<br/>Naive → Hybrid → Graph → Multimodal"]:::path
+    AG["🤖 Agents<br/>ReAct • Plan&Execute • Reflexion"]:::path
+    I["🎯 Interview Prep<br/>System design + Q&A"]:::path
+  end
 
----
+  D["🔍 Observability & Evaluation<br/>Tracing • quality checks"]:::step
+  E["🏗️ Build Mini-Projects<br/>End-to-end demo apps"]:::build
+  Z["🌟 Keep iterating<br/>Add your own examples + PRs"]:::start
 
-## 🎯 Mission & Scope
+  %% ========== Edges ==========
+  A --> B --> C
+  C --> F
+  C --> H
+  C --> R
+  C --> AG
+  C --> I
 
-This repository is a **living library** of practical AI/ML and Generative AI knowledge.  
-The focus is on **learning by doing** — notebooks and guides are reproducible, intuitive, and easy to extend.
+  F --> H
+  H --> AG
+  R --> AG
+  AG --> D --> E --> Z
 
-You’ll find content across:
-- Classical ML & Deep Learning fundamentals  
-- LLMs, embeddings, fine-tuning  
-- RAG systems (naive → hybrid → graph → multimodal)  
-- Agentic AI patterns and orchestration  
-- Production evaluation and observability  
-
+```
 ---
 
 ## Foundations (AI/ML Core)
