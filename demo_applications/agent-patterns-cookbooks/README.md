@@ -29,55 +29,63 @@ Compare **when each pattern helps** and what it costs (latency / number of model
 ---
 
 ```mermaid
-flowchart TD
-  %% =========================
-  %% Shared module (Option A)
-  %% =========================
-  S[claim_verifier.py (shared)] --> S1[build_retriever(pdf_path)]
-  S1 --> L1[PyPDFLoader: load PDF pages]
-  L1 --> L2[RecursiveCharacterTextSplitter: chunk pages]
-  L2 --> L3[OpenAIEmbeddings: embed chunks]
-  L3 --> DB[(Chroma DB: persist_directory)]
-  DB --> R[retriever = as_retriever(k)]
-  S --> T[make_search_tool(retriever)]
-  T --> TOOL[Tool: claim_verifier(query) -> cited snippets (page X)]
+flowchart LR
+  subgraph Shared["Shared module (Option A): claim_verifier.py"]
+    direction TB
+    S1["build_retriever <br/> (pdf_path)"]
+    S2["PyPDFLoader → <br/> load pages"]
+    S3["TextSplitter → <br/> chunk"]
+    S4["Embeddings → <br/> OpenAIEmbeddings"]
+    S5["Chroma DB <br/>(persist_directory)"]
+    S6["retriever = as_retriever(k)"]
+    S7["make_search_tool<br/> (retriever)"]
+    S8["Tool: claim_verifier(query) → cited snippets (page X)"]
 
-  %% =========================
-  %% Notebooks reuse shared module
-  %% =========================
-  N1[Notebook 01: ReAct] --> S
-  N2[Notebook 02: Plan & Execute] --> S
-  N3[Notebook 03: Reflexion] --> S
+    S1 --> S2 --> S3 --> S4 --> S5 --> S6
+    S6 --> S7 --> S8
+  end
 
-  %% =========================
-  %% Notebook 01: ReAct (format-sensitive)
-  %% =========================
-  N1 --> A1[ChatOpenAI]
-  A1 --> A2[create_react_agent + AgentExecutor]
-  TOOL --> A2
-  A2 --> A3[Prompt must include: {tools}, {tool_names}, {agent_scratchpad}]
-  A2 --> A4{ReAct loop}
-  A4 -->|Action| A5[call claim_verifier]
-  A5 -->|Observation| A4
-  A4 -->|Final| OUT1[Answer w/ citations]
-  A4 -->|Bad format| ERR[Parser loop risk (iteration limit)]
+  subgraph NB1["Notebook 01: ReAct (format-sensitive)"]
+    direction TB
+    A1["ChatOpenAI"]
+    A2["create_react_agent + AgentExecutor"]
+    A3["Prompt requires: {tools}, {tool_names}, {agent_scratchpad}"]
+    A4{ReAct loop}
+    A5["Action: claim_verifier(query)"]
+    A6["Observation: cited snippets"]
+    A7["Final: answer w/ citations"]
+    A8["Risk: parser loop / iteration limit"]
 
-  %% =========================
-  %% Notebook 02: Plan & Execute (stable)
-  %% =========================
-  N2 --> P1[Planner LLM: make_plan(question)]
-  P1 --> P2[For each step: generate search query]
-  P2 --> P3[Direct tool call: claim_verifier(query)]
-  P3 --> P4[Summarize step findings (keep (page X))]
-  P4 --> P5[Final synthesis: answer with citations]
-  P5 --> OUT2[Final Answer]
+    A1 --> A2 --> A3 --> A4
+    A4 -->|Action| A5 --> A6 --> A4
+    A4 -->|Final| A7
+    A4 -->|Bad format| A8
+  end
 
-  %% =========================
-  %% Notebook 03: Reflexion (quality-focused)
-  %% =========================
-  N3 --> R1[Draft: tool-first retrieval + draft answer]
-  R1 --> R2[Critique: check grounding + citations]
-  R2 --> R3[Revise: optional second retrieval guided by critique]
-  R3 --> OUT3[Improved Final Answer w/ citations]
+  subgraph NB2["Notebook 02: Plan & Execute (stable)"]
+    direction TB
+    P1["Plan: make_plan(question)"]
+    P2["Step loop: generate <br/> search query"]
+    P3["Direct call: <br/> claim_verifier(query)"]
+    P4["Summarize findings <br/> (page X)"]
+    P5["Synthesize final <br/> answer + citations"]
+
+    P1 --> P2 --> P3 --> P4 --> P5
+  end
+
+  subgraph NB3["Notebook 03: Reflexion (quality-focused)"]
+    direction TB
+    R1["Draft (tool-first)"]
+    R2["Critique (grounding <br/> + citations)"]
+    R3["Revise (+ optional <br/> 2nd retrieval)"]
+    R4["Final improved answer <br/> (page X)"]
+
+    R1 --> R2 --> R3 --> R4
+  end
+
+  %% Reuse links (kept minimal to avoid crossings)
+  Shared --> NB1
+  Shared --> NB2
+  Shared --> NB3
 
 ```
