@@ -108,7 +108,7 @@ chroma_store/
 faiss_index/
 vectorstore/
 embeddings/
-
+*chroma_claim_db/
 ############################
 # OS generated files
 ############################
