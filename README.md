@@ -71,18 +71,7 @@ The focus is on **learning by doing** — notebooks and guides are reproducible,
 
 ## ✨ Pick your path
 
-If you're new, start with the path that matches your goal:
-
-1. **New to AI/ML (Foundations)**
-   - Start with **Tokens & Embeddings → Fine-tuning basics → LLMs/AI-Agents Basics → Best Practices → Small demos**
-2. **🤖 GenAI / RAG learner**
-   - Go to **RAG Systems table → Multimodal/Graph RAG → Agents → Observability**
-3. **🛠️ Want handson notebooks**
-   - Go to **LangChain + LlamaIndex + RAG Systems tables**
-4. **🎯 Interview prep**
-   - Go to **Interview Experiences**
-5. **📚 Need tools / courses / blogs**
-   - Go to **External Resources**
+If you're new, start with the path that matches your goal such as:
 
 ```mermaid
 flowchart TD
@@ -95,8 +84,7 @@ flowchart TD
 
   %% ========== Flow ==========
   A["🚀 Start Here<br/>Clone repo + setup venv"]:::start
-  B["📦 Install dependencies<br/>pip install -r requirements.txt"]:::step
-  C{"🧭 Pick your learning path"}:::choice
+  C{"Pick your learning path"}:::choice
 
   subgraph P["✨ Learning Paths"]
     direction TB
@@ -112,7 +100,7 @@ flowchart TD
   Z["🌟 Keep iterating<br/>Add your own examples + PRs"]:::start
 
   %% ========== Edges ==========
-  A --> B --> C
+  A --> C
   C --> F
   C --> H
   C --> R
