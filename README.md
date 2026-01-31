@@ -147,6 +147,7 @@ All Retrieval-Augmented Generation notebooks, grouped by type.
 | [PydanticAI Agentic Lib](https://github.com/05satyam/AI-ML/blob/main/demo_applications/pydnatic_ai/pydantic_ai_agentic_lib.ipynb) | Agentic patterns using PydanticAI | All Levels |
 | [Crew AI Agents](https://github.com/05satyam/AI-ML/blob/main/demo_applications/crewai/crewai_agents_basics.ipynb) | Multi-agent teams + roles | All Levels |
 | [Agentic Webcrawler Chatbot](https://github.com/05satyam/AI-ML/blob/main/demo_applications/agentic_webcrawler_chatbot.ipynb) | Crawl web + answer with agents | All Levels |
+| [Agentic Design Patter Cookbook](https://github.com/05satyam/AI-ML/tree/main/demo_applications/agent-patterns-cookbooks/cite_rag_agent) | Agentic Design Pattern cookbook — ReAct, Plan & Execute, Self Check using Langchain | All levels|
 
 ---
 
