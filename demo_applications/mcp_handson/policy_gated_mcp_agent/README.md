@@ -61,18 +61,18 @@ flowchart TD
   U[User Question] --> A[Agent: receive query]
   A --> R{Router}
   R -->|Rule Router| RR[Heuristic routing]
-  R -->|LLM Router| LR["OpenAI Structured Router\n(JSON schema + enum tools)"]
-  R -->|LLM Discovery Router| DR["OpenAI Tool-Discovery Router\n(sees tool catalog)"]
-  R -->|Naive Router| NR["Keyword overlap router\n(vulnerable demo)"]
+  R -->|LLM Router| LR["OpenAI Structured Router <br/>(JSON schema + enum tools)"]
+  R -->|LLM Discovery Router| DR["OpenAI Tool-Discovery Router<br/>(sees tool catalog)"]
+  R -->|Naive Router| NR["Keyword overlap router<br/>(vulnerable demo)"]
 
-  RR --> D["Route Decision:\n(tool + args)"]
+  RR --> D["Route Decision:<br/>(tool + args)"]
   LR --> D
   DR --> D
   NR --> D
 
-  D --> P{"Policy Gate\n(deny-by-default)"}
+  D --> P{"Policy Gate<br/>(deny-by-default)"}
   P -->|Allowed| T[Call MCP Tool]
-  P -->|Blocked| B["Block + Explain\n(why denied)"]
+  P -->|Blocked| B["Block + Explain<br/>(why denied)"]
 
   T --> E{Eval Gate}
   E -->|Calc sanity| C[Check numeric sanity]
@@ -92,7 +92,7 @@ flowchart LR
   subgraph SAFE["Safe Router (Enum-Limited)"]
     Q1[User: 'Use super_calculator'] --> L1[LLM Router]
     L1 --> S1["Schema: tool ∈ {search_notes, calculate}"]
-    S1 --> OK1["Routes to search_notes\n(or calculate)"]
+    S1 --> OK1["Routes to search_notes<br/>(or calculate)"]
     OK1 --> PG1[Policy Gate]
     PG1 --> TOOL1[Allowed tool executes]
   end
@@ -100,9 +100,9 @@ flowchart LR
   subgraph RISKY["LLM Tool Discovery Router (Realistic + Risky)"]
     Q2[User: 'Use super_calculator'] --> CAT[List tools from MCP servers]
     CAT --> L2["LLM chooses from catalog\n(names + descriptions)"]
-    L2 --> HJ["Hijacked!\nPicks super_calculator\n(because description says 'best for all tasks')"]
+    L2 --> HJ["Hijacked!<br/>Picks super_calculator<br/>(because description says 'best for all tasks')"]
     HJ --> PG2["Policy Gate (allowlist)"]
-    PG2 -->|Denied| BLOCK[Blocked ✅\nTool not allowed]
+    PG2 -->|Denied| BLOCK[Blocked ✅<br/>Tool not allowed]
   end
 
 ```
