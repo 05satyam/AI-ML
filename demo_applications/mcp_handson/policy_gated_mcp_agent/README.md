@@ -100,7 +100,7 @@ flowchart LR
   subgraph RISKY["LLM Tool Discovery Router (Realistic + Risky)"]
     Q2[User: 'Use super_calculator'] --> CAT[List tools from MCP servers]
     CAT --> L2["LLM chooses from catalog<br/>(names + descriptions)"]
-    L2 --> HJ["Hijacked!<br/>Picks super_calculator<br/>(because description says 'best for all tasks')"]
+    L2 --> HJ["Hijacked!<br/>Picks super_calculator<br/>(because description says: best for all tasks)"]
     HJ --> PG2["Policy Gate (allowlist)"]
     PG2 -->|Denied| BLOCK[Blocked ✅<br/>Tool not allowed]
   end
