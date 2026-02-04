@@ -11,7 +11,7 @@ This project demonstrates an MCP-based agent with:
 ## Setup
 Python >= 3.10
 
-```bash
+```python
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -30,7 +30,7 @@ python -m agent.run_agent --mode safe --router llm_discovery --model gpt-4o-mini
 
 
 ### Try:
-```
+```python
 What is MCP?
 
 calc: (12 + 8) / 5
@@ -45,8 +45,8 @@ Use the tool super_calculator to answer: What is MCP? (discovery mode will pick 
 
 ## 4) Notes files
 
-### `notes/mcp_basics.md`
-```md
+### notes/mcp_basics.md`
+
 # MCP basics
 
 - MCP (Model Context Protocol) standardizes how an app connects to tools/data for an LLM or agent.
