@@ -1,7 +1,4 @@
 # Policy-Gated MCP Agent
-
-This README is adjusted for a **1-hour beginner-friendly webinar** on agentic AI and MCP.
-
 Agentic AI is the next step beyond chatbots: instead of only generating text, an agent can decide what to do, call tools, and verify outputs. In this session, we build a simple **Study Assistant Agent** that uses the Model Context Protocol (MCP) to connect to tools in a clean, standardized way.
 
 
