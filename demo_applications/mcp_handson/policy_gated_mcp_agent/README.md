@@ -16,6 +16,8 @@ Agentic AI is the next step beyond chatbots: instead of only generating text, an
 ### Core Components of an AI Agent
 <img width="2880" height="688" alt="image" src="https://github.com/user-attachments/assets/a660ec29-0009-4191-b212-43b609f78948" />
 
+## Prompt versioning
+[Instruct Vault](https://github.com/05satyam/instruct_vault)
 
 ### Key terms
 -  **LLM (Large Language Model):** The core reasoning engine that predicts the next text and suggests actions.  
@@ -293,3 +295,8 @@ sequenceDiagram
   Agent-->>User: Returns quoted snippet + source<br/>(No behavior change)
 
 ```
+
+---
+
+## Prompt versioning
+[Instruct Vault](https://github.com/05satyam/instruct_vault)
