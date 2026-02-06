@@ -4,50 +4,34 @@ This README is adjusted for a **1-hour beginner-friendly webinar** on agentic AI
 
 Agentic AI is the next step beyond chatbots: instead of only generating text, an agent can decide what to do, call tools, and verify outputs. In this session, we build a simple **Study Assistant Agent** that uses the Model Context Protocol (MCP) to connect to tools in a clean, standardized way.
 
-## What you’ll build (live)
-A small AI agent that:
-- Routes a question to the right tool
-- Uses MCP to call Notes Search and Calculator tools
-- Adds a simple self-check (evaluation) step before finalizing the answer
 
-## What you’ll learn
-- What “Agentic AI” really means (decision → tool → check → answer)
-- What MCP is and why it matters for real tool-enabled AI systems
-- How to design tool interfaces and agent routing logic
-- A simple, practical approach to evals (groundedness + correctness checks)
-
-## Prerequisites
-- Laptop recommended
-- Basic Python helps (starter code provided)
-- Optional: API key for an LLM (or follow along with provided mock)
-
-## Webinar agenda (60 minutes)
+## Agenda
 0–5 min: Welcome + why agentic AI matters  
 5–10 min: MCP concept (simple mental model)  
 10–35 min: Hands-on build: MCP tools + agent routing  
 35–50 min: Add simple eval step (self-check) + reliability patterns  
 50–60 min: Live experiments with audience prompts + Q&A
 
-## Background (authentic + beginner-friendly)
+## Background
 MCP provides a standardized way for applications to share context, expose tools, and connect AI systems to capabilities across servers. It uses JSON-RPC for client-host-server communication, with capability negotiation and stateful sessions. Sources:
-```
-modelcontextprotocol.io/specification/2024-11-05/index
-modelcontextprotocol.io/specification/2025-06-18/architecture
-```
+<img width="2500" height="977" alt="image" src="https://github.com/user-attachments/assets/d3c00d53-da42-4120-bb86-8bd5cc49d149" />
+## Model Context Protocol (MCP) — Quick README Summary
 
-### Official images (for slides)
-![Model Context Protocol logo][mcp-logo]
+| Section | Summary (easy bullets) |
+|---|---|
+| **Who talks to who** | - **Host:** The AI app (starts the connection + owns user consent UI).<br>- **Client:** A connector inside the Host (the “adapter” that speaks MCP).<br>- **Server:** External service that provides context + capabilities (tools/data/prompts). |
+| **Why MCP exists** | - Inspired by **Language Server Protocol (LSP)**.<br>- Like LSP makes language tooling plug-and-play across editors, **MCP makes context + tools plug-and-play across AI apps**. |
+| **Protocol basics** | - Uses **JSON-RPC 2.0** messages<br>- Works over **stateful connections** (not just one-off calls)<br>- **Capability negotiation** so both sides agree on what features are supported |
+| **What servers can provide** | - **Resources:** Data/context the user or model can read/use<br>- **Prompts:** Reusable templates/workflows for consistent interactions<br>- **Tools:** Callable functions the model can run (powerful → requires caution) |
+| **What clients can provide** | - **Sampling:** Server can request the host to run LLM interactions (agentic / recursive behaviors) — but host/user stay in control |
+| **Built-in utilities** | - Configuration<br>- Progress updates<br>- Cancellation support<br>- Standard error reporting<br>- Logging hooks |
+| **Security & Trust (must-have)** | - **User Consent & Control:** Users explicitly approve data access + actions; clear UI for review/authorization.<br>- **Data Privacy:** Host only shares user data with explicit consent; no re-sharing resource data without consent; apply access controls.<br>- **Tool Safety:** Tools are effectively arbitrary execution paths; require explicit approval and clear explanation of what each tool does.<br>- **Sampling Controls:** Users approve sampling; control whether it happens, the exact prompt sent, and
 
-![MCP client/server architecture diagram][mcp-arch]
 
-![MCP initialization sequence diagram][mcp-init]
+[Source1](modelcontextprotocol.io/specification/2024-11-05/index)
+[Source2](modelcontextprotocol.io/specification/2025-06-18/architecture)
 
-Image sources (Wikimedia Commons):
-```
-commons.wikimedia.org/wiki/File:Model_Context_Protocol_logo.png
-commons.wikimedia.org/wiki/File:Model_Context_Protocol_Component_diagram.svg
-commons.wikimedia.org/wiki/File:Model_Context_Protocol_Initialization_sequence_diagram.svg
-```
+
 
 ### Visual: why MCP helps (M x N integration problem)
 ```mermaid
@@ -73,16 +57,13 @@ flowchart LR
   A3 --- D3
 ```
 Source concept: M x N integration sprawl and why MCP standardization helps.  
-```
-support.ptc.com/help/thingworx/platform/r10.1/en/ThingWorx/Help/ArtificialIntelligence/OverviewofModelContextProtocol.html
-```
 
 ### Visual: agentic loop (decision → tool → check → answer)
 ```mermaid
 flowchart LR
   U[User Question] --> R[Route]
-  R --> T[Tool Call (MCP)]
-  T --> C[Check / Eval]
+  R --> T["Tool Call (MCP)"]
+  T --> C["Check / Eval (Optional)"]
   C --> A[Answer]
 ```
 
@@ -90,57 +71,37 @@ flowchart LR
 [mcp-arch]: assets/mcp-architecture.svg
 [mcp-init]: assets/mcp-init-sequence.svg
 
-## Definitions (sourced)
+## Definitions
 - **MCP (Model Context Protocol)**: a client-host-server protocol for connecting AI apps to tools and context across multiple servers.
 - **Host**: the app that coordinates clients and manages connections and security boundaries.
 - **Client**: created by the host; each client maintains a 1:1 connection to a server.
 - **Server**: exposes tools/resources/prompts and can be local or remote.
-Sources (reference in slides, not required for running the demo):
-```
-modelcontextprotocol.io/specification/2025-06-18/architecture
-modelcontextprotocol.io/specification/2025-06-18
-learn.microsoft.com/en-us/dotnet/ai/get-started-mcp
-```
-
-## MCP architecture (sourced, simplified)
-```mermaid
-flowchart LR
-  subgraph HOST["Host App (MCP Host)"]
-    A[LLM / Agent]
-    C1[MCP Client 1]
-    C2[MCP Client 2]
-    A --> C1
-    A --> C2
-  end
-
-  C1 --> S1["MCP Server A\n(Tools/Resources)"]
-  C2 --> S2["MCP Server B\n(Tools/Resources)"]
-
-  S1 --> R1[(Local Data)]
-  S2 --> R2[(Remote API)]
-```
 
 
-## MCP lifecycle (sourced, simplified)
+## MCP lifecycle
+### sequence diagram 
+
 ```mermaid
 sequenceDiagram
   participant Client
   participant Server
 
-  Client->>Server: initialize (capabilities + version)
-  Server-->>Client: initialize result (capabilities accepted)
-  Client->>Server: initialized (ready)
-  note over Client,Server: Operation phase (normal tool/resource calls)
-  Client->>Server: shutdown
-  Server-->>Client: shutdown result
-  Client->>Server: exit
-```
-Sources (reference in slides):
-```
-modelcontextprotocol.io/specification/2025-06-18/basic/lifecycle
-```
+  Note over Client,Server: ✅ Initialization Phase
+  Client->>Server: initialize (protocolVersion + client capabilities + clientInfo)
+  Server-->>Client: initialize result (protocolVersion + server capabilities + serverInfo)
+  Client->>Server: notifications/initialized
 
-## What this demo shows (in one minute)
+  Note over Client,Server: ⚙️ Operation Phase
+  Client->>Server: tool/resource/prompt requests (only negotiated capabilities)
+  Server-->>Client: results / progress / logs
+
+  Note over Client,Server: 🛑 Shutdown Phase
+  Client->>Server: (close transport: stdio/HTTP)
+  Server-->>Client: connection closed
+```
+[Sources](modelcontextprotocol.io/specification/2025-06-18/basic/lifecycle)
+
+## Demo covers
 - MCP tools (Notes Search, Calculator)
 - OpenAI LLM-based routing (safe enum router)
 - OpenAI LLM-based tool discovery routing (realistic + risky)
