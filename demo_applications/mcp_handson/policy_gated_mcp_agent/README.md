@@ -103,16 +103,16 @@ sequenceDiagram
   participant Client
   participant Server
 
-  Note over Client,Server: ✅ Initialization Phase
+  Note over Client,Server: Initialization Phase
   Client->>Server: initialize (protocolVersion + client capabilities + clientInfo)
   Server-->>Client: initialize result (protocolVersion + server capabilities + serverInfo)
   Client->>Server: notifications/initialized
 
-  Note over Client,Server: ⚙️ Operation Phase
+  Note over Client,Server: Operation Phase
   Client->>Server: tool/resource/prompt requests (only negotiated capabilities)
   Server-->>Client: results / progress / logs
 
-  Note over Client,Server: 🛑 Shutdown Phase
+  Note over Client,Server: Shutdown Phase
   Client->>Server: (close transport: stdio/HTTP)
   Server-->>Client: connection closed
 ```
@@ -143,7 +143,7 @@ Python >= 3.10
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+pip install -r requirements-langchain.txt
 export OPENAI_API_KEY="..."
 ```
 
@@ -165,8 +165,17 @@ Then pick one:
 
 2. Safe LLM router (enum-limited to safe tools): python -m agent.run_agent --mode safe --router llm --model gpt-4o-mini
 
-3. LLM tool discovery router (realistic + risky): python -m agent.run_agent --mode safe --router llm_discovery --model gpt-4o-mini
+1. Safe rule router: python -m agent.run_agent_langchain --mode safe --router rule
 
+2. Safe LLM router: python -m agent.run_agent_langchain --mode safe --router llm --model gpt-4o-mini
+
+3. LLM tool discovery router (realistic + risky): python -m agent.run_agent_langchain --mode safe --router llm_discovery --model gpt-4o-mini
+
+```
+
+Legacy runner (non-LangChain) still exists for reference:
+```
+python -m agent.run_agent --mode safe --router rule
 ```
 
 ## Expected output (sanity check)
@@ -261,7 +270,7 @@ flowchart LR
 flowchart LR
   subgraph SAFE["Safe Router"]
     Q1[User: 'Use super_calculator'] --> L1[LLM Router]
-    L1 --> S1["Schema: tool ∈ {search_notes, calculate}"]
+    L1 --> S1["Schema: tool in {search_notes, calculate}"]
     S1 --> OK1["Routes to search_notes<br/>(or calculate)"]
     OK1 --> PG1[Policy Gate]
     PG1 --> TOOL1[Allowed tool executes]
