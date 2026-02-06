@@ -13,7 +13,10 @@ Agentic AI is the next step beyond chatbots: instead of only generating text, an
 50–60 min: Live experiments with audience prompts + Q&A
 
 ## What is an AI Agent?
+### AI Agent Stack
+<img width="925" height="406" alt="image" src="https://github.com/user-attachments/assets/64c62779-35c0-4cac-b027-161258269edd" />
 
+### Core Components of an AI Agent
 <img width="2880" height="688" alt="image" src="https://github.com/user-attachments/assets/a660ec29-0009-4191-b212-43b609f78948" />
 
 
