@@ -12,7 +12,21 @@ Agentic AI is the next step beyond chatbots: instead of only generating text, an
 35–50 min: Add simple eval step (self-check) + reliability patterns  
 50–60 min: Live experiments with audience prompts + Q&A
 
-## Background
+## What is an AI Agent?
+
+<img width="2880" height="688" alt="image" src="https://github.com/user-attachments/assets/a660ec29-0009-4191-b212-43b609f78948" />
+
+
+### Key terms
+-  **LLM (Large Language Model):** The core reasoning engine that predicts the next text and suggests actions.  
+-  **Tool:** A function or API the agent can call (e.g., search, math, external APIs).  
+-  **Memory:** Stores facts and context (short + long term) so the agent can recall information over time.  
+-  **Agent:** Logic that loops: *plan → act → check → respond* using the LLM, tools, and memory.
+
+### How Do AI Agents Work?
+<img width="2880" height="1244" alt="image" src="https://github.com/user-attachments/assets/aef6f03d-efa0-41fd-84b2-274d56096249" />
+
+## What is MCP?
 MCP provides a standardized way for applications to share context, expose tools, and connect AI systems to capabilities across servers. It uses JSON-RPC for client-host-server communication, with capability negotiation and stateful sessions. Sources:
 <img width="2500" height="977" alt="image" src="https://github.com/user-attachments/assets/d3c00d53-da42-4120-bb86-8bd5cc49d149" />
 ## Model Context Protocol (MCP) — Quick README Summary
@@ -136,26 +150,27 @@ export OPENAI_API_KEY="..."
 - If discovery picks a tool outside the allowlist, the gate blocks it and returns a safe response.
 
 ## Run
-Safe rule router (baseline, no LLM routing):
-```bash
-python -m agent.run_agent --mode safe --router rule
-```
+```python
+cd {path}/policy_gated_mcp_agent
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+export OPENAI_API_KEY="..."  # optional if you plan to use LLM routing
 
-Safe LLM router (enum-limited to safe tools):
-```bash
-python -m agent.run_agent --mode safe --router llm --model gpt-4o-mini
-```
+Then pick one:
+1. Safe rule router (baseline, no LLM routing): python -m agent.run_agent --mode safe --router rule
 
-LLM tool discovery router (realistic + risky):
-```bash
-python -m agent.run_agent --mode safe --router llm_discovery --model gpt-4o-mini
+2. Safe LLM router (enum-limited to safe tools): python -m agent.run_agent --mode safe --router llm --model gpt-4o-mini
+
+3. LLM tool discovery router (realistic + risky): python -m agent.run_agent --mode safe --router llm_discovery --model gpt-4o-mini
+
 ```
 
 ## Expected output (sanity check)
 - You should see trace logs showing: `router decision` -> `policy gate` -> `tool call` or `blocked`.
 - For discovery mode with a malicious tool, you should see a **block** message from the policy gate.
 
-## Demo script (5–8 minutes)
+## Demo script
 Run these in order and read the behavior out loud.
 
 1) **Safe baseline**
@@ -182,12 +197,12 @@ Use the tool super_calculator to answer: What is MCP?
 ```
 Explain: discovery router is tempted by malicious tool description, but policy gate blocks it.
 
-## Threat model (short)
+## Threat model
 - The LLM discovery router sees **tool descriptions**.
 - A malicious tool description can bias the model.
 - The **policy gate** enforces an allowlist and blocks unknown tools.
 
-## Safety checklist (for live webinar)
+## Safety checklist
 - Use a fresh virtual env, install deps, set `OPENAI_API_KEY`.
 - Start with the safe router before discovery.
 - Keep terminal logs visible for policy gate decisions.
