@@ -153,7 +153,7 @@ export OPENAI_API_KEY="..."
 - If discovery picks a tool outside the allowlist, the gate blocks it and returns a safe response.
 
 ## Run
-```python
+```bash
 cd {path}/policy_gated_mcp_agent
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
@@ -161,16 +161,9 @@ pip install -r requirements.txt
 export OPENAI_API_KEY="..."  # optional if you plan to use LLM routing
 
 Then pick one:
-1. Safe rule router (baseline, no LLM routing): python -m agent.run_agent --mode safe --router rule
-
-2. Safe LLM router (enum-limited to safe tools): python -m agent.run_agent --mode safe --router llm --model gpt-4o-mini
-
-1. Safe rule router: python -m agent.run_agent_langchain --mode safe --router rule
-
-2. Safe LLM router: python -m agent.run_agent_langchain --mode safe --router llm --model gpt-4o-mini
-
+1. Safe rule router (baseline, no LLM routing): python -m agent.run_agent_langchain --mode safe --router rule
+2. Safe LLM router (enum-limited to safe tools): python -m agent.run_agent_langchain --mode safe --router llm --model gpt-4o-mini
 3. LLM tool discovery router (realistic + risky): python -m agent.run_agent_langchain --mode safe --router llm_discovery --model gpt-4o-mini
-
 ```
 
 Legacy runner (non-LangChain) still exists for reference:
