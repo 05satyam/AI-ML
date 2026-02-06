@@ -224,7 +224,7 @@ Explain: discovery router is tempted by malicious tool description, but policy g
 
 ## End-to-End Agent Loop (Decision → Tool → Check → Answer)
 ```mermaid
-flowchart TD
+flowchart LR
   U[User Question] --> A[Agent: receive query]
   A --> R{Router}
   R -->|Rule Router| RR[Heuristic routing]
@@ -256,7 +256,7 @@ flowchart TD
 ## Safe Router vs Discovery Router (Why the evil server matters)
 ```mermaid  
 flowchart LR
-  subgraph SAFE["Safe Router (Enum-Limited)"]
+  subgraph SAFE["Safe Router"]
     Q1[User: 'Use super_calculator'] --> L1[LLM Router]
     L1 --> S1["Schema: tool ∈ {search_notes, calculate}"]
     S1 --> OK1["Routes to search_notes<br/>(or calculate)"]
@@ -264,7 +264,7 @@ flowchart LR
     PG1 --> TOOL1[Allowed tool executes]
   end
 
-  subgraph RISKY["LLM Tool Discovery Router (Realistic + Risky)"]
+  subgraph RISKY["LLM Tool Discovery Router <br/>(Realistic + Risky)"]
     Q2[User: 'Use super_calculator'] --> CAT[List tools from MCP servers]
     CAT --> L2["LLM chooses from catalog<br/>(names + descriptions)"]
     L2 --> HJ["Hijacked!<br/>Picks super_calculator<br/>(because description says: best for all tasks)"]
