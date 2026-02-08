@@ -81,7 +81,7 @@ The focus is on **learning by doing** — notebooks and guides are reproducible,
 If you're new, start with the path that matches your goal such as:
 
 ```mermaid
-flowchart TD
+flowchart LR
   %% ========== Styles ==========
   classDef start fill:#E8F5E9,stroke:#2E7D32,stroke-width:1px,color:#1B5E20;
   classDef step  fill:#E3F2FD,stroke:#1565C0,stroke-width:1px,color:#0D47A1;
