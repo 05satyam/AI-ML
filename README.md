@@ -25,16 +25,23 @@
 
 ---
 
-## PyPI Library — Non-Convex Optimization Benchmark Functions
+## 📦 PyPI Packages
 
-[![PyPI Downloads](https://static.pepy.tech/personalized-badge/nonconvexoptimzationfunclib?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/nonconvexoptimzationfunclib)
-[![View Dashboard](https://img.shields.io/badge/View_Live_Dashboard-000000?style=for-the-badge&logo=databricks)](
-https://clickhouse-analytics.metabaseapp.com/public/dashboard/8d516106-3a9f-4674-aafc-aa39d6380ee2?project_name=nonconvexoptimzationfunclib#&theme=night
-)
+### InstructVault
+- PyPI: https://pypi.org/project/instructvault/ [![PyPI Downloads](https://static.pepy.tech/personalized-badge/instructvault?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/instructvault)  
+- GitHub: https://github.com/05satyam/instruct_vault
+```python
+pip install instructvault
+```
+---
 
-A Python package providing **standard non-convex benchmark functions** for testing and benchmarking optimization algorithms.
+### Non-Convex Optimization Benchmark Functions
+- PyPI: https://pypi.org/project/nonconvexoptimzationfunclib/ [![PyPI Downloads](https://static.pepy.tech/personalized-badge/nonconvexoptimzationfunclib?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/nonconvexoptimzationfunclib)
+- GitHub: https://github.com/05satyam/nonconvexoptimizationfunclib
 
-```bash
+A Python library of **standard non-convex benchmark functions** for evaluating and comparing optimization algorithms.
+
+```python
 pip install nonconvexoptimzationfunclib
 ```
 
