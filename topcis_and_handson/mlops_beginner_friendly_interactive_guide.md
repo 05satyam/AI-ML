@@ -153,30 +153,6 @@ flowchart TD
     J --> E
 ```
 
-If Mermaid diagrams are not supported in your Markdown viewer, read it like this:
-
-```text
-Business Problem
-      ↓
-Data Collection
-      ↓
-Data Validation
-      ↓
-Feature Engineering
-      ↓
-Model Training
-      ↓
-Model Evaluation
-      ↓
-Model Registry
-      ↓
-Deployment
-      ↓
-Monitoring
-      ↓
-Retraining
-```
-
 ---
 
 # 4. Core Concepts You Should Know
