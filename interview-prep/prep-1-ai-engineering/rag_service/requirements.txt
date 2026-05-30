@@ -1,0 +1,8 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+pydantic-settings>=2.2
+numpy>=1.26
+# optional real providers (service runs without them via fake fallbacks):
+# openai>=1.30
+# redis>=5.0
