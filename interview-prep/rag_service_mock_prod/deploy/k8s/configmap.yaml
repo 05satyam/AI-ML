@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rag-config
+data:
+  # Non-secret config only. Secrets go in a Secret, not here.
+  RAG_CHAT_MODEL: "gpt-4o-mini"
+  RAG_EMBED_MODEL: "text-embedding-3-small"
+  RAG_TOP_K: "4"
+  RAG_RERANK_TOP_N: "8"
+  RAG_HYBRID_ALPHA: "0.6"
+  RAG_LLM_TIMEOUT_S: "20"
+  RAG_LLM_MAX_RETRIES: "2"
+  RAG_MAX_HISTORY_TURNS: "6"
