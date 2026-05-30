@@ -1,4 +1,4 @@
-"""Zero-dependency test runner for the mock task. Run: python3 mock_round3/run_tests.py
+"""Zero-dependency test runner for the mock task. Run: python3 production_codebase_drill/run_tests.py
 
 Two tests fail until you fix BUG-1 and BUG-2. The third (timeout/validation) is
 expected to fail until you implement FEATURE-1.

@@ -1,4 +1,4 @@
-# Mock Round 3 — solution walkthrough
+# Production codebase drill — solution walkthrough
 
 Read this **after** attempting `TASK.md`. The point isn't just the fixes — it's the
 *process* you narrate.
@@ -80,4 +80,4 @@ requests — pair it with a retry or graceful fallback.
 - You discussed the prod-grade version (Redis memory, real timeout strategy), not just
   the local fix.
 
-Run `python3 mock_round3/run_tests.py` — all three should pass after your fixes.
+Run `python3 production_codebase_drill/run_tests.py` — all three should pass after your fixes.

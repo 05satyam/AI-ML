@@ -27,7 +27,7 @@ mistakes. They grade *judgment*, not speed.
 - `cheatsheets/ai_pairing_playbook.md` — how to use AI on camera
 - `behavioral/star_stories.md` — fill-in story bank
 - `drills/qna_drill.md` — Q&A with answers (self-test)
-- `mock_round3/` — a planted-bug "production" mini-codebase + TASK.md
+- `production_codebase_drill/` — a planted-bug "production" mini-codebase + TASK.md
 
 ## 30-second pre-interview ritual (every round)
 1. **Clarify** inputs/outputs, constraints (latency, cost, scale), and the eval bar.

@@ -13,7 +13,7 @@ interview-prep/
     cheatsheets/        per-round guides + deep technical themes
     behavioral/         STAR story bank
     drills/             rapid-fire Q&A with model answers
-    mock_round3/        runnable buggy codebase + TASK.md to practice on
+    production_codebase_drill/  runnable buggy codebase + TASK.md to practice on
     rag_service/        production-style RAG reference service (runnable)
 
   interview-expereince/ ← existing general Q&A notes

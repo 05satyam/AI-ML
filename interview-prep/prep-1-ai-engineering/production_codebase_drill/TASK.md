@@ -1,11 +1,11 @@
-# Mock Round 3 — production codebase task (timebox ~30 min)
+# Production codebase drill (timebox ~30 min)
 
 You've joined the team. This `faq_bot.py` module powers a member-facing FAQ assistant.
 QA filed two issues. Work it like the real interview: **orient → clarify → plan →
 fix → verify**, narrating your AI usage. Run the tests with:
 
 ```bash
-python3 mock_round3/run_tests.py
+python3 production_codebase_drill/run_tests.py
 ```
 
 ## Tickets
