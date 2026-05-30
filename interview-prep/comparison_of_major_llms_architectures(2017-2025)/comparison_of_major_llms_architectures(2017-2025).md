@@ -10,28 +10,28 @@
     <br>
     <br>
   <tr align="center">
-    <td align="center"><img src="./image.png" width="130"/>
+    <td align="center"><img src="./images/transformer-architecture.png" alt="Transformer architecture" width="130"/>
     </td>
-    <td align="center"><img src="./image copy.png" width="110"/>
+    <td align="center"><img src="./images/palm-logo.png" alt="PaLM logo" width="110"/>
     </td>
-    <td align="center"><img src="./image copy 2.png" width="120"/>
+    <td align="center"><img src="./images/llama-logo.png" alt="LLaMA logo" width="120"/>
     </td>
   </tr>
     <br>
   <tr align="center">
-    <td align="center"><img src="./image copy 3.png" width="120"/>
+    <td align="center"><img src="./images/gemini-logo.png" alt="Gemini logo" width="120"/>
     </td>
-    <td align="center"><img src="./image copy 4.png" width="120"/>
+    <td align="center"><img src="./images/deepseek-logo.png" alt="DeepSeek logo" width="120"/>
     </td>
-    <td align="center"><img src="./image copy 5.png" width="110"/>
+    <td align="center"><img src="./images/openai-logo.png" alt="OpenAI logo" width="110"/>
     </td>
   </tr>
   <tr align="center">
-    <td align="center"><img src="./image copy 6.png" width="120"/>
+    <td align="center"><img src="./images/anthropic-logo.png" alt="Anthropic logo" width="120"/>
     </td>
-    <td align="center"><img src="./image copy 7.png" width="120"/>
+    <td align="center"><img src="./images/mistral-logo.png" alt="Mistral logo" width="120"/>
     </td>
-    <td align="center"><img src="./image copy 8.png" width="110"/>
+    <td align="center"><img src="./images/qwen-logo.png" alt="Qwen logo" width="110"/>
     </td>
   </tr>
 </table>
