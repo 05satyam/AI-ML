@@ -167,6 +167,7 @@ All Retrieval-Augmented Generation notebooks, grouped by type.
 | [Semantic Search (Pinecone)](https://github.com/05satyam/AI-ML/blob/main/demo_applications/simple-rag/semantic_search_vec_pinecone.ipynb) | Vector RAG | Simple embedding retrieval | All Levels |
 | [GraphRAG](https://github.com/05satyam/AI-ML/blob/main/demo_applications/graph_based_applications/graph_rag.ipynb) | Graph RAG | Graph retrieval + LLM answering | Advanced |
 | [Multimodal RAG: Text + Images](https://github.com/05satyam/AI-ML/blob/main/demo_applications/advance_rag/multimodal-rag/README.md) | Multimodal RAG | Retrieve across text & images | All Levels |
+| [Corrective RAG (CRAG)](https://github.com/05satyam/AI-ML/blob/main/demo_applications/advance_rag/CRAG/README.md) | Corrective RAG | Retrieval grading with query rewriting and web-search fallback | Intermediate |
 
 ---
 

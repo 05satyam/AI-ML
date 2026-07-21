@@ -1,88 +1,233 @@
 # Corrective RAG (CRAG)
 
-A hands-on implementation of **Corrective Retrieval-Augmented Generation**, extending naive RAG with a
-retrieval-evaluation step that grades, rewrites, and falls back to web search when local retrieval fails.
+This project demonstrates a **Corrective Retrieval-Augmented Generation (CRAG)** pipeline using **LangChain**, **LangGraph**, **ChromaDB**, **Hugging Face Embeddings**, **Groq LLM**, and **Tavily Web Search**.
 
-## Why CRAG?
+Unlike a traditional Retrieval-Augmented Generation (RAG) system, this implementation evaluates the retrieved documents before generating a response. If the retrieved context is not sufficiently relevant, the system rewrites the query and performs a web search to retrieve better information.
 
-Naive RAG blindly trusts whatever the retriever returns. If the vector store retrieves irrelevant chunks,
-the LLM still generates an answer from them — often producing a confident, hallucinated response.
+---
 
-CRAG adds a grading step between retrieval and generation:
+# What is RAG?
 
-```text
-                    User Question
-                          │
-                          ▼
-                Retrieve Documents (ChromaDB)
-                          │
-                          ▼
-                Grade Document Relevance
-                          │
-              ┌───────────┴───────────┐
-              │                       │
-          Relevant                Not Relevant
-              │                       │
-              ▼                       ▼
-       Generate Answer          Rewrite Query
-                                      │
-                                      ▼
-                                 Web Search
-                                      │
-                                      ▼
-                               Generate Answer
-```
+**Retrieval-Augmented Generation (RAG)** combines three major components:
 
-## Stack
+1. **Retriever** → Retrieves relevant information from a knowledge base.
+2. **Augmenter** → Adds the retrieved context to the user query.
+3. **Generator** → Uses an LLM to generate an answer grounded in the retrieved context.
 
-| Component  | Tool |
-|---|---|
+### Why RAG?
+
+- Reduces hallucinations.
+- Enables LLMs to answer using private documents.
+- Makes responses more accurate and trustworthy.
+- Allows knowledge to be updated without retraining the model.
+
+---
+
+# Why Corrective RAG?
+
+Traditional RAG assumes that the retriever always returns useful information.
+
+In practice, retrieval may fail because:
+
+- irrelevant chunks are retrieved,
+- important information is missing,
+- the user's question is poorly phrased.
+
+CRAG introduces a **retrieval evaluation step** before generation.
+
+If the retrieved documents are relevant, the answer is generated immediately.
+
+Otherwise, the system:
+
+- rewrites the user query,
+- performs a web search,
+- augments the retrieved context,
+- generates the final response.
+
+This significantly improves answer quality when the local knowledge base cannot answer the question.
+
+---
+
+# Tech Stack
+
+| Component | Tool |
+|-----------|------|
 | Orchestration | LangChain + LangGraph |
 | Embeddings | HuggingFace (`sentence-transformers/all-MiniLM-L6-v2`) |
-| Vector store | ChromaDB |
+| Vector Store | ChromaDB |
 | LLM | Groq |
-| Web search fallback | Tavily |
-| Sample corpus | "Attention Is All You Need" (`data/attention.pdf`) |
+| Web Search | Tavily |
+| Document Loader | PyPDF |
+| Environment Variables | python-dotenv |
 
-## Setup
+---
+
+# Workflow
+
+```
+                 User Question
+                       │
+                       ▼
+          Retrieve Documents (ChromaDB)
+                       │
+                       ▼
+         Grade Retrieved Documents
+                       │
+          ┌────────────┴────────────┐
+          │                         │
+     Relevant                  Not Relevant
+          │                         │
+          ▼                         ▼
+ Generate Response           Rewrite Query
+                                    │
+                                    ▼
+                               Tavily Search
+                                    │
+                                    ▼
+                           Generate Response
+```
+
+---
+
+# Project Structure
+
+```
+CRAG/
+├── crag_code.ipynb
+├── data/
+│   └── attention.pdf
+├── README.md
+├── requirements.txt
+└── .env.example
+```
+
+---
+
+# How It Works
+
+## Step 1 — Document Processing
+
+- Load the sample PDF.
+- Split the document into smaller chunks.
+- Generate embeddings using Hugging Face.
+- Store embeddings inside ChromaDB.
+
+---
+
+## Step 2 — Retrieval
+
+When a user asks a question:
+
+- the query is embedded,
+- ChromaDB retrieves the most relevant chunks.
+
+---
+
+## Step 3 — Retrieval Evaluation
+
+The retrieved documents are evaluated by the LLM.
+
+Two outcomes are possible:
+
+### Relevant
+
+The retrieved context is sufficient.
+
+→ Generate the answer.
+
+### Not Relevant
+
+The retrieved context is insufficient.
+
+→ Rewrite the query.
+
+→ Perform Tavily Web Search.
+
+→ Generate the answer using the web results.
+
+---
+
+# Setup
+
+Clone the repository and install the dependencies.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Copy `.env.example` to `.env` and fill in your keys:
+Copy `.env.example` to `.env`.
 
-```bash
+```env
 GROQ_API_KEY=your-groq-api-key
 TAVILY_API_KEY=your-tavily-api-key
+MODEL_NAME=openai/gpt-oss-20b
 ```
 
-## Run
+---
 
-Open `crag_notebook.ipynb` and run all cells top to bottom. The notebook:
+# Run
 
-1. Loads and chunks the sample PDF (`data/attention.pdf`).
-2. Embeds chunks into ChromaDB.
-3. Runs a baseline naive-RAG query for comparison.
-4. Builds the CRAG graph: retrieve → grade → (generate) or (rewrite → web search → generate).
-5. Renders the compiled LangGraph as a diagram.
+Open the notebook and execute every cell from top to bottom.
 
-## Files
+The notebook demonstrates:
+
+1. Loading and chunking the sample PDF.
+2. Creating vector embeddings.
+3. Building a Chroma vector database.
+4. Running a baseline Naive RAG query.
+5. Constructing the CRAG workflow using LangGraph.
+6. Demonstrating the web-search correction path.
+7. Visualizing the LangGraph workflow.
+
+---
+
+# Example Queries
+
+### Local Knowledge Base
 
 ```
-CRAG/
-├── crag_notebook.ipynb   # main notebook
-├── data/
-│   └── attention.pdf     # sample corpus
-├── requirements.txt
-├── .env.example
-└── README.md
+What is self-attention?
 ```
 
-## Notes
+The answer is generated using the local PDF stored in ChromaDB.
 
-- Relevance grading here is binary (relevant / not relevant). The original CRAG paper uses a three-way
-  grade (Correct / Ambiguous / Incorrect) with strip-level knowledge refinement on the "Correct" path —
-  noted here as a natural follow-up extension, not implemented in this notebook.
-- Query rewriting targets the *web search* step, not a second local vector-store query — since the local
-  knowledge base's content hasn't changed, re-querying it with a reworded question rarely helps.
+---
+
+### Web Search Fallback
+
+```
+Who won the FIFA World Cup 2022?
+```
+
+Since this information is not available in the PDF:
+
+- Retrieval is graded as **Not Relevant**.
+- The query is rewritten.
+- Tavily performs a web search.
+- The final answer is generated using the retrieved web content.
+
+---
+
+# Notes
+
+- This notebook implements a **simplified version of Corrective RAG**.
+- Document grading is **binary** (Relevant / Not Relevant).
+- Query rewriting is performed **only before web search**.
+- The original CRAG paper additionally introduces:
+  - Correct / Ambiguous / Incorrect grading,
+  - knowledge strip decomposition,
+  - strip refinement,
+  - strip recomposition.
+
+These advanced components are intentionally omitted to keep the notebook simple and beginner-friendly.
+
+---
+
+# Summary
+
+- Demonstrates a practical Corrective RAG pipeline.
+- Uses LangGraph for workflow orchestration.
+- Uses ChromaDB for document retrieval.
+- Uses Groq for answer generation.
+- Uses Tavily as a web-search fallback.
+- Shows how retrieval evaluation can improve RAG quality over a traditional pipeline.
