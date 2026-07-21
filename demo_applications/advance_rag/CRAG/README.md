@@ -223,6 +223,16 @@ These advanced components are intentionally omitted to keep the notebook simple 
 
 ---
 
+# Security Note
+
+Retrieved documents and web-search results are inserted directly into the prompt as context. Since this
+content is untrusted (especially live web results), it is a potential **indirect prompt-injection** vector —
+a malicious page or document could try to override the system instructions. This demo does not harden
+against that. For production use, wrap untrusted context in clear delimiters and instruct the model to
+treat it strictly as data, never as instructions.
+
+---
+
 # Summary
 
 - Demonstrates a practical Corrective RAG pipeline.
