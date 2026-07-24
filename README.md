@@ -60,11 +60,12 @@ pip install nonconvexoptimzationfunclib
 9. [MCP (Model Context Protocol)](#-mcp-model-context-protocol)
 10. [Observability](#-llm-observability)
 11. [Interview Experiences](#-interview-experiences)
-12. [External Resources](#-external-resources)
-13. [Utils](#-utils)
-14. [Repository Rules](#-repository-rules)
-15. [Contributing & Support](#-contributing--support)
-16. [License & Citation](#-license--citation)
+12. [Useful AI Agent Skills](#-useful-ai-agent-skills)
+13. [External Resources](#-external-resources)
+14. [Utils](#-utils)
+15. [Repository Rules](#-repository-rules)
+16. [Contributing & Support](#-contributing--support)
+17. [License & Citation](#-license--citation)
 
 ---
 
@@ -220,6 +221,30 @@ All Retrieval-Augmented Generation notebooks, grouped by type.
 | [Contextual & GPT Embeddings](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/Contexual%20And%20GPT%20Embeddings.md) | Embedding types + intuition |
 | [AI Agent Memory Types](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/ai_agents_memory_types.md) | Memory patterns for agents |
 | [Stanford LLM Cheatsheet](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/standford_transformer_llm_cheatsheet.pdf) | Compact transformer/LLM summary |
+
+---
+
+## 🧠 Useful AI Agent Skills
+
+Agent skills are reusable `SKILL.md` playbooks that help coding agents follow better workflows for documents, coding, research, data work, planning, and tool usage. Start with trusted catalogs, review skills before installing them, and prefer project-local skills when you want repo-specific behavior.
+
+| Repository | Best for |
+|---|---|
+| [anthropics/skills](https://github.com/anthropics/skills) | Official Agent Skills examples and reference implementations for documents, development, communication, and skill design |
+| [openai/skills](https://github.com/openai/skills) | Codex-oriented skill examples and historical patterns for `SKILL.md` workflows |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Large curated index of practical skills across productivity, docs, code, data, app automation, writing, and collaboration |
+| [composio-community/awesome-codex-skills](https://github.com/composio-community/awesome-codex-skills) | Codex-focused skills such as code review, CI fixes, meeting notes, issue triage, invoices, and Notion capture |
+| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | Cross-agent skill discovery for Claude Code, Codex, Gemini CLI, Cursor, OpenCode, and similar tools |
+| [huggingface/skills](https://github.com/huggingface/skills) | Hugging Face Hub workflows, model search, datasets, Spaces, jobs, and AI/ML ecosystem tasks |
+| [nvidia/skills](https://github.com/nvidia/skills) | NVIDIA ecosystem skills for optimization, GPU-oriented workflows, and technical computing |
+| [MicrosoftDocs/Agent-Skills](https://github.com/MicrosoftDocs/Agent-Skills) | Microsoft Learn, Azure, GitHub Copilot, and enterprise agent-skill patterns |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | YAGNI-style agent behavior that pushes coding agents toward the smallest correct implementation |
+| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | Terse agent communication that removes filler while preserving technical substance |
+| [vercel-labs/skills](https://github.com/vercel-labs/skills) | Open Skills CLI and discovery workflow for finding, installing, updating, and removing agent skills |
+| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Persistent markdown planning for long-running coding-agent tasks and context recovery |
+| [psenger/ai-agent-skills](https://github.com/psenger/ai-agent-skills) | Production-oriented reusable skills for project structure, notes, and repeatable engineering workflows |
+| [mxyhi/ok-skills](https://github.com/mxyhi/ok-skills) | Compact multilingual skill/playbook collection for Codex, Claude Code, Cursor, and OpenClaw |
+| [kodustech/awesome-agent-skills](https://github.com/kodustech/awesome-agent-skills) | Software engineering skill catalog covering frontend, backend, DevOps, testing, security, observability, and AI/ML |
 
 ---
 
