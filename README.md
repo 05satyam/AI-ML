@@ -59,7 +59,7 @@ pip install nonconvexoptimzationfunclib
 8. [Graph & Multimodal](#-graph--multimodal)
 9. [MCP (Model Context Protocol)](#-mcp-model-context-protocol)
 10. [Observability](#-llm-observability)
-11. [Interview Experiences](#-interview-experiences)
+11. [Interview Experiences](#-interview-experiences) (includes **GenAI question banks**)
 12. [Useful AI Agent Skills](#-useful-ai-agent-skills)
 13. [External Resources](#-external-resources)
 14. [Utils](#-utils)
@@ -215,13 +215,31 @@ All Retrieval-Augmented Generation notebooks, grouped by type.
 
 ## 🎯 Interview Experiences
 
+### GenAI interview questions (basic → advanced) — start here
+
+Topic-wise question banks for everyone preparing AI / GenAI roles:
+
+| Topic | Questions |
+|---|---|
+| [Basics of AI / ML](https://github.com/05satyam/AI-ML/blob/main/interview-prep/genai-interview-questions/basics-of-ai.md) | Foundations checklist + links to existing drills |
+| [LLMs](https://github.com/05satyam/AI-ML/blob/main/interview-prep/genai-interview-questions/llm.md) | Transformers, attention, KV cache, fine-tuning, serving |
+| [RAG](https://github.com/05satyam/AI-ML/blob/main/interview-prep/genai-interview-questions/rag.md) | Chunking, hybrid search, rerank, RAGAS-style evals, prod |
+| [AI Agents](https://github.com/05satyam/AI-ML/blob/main/interview-prep/genai-interview-questions/ai-agents.md) | ReAct, plan-and-execute, multi-agent, reliability |
+| [AI Agent Tools](https://github.com/05satyam/AI-ML/blob/main/interview-prep/genai-interview-questions/ai-agent-tools.md) | Function calling, schemas, MCP, tool safety |
+
+Full index + external interview-guide references: [interview-prep/genai-interview-questions](https://github.com/05satyam/AI-ML/tree/main/interview-prep/genai-interview-questions)
+
+### Other interview prep docs
+
 | Doc | Focus Area |
 |---|---|
-| [LLM Architecture Comparison](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/comparison_of_major_llms_architectures(2017-2025).md) | Evolution of LLM architectures (2017–2025) |
-| [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/interview-expereince/AI-ML-QnA.md) | Common AI/ML/LLM interview questions |
-| [Contextual & GPT Embeddings](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/Contexual%20And%20GPT%20Embeddings.md) | Embedding types + intuition |
-| [AI Agent Memory Types](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/ai_agents_memory_types.md) | Memory patterns for agents |
-| [Stanford LLM Cheatsheet](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/standford_transformer_llm_cheatsheet.pdf) | Compact transformer/LLM summary |
+| [Interview Prep folder](https://github.com/05satyam/AI-ML/tree/main/interview-prep) | Notebooks, drills, RAG mock service, DSPy |
+| [LLM Architecture Comparison](https://github.com/05satyam/AI-ML/blob/main/interview-prep/comparison_of_major_llms_architectures(2017-2025)/comparison_of_major_llms_architectures(2017-2025).md) | Evolution of LLM architectures (2017–2025) |
+| [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/interview-prep/interview-expereince/AI-ML-QnA.md) | Common AI/ML/LLM interview questions |
+| [Contextual & GPT Embeddings](https://github.com/05satyam/AI-ML/blob/main/interview-prep/Contexual%20And%20GPT%20Embeddings.md) | Embedding types + intuition |
+| [AI Agent Memory Types](https://github.com/05satyam/AI-ML/blob/main/interview-prep/ai_agents_memory_types.md) | Memory patterns for agents |
+| [Rapid-fire Q&A drill](https://github.com/05satyam/AI-ML/blob/main/interview-prep/ai_qna_drill.md) | Short tradeoff-aware answers |
+| [Stanford LLM Cheatsheet](https://github.com/05satyam/AI-ML/blob/main/interview-prep/standford_transformer_llm_cheatsheet.pdf) | Compact transformer/LLM summary |
 | [Interview Prep — DSPy Hands-On](https://github.com/05satyam/AI-ML/tree/main/interview-prep/dspy_hands_on) | Colab notebook: DSPy signatures, modules, evals, optimizers |
 
 ---
