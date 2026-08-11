@@ -40,9 +40,9 @@ Foundations interviewers expect before GenAI deep-dives. **Much of this already 
 17. What is tokenization at a high level (BPE / WordPiece intuition)?
 18. Transfer learning vs fine-tuning vs prompt-only adaptation.
 19. Offline vs online metrics for a search / RAG product.
-20. Data leakage — give an NLP/RAG example (e.g., test docs in the index).
+20. Data leakage — give an NLP/RAG example (e.g., tuning and reporting on the same query set).
 
-**Cue notes:** Cosine = direction; dot product mixes magnitude. Leakage in RAG = evaluating on docs that were also in the retrieval corpus without a held-out set.
+**Cue notes:** Cosine = direction; dot product mixes magnitude. RAG leakage ≠ “docs in the index” (sources belong there). Real leakage: no held-out queries, train/test query overlap when fine-tuning a retriever, or gold answers leaking into retrieved context.
 
 ## Advanced / system-minded
 

@@ -15,7 +15,7 @@ Basic → advanced questions common in 2025–2026 LLM / GenAI engineer loops (i
 9. Temperature, top-k, top-p — how do they change sampling?
 10. Prompting vs fine-tuning vs RAG — when do you choose each?
 
-**Cue notes:** Attention is all-pairs relevance; causal mask stops looking at future tokens. Prefer RAG for changing private knowledge; fine-tune for style/format/domain behavior.
+**Cue notes:** Attention scores token pairs via Q·K (full bidirectional in encoders; causal decoders only attend to prior tokens). Prefer RAG for changing private knowledge; fine-tune for style/format/domain behavior.
 
 ## Intermediate
 
