@@ -182,6 +182,7 @@ All Retrieval-Augmented Generation notebooks, grouped by type.
 | [Crew AI Agents](https://github.com/05satyam/AI-ML/blob/main/demo_applications/crewai/crewai_agents_basics.ipynb) | Multi-agent teams + roles | All Levels |
 | [Agentic Webcrawler Chatbot](https://github.com/05satyam/AI-ML/blob/main/demo_applications/agentic_webcrawler_chatbot.ipynb) | Crawl web + answer with agents | All Levels |
 | [Agentic Design Patter Cookbook](https://github.com/05satyam/AI-ML/tree/main/demo_applications/agent-patterns-cookbooks/cite_rag_agent) | Agentic Design Pattern cookbook — ReAct, Plan & Execute, Self Check using Langchain | All levels|
+| [DSPy Hands-On](https://github.com/05satyam/AI-ML/tree/main/interview-prep/dspy_hands_on) | Signatures, modules, metrics, BootstrapFewShot optimization, ReAct tools | All Levels |
 
 ---
 
@@ -221,6 +222,7 @@ All Retrieval-Augmented Generation notebooks, grouped by type.
 | [Contextual & GPT Embeddings](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/Contexual%20And%20GPT%20Embeddings.md) | Embedding types + intuition |
 | [AI Agent Memory Types](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/ai_agents_memory_types.md) | Memory patterns for agents |
 | [Stanford LLM Cheatsheet](https://github.com/05satyam/AI-ML/blob/main/concepts-interview-experience/standford_transformer_llm_cheatsheet.pdf) | Compact transformer/LLM summary |
+| [Interview Prep — DSPy Hands-On](https://github.com/05satyam/AI-ML/tree/main/interview-prep/dspy_hands_on) | Colab notebook: DSPy signatures, modules, evals, optimizers |
 
 ---
 

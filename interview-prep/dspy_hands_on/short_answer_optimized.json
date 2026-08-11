@@ -1,0 +1,42 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "question": "Capital of France?",
+      "answer": "Paris"
+    },
+    {
+      "augmented": true,
+      "question": "2 + 2?",
+      "answer": "4"
+    },
+    {
+      "augmented": true,
+      "question": "Who wrote Hamlet?",
+      "answer": "William Shakespeare"
+    }
+  ],
+  "signature": {
+    "instructions": "Answer the question with a short factual phrase.",
+    "fields": [
+      {
+        "prefix": "Question:",
+        "description": "${question}"
+      },
+      {
+        "prefix": "Answer:",
+        "description": "Short phrase, not a full paragraph"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.9",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1"
+    }
+  }
+}
