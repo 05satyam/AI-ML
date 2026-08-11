@@ -157,6 +157,7 @@ pnpm-lock.yaml
 ############################
 # Claude / MCP local configs
 .mcp/
+.cursor/
 .mcp-config.json
 
 # Model / cache artifacts
