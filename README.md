@@ -324,6 +324,7 @@ Agent skills are reusable `SKILL.md` playbooks that help coding agents follow be
 - [LlamaIndex Blog](https://www.llamaindex.ai/blog)
 - [MLOps Architect Mindset](https://www.linkedin.com/newsletters/mlops-architect-mindset-7015185399367012352/)
 - [ByteByteGo Newsletter](https://www.linkedin.com/newsletters/bytebytego-newsletter-7144012310280359936/)
+- [AI Weekly](https://aiweekly.co/) - Ranked signals on models, agents, funding, policy, and research from influential AI experts and organizations.
 
 ---
 
