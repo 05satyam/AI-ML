@@ -47,6 +47,14 @@ pip install nonconvexoptimzationfunclib
 
 ---
 
+## 📘 ML Interview Handbook
+
+- GitHub: https://github.com/05satyam/ml-interview-prep
+
+Companion handbook for **classical ML fundamentals**: explain, derive, choose, debug, and defend them in senior SWE / MLE interviews.
+
+---
+
 ## 📌 Table of Contents
 
 1. [Mission & Scope](#-mission--scope)
@@ -215,6 +223,8 @@ All Retrieval-Augmented Generation notebooks, grouped by type.
 
 ## 🎯 Interview Experiences
 
+Classical ML fundamentals handbook: [ml-interview-prep](https://github.com/05satyam/ml-interview-prep)
+
 ### GenAI interview questions (basic → advanced) — start here
 
 Topic-wise question banks for everyone preparing AI / GenAI roles:
@@ -233,6 +243,7 @@ Full index + external interview-guide references: [interview-prep/genai-intervie
 
 | Doc | Focus Area |
 |---|---|
+| [ml-interview-prep](https://github.com/05satyam/ml-interview-prep) | Senior ML fundamentals handbook (explain, derive, debug, defend) |
 | [Interview Prep folder](https://github.com/05satyam/AI-ML/tree/main/interview-prep) | Notebooks, drills, RAG mock service, DSPy |
 | [LLM Architecture Comparison](https://github.com/05satyam/AI-ML/blob/main/interview-prep/comparison_of_major_llms_architectures(2017-2025)/comparison_of_major_llms_architectures(2017-2025).md) | Evolution of LLM architectures (2017–2025) |
 | [Interview Q&A](https://github.com/05satyam/AI-ML/blob/main/interview-prep/interview-expereince/AI-ML-QnA.md) | Common AI/ML/LLM interview questions |
